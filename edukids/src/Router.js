@@ -8,9 +8,9 @@ import TestHome from "./components/TestHome";
 const Router = () => {
     return (
         <Switch>
-        <Route path="/" component={TestHome} />
-        <Route path="/Test1" component={TestComponent1} />
-        <Route path="/Test2" component={TestComponent2} />
+        <Route exact path="/" component={TestHome} />
+        <Route exact path="/Test1" component={TestComponent1} />
+        <Route exact path="/Test2" component={TestComponent2} />
         </Switch>
     )
 }
