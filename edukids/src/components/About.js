@@ -1,17 +1,22 @@
 import React, {Component} from 'react'
 // import { Button } from "@material-ui/core";
+import {Col, Container, Row} from 'react-bootstrap';
 
-class ContactUs extends Component {
+class About extends Component {
 
 
     render() {
         return (
-            <div>
+            <body>
                <p>Hello this is test About</p>
-            </div>
+            <container>
+            <Col>1 of 2</Col>
+            </container>
+            </body>
             
+
         )
     }
 }
 
-export default ContactUs
+export default About
