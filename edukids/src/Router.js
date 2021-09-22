@@ -6,6 +6,7 @@ import TestHome from "./components/TestHome";
 import Career from './components/Career';
 import Event from "./components/Events";
 import Classes from"./components/Classes";
+import Contact from './components/Contact'
 
 
 const Router = () => {
@@ -16,7 +17,8 @@ const Router = () => {
         <Route exact path="/Test2" component={TestComponent2} />
         <Route exact path="/Career" component={Career} />
         <Route exact path="/Event" component={Event} />
-        <Route exact path="/Classes" component={Classes} />
+        <Route exact path="/Calsses" component={Classes} />
+        <Route exact path="/Career" component={Contact} />
         </Switch>
     )
 }
