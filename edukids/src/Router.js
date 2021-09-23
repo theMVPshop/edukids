@@ -7,7 +7,8 @@ import Career from './components/Career';
 import Event from "./components/Events";
 import Classes from"./components/Classes";
 import Contact from './components/Contact'
-import ClassDetail from "./components/ClassDetail";
+import About from "./components/About"
+import ClassDetail from "./components/ClassDetail"
 
 
 const Router = () => {
@@ -16,6 +17,7 @@ const Router = () => {
         <Route exact path="/" component={TestHome} />
         <Route exact path="/Test1" component={TestComponent1} />
         <Route exact path="/Test2" component={TestComponent2} />
+        <Route exact path="/About" component={About} />
         <Route exact path="/Career" component={Career} />
         <Route exact path="/Event" component={Event} />
         <Route exact path="/Classes" component={Classes} />
