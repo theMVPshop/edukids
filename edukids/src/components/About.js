@@ -7,12 +7,12 @@ class About extends Component {
 
     render() {
         return (
-            <body>
-               <p>Hello this is test About</p>
-            <container>
-            <Col>1 of 2</Col>
-            </container>
-            </body>
+            <Container>
+            <Col>1 of 3</Col>
+            <Col>2 of 3</Col>
+            <Col>3 of 3</Col>
+            </Container>
+
             
 
         )
