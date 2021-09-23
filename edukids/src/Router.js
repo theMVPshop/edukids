@@ -7,6 +7,7 @@ import Career from './components/Career';
 import Event from "./components/Events";
 import Classes from"./components/Classes";
 import Contact from './components/Contact'
+import ClassDetail from "./components/ClassDetail";
 
 
 const Router = () => {
@@ -19,6 +20,7 @@ const Router = () => {
         <Route exact path="/Event" component={Event} />
         <Route exact path="/Classes" component={Classes} />
         <Route exact path="/Career" component={Contact} />
+        <Route exact path="/ClassDetail" component={ClassDetail} />
         </Switch>
     )
 }
