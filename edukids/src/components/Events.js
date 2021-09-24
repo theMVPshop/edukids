@@ -5,7 +5,6 @@ const Event = () => {
 
     return (
         <div>
-           <Header></Header> 
 
         </div>
     );
