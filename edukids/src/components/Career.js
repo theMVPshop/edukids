@@ -5,6 +5,12 @@ function Career(props) {
 
   return(
     <Container>
+      <Row className="justify-content-md-center">
+        <Col md="auto">
+        <h1>Career</h1>
+        <p>Image goes here!</p>
+        </Col>
+      </Row>
       <Row>
         <Card>
           <Card.Body>
@@ -42,14 +48,14 @@ function Career(props) {
             </Card>
           </Row>
         </Col>
-        <Col>
+        <Col xs={5}>
           <Form>
             <Form.Group>
               <Form.Label>Join Our Team</Form.Label>
               <Form.Control type="text" placeholder="Your Name" />
               <Form.Control type="email" placeholder="Your Email" />
               <Form.Control type="text" placeholder="Your Position" />
-              <Form.Control type="text" placeholder="Enter Your Message" />
+              <Form.Control rows={3} type="textarea" placeholder="Enter Your Message" />
             </Form.Group>
           </Form>
         </Col>
