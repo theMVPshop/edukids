@@ -9,6 +9,9 @@ import Classes from"./components/Classes";
 import Contact from './components/Contact'
 import About from "./components/About"
 import ClassDetail from "./components/ClassDetail"
+import Team from "./components/Team";
+import CareerDetail from './components/CareerDetail';
+import FAQ from './components/FrequentQuestions';
 
 
 const Router = () => {
@@ -21,8 +24,11 @@ const Router = () => {
         <Route exact path="/Career" component={Career} />
         <Route exact path="/Event" component={Event} />
         <Route exact path="/Classes" component={Classes} />
-        <Route exact path="/Career" component={Contact} />
+        <Route exact path="/Contact" component={Contact} />
         <Route exact path="/ClassDetail" component={ClassDetail} />
+        <Route exact path="/Team" component={Team} />
+        <Route exact path="/CareerDetail" component={CareerDetail} />
+        <Route exact path="/FAQ" component={FAQ} />
         </Switch>
     )
 }
