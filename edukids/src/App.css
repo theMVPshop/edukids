@@ -76,14 +76,18 @@ header{
 
 
 .card-header {
-  color: #bb0000;
-  background-color: black;
+  background-color: rgb(250, 100, 46);
+  color:white;
+  text-align:center;
 }
 
-.special-card-header {
+.list-group-item{
+  border:none;
+}
+/* .special-card-header {
   color: pink;
   background-color: wheat;
-}
+} */
 
 
 
