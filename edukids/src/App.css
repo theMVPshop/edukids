@@ -13,6 +13,12 @@
   }
 }
 
+header{
+  background-color: coral;
+  color: white;
+  border-radius: 10%;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
