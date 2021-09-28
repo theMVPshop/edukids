@@ -1,5 +1,5 @@
 import React from 'react'
-import {Container, Row, Col, Card, Button, Form, ListGroup } from 'react-bootstrap';
+import {Container, Row, Col, Card, Button, Form, Image } from 'react-bootstrap';
 
 export default function Facilities() {
     return (
@@ -9,28 +9,62 @@ export default function Facilities() {
   <Row>
 {/* *** list column ***       */}
     <Col>
-    <ListGroup>
-  <ListGroup.Item>Meals Provided</ListGroup.Item>
-  <ListGroup.Item>Tranportation</ListGroup.Item>
-  <ListGroup.Item>Full Day Session</ListGroup.Item>
-  <ListGroup.Item>Extra Activites</ListGroup.Item>
-  
-</ListGroup>
+    <Row>
+    <Col><Image src="../edukids/img/programs.svg" roundedCircle /></Col>
+    <Col>  <h6>Meals Provided</h6>
+   <br/>
+   <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p></Col>
+  </Row>
+  <Row>
+    <Col><Image src="../edukids/img/programs.svg" roundedCircle /></Col>
+    <Col>  <h6>Transportation</h6>
+   <br/>
+   <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p></Col>
+  </Row>
+  <Row>
+    <Col><Image src="../edukids/img/programs.svg" roundedCircle /></Col>
+    <Col>  <h6>Full Day Session</h6>
+   <br/>
+   <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p></Col>
+  </Row>
+  <Row>
+    <Col><Image src="../edukids/img/programs.svg" roundedCircle /></Col>
+    <Col>  <h6>Extra Activies</h6>
+   <br/>
+   <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p></Col>
+  </Row>
     </Col>
 {/* *** list column ***     */}
     <Col>
-    <ListGroup>
-  <ListGroup.Item>Languages Lesson</ListGroup.Item>
-  <ListGroup.Item>Qualified Teachers</ListGroup.Item>
-  <ListGroup.Item>Special Education</ListGroup.Item>
-  <ListGroup.Item>Health Care</ListGroup.Item>
-  
-</ListGroup>
+<Row>
+    <Col><Image src="../edukids/img/programs.svg" roundedCircle /></Col>
+    <Col>  <h6>Languages Lesson</h6>
+   <br/>
+   <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p></Col>
+  </Row>
+  <Row>
+    <Col><Image src="../edukids/img/programs.svg" roundedCircle /></Col>
+    <Col>  <h6>Qualified Teachers</h6>
+   <br/>
+   <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p></Col>
+  </Row>
+  <Row>
+    <Col><Image src="../edukids/img/programs.svg" roundedCircle /></Col>
+    <Col>  <h6>Special Education</h6>
+   <br/>
+   <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p></Col>
+  </Row>
+  <Row>
+    <Col><Image src="../edukids/img/programs.svg" roundedCircle /></Col>
+    <Col>  <h6>Health Care</h6>
+   <br/>
+   <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p></Col>
+  </Row>
     </Col>
 
 {/* *** card column *** */}
     <Col>
-    <Card style={{ width: '18rem', color: 'white', backgroundColor: 'orangeRed', borderRadius: '8%', padding: '18px 4px'}}>
+    <Card style={{ width: '18rem', color: 'white', backgroundColor: '#ff5d37', borderRadius: '8%', padding: '18px 4px'}}>
   <Card.Body>
     <Card.Title><b>Register Now</b></Card.Title>
     <Card.Text>
@@ -51,7 +85,7 @@ export default function Facilities() {
     <Form.Control as="textarea" rows={3}  placeholder="Message"/>
   </Form.Group>
  
-  <Button variant="info" type="submit">
+  <Button variant="primary" className="form_btn_custom" type="submit">
     Submit Now
   </Button>
 </Form>
