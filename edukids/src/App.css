@@ -31,13 +31,12 @@
   }
 }
 
-header {
+<<<<<<< HEAD header {
   background-color: coral;
   color: white;
   border-radius: 10%;
 }
-
-.App-header {
+=======>>>>>>>8b4381c3e3f502c49884e357a7a16ceb94729924 .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -97,11 +96,15 @@ header {
 }
 
 .card-header {
-  color: #bb0000;
-  background-color: black;
+  background-color: rgb(250, 100, 46);
+  color: white;
+  text-align: center;
 }
 
-.special-card-header {
+.list-group-item {
+  border: none;
+}
+/* .special-card-header {
   color: pink;
   background-color: wheat;
-}
+} */
