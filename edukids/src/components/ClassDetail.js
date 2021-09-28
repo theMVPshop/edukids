@@ -14,7 +14,7 @@ function ClassDetail() {
     <div>
    <Container>
 
-    {/* *** Class Detail header IMG *** */}
+    *** Class Detail header IMG ***
 
   <Row>
     <Col>

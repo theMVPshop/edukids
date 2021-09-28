@@ -12,6 +12,7 @@ import ClassDetail from "./components/ClassDetail"
 import Team from "./components/Team";
 import CareerDetail from './components/CareerDetail';
 import FAQ from './components/FrequentQuestions';
+import Facilities from "./components/Facilities";
 
 
 const Router = () => {
@@ -29,6 +30,7 @@ const Router = () => {
         <Route exact path="/Team" component={Team} />
         <Route exact path="/CareerDetail" component={CareerDetail} />
         <Route exact path="/FAQ" component={FAQ} />
+        <Route exact path="/Facilities" component={Facilities} />
         </Switch>
     )
 }
