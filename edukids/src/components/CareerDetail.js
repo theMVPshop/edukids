@@ -1,8 +1,29 @@
 import React from 'react';
 import { Button, Card, Col, Container, ListGroup, Row, Tabs, Tab } from 'react-bootstrap';
+import "../App.css"
+
+
+
+
 
 function CareerDetail() {
   
+  const mystyle = {
+    color: "white",
+    backgroundColor: "Orange",
+    padding: "10px",
+    fontFamily: "Arial"
+  };
+
+  const greycard = {
+    backgroundColor: "Grey"
+  }
+
+  const bluetext = {
+    color: "darkblue"
+  }
+
+
   return(
     <Container>
       <Row className="justify-content-md-center">
@@ -16,9 +37,12 @@ function CareerDetail() {
           <Row>
             <Card>
               <Card.Body>
-                <Card.Header>How to Apply?</Card.Header>
+              {/* <Card style={{color: "white", backgroundColor: "orange", padding: "10px 5px"}}>
+                  <h4>How to Apply?</h4></Card> */}
+
+<Card style={mystyle}>How to Apply</Card>
                 <ListGroup>
-                  <ListGroup.Item>Lorem Ipsum</ListGroup.Item>
+                  <ListGroup.Item > Lorem Ipsum</ListGroup.Item>
                   <ListGroup.Item>Lorem Ipsum</ListGroup.Item>
                   <ListGroup.Item>Lorem Ipsum</ListGroup.Item>
                   <ListGroup.Item>Lorem Ipsum</ListGroup.Item>
@@ -28,22 +52,22 @@ function CareerDetail() {
             </Card>
           </Row>
           <Row>
-            <Card>
-              <Card.Body>
-                <Card.Header>Frequently Asked Questions</Card.Header>
-                <ListGroup>
-                  <ListGroup.Item>Lorem Ipsum (dropdown)</ListGroup.Item>
-                  <ListGroup.Item>Lorem Ipsum (dropdown)</ListGroup.Item>
-                  <ListGroup.Item>Lorem Ipsum (dropdown)</ListGroup.Item>
+            <Card >
+              <Card.Body style={greycard}>
+                <Card style={mystyle}>Frequently Asked Questions</Card>
+                <ListGroup> 
+                  <ListGroup.Item style={bluetext}>Lorem Ipsum (dropdown)</ListGroup.Item>
+                  <ListGroup.Item style={bluetext}>Lorem Ipsum (dropdown)</ListGroup.Item>
+                  <ListGroup.Item style={bluetext}>Lorem Ipsum (dropdown)</ListGroup.Item>
                 </ListGroup>
               </Card.Body>
             </Card>
           </Row>
           <Row>
             <Card>
-              <Card.Body>
+              <Card.Body style={greycard}>
                 <Card.Img></Card.Img>
-                <Card.Title>Send us your C.V.</Card.Title>
+                <Card.Title style={bluetext}>Send us your C.V.</Card.Title>
                 <Card.Text>Do you want to work with us? Please, send your CV to domain123@gmail.com</Card.Text>
                 <Card.Text>-- OR --</Card.Text>
                 <Button>Contact Us</Button>
@@ -54,8 +78,8 @@ function CareerDetail() {
         <Col>
           <Row>
             <Card>
-              <Card.Body>
-                <Row>
+              <Card.Body >
+                <Row style={mystyle}>
                   <Col>
                     <Card.Text>
                       <Row>Post:</Row>

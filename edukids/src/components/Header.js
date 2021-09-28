@@ -6,12 +6,12 @@ const Header = () => {
 
     return (
         <div className="App">
-        <Navbar bg="dark" variant="dark"
+        <Navbar bg="dark" variant="myblue"
             sticky="top" expand="lg">
         <Navbar.Brand href="home" className="justify-content-start" >Logo</Navbar.Brand>
 
             <Container>
-                <Container>
+                <Container variant="myblue">
                 <Nav className="justify-content-center">
                     
                         <Nav.Link href="home">Home</Nav.Link>

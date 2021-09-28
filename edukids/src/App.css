@@ -1,3 +1,21 @@
+.bg-myblue {
+  background-color: blue;
+}
+
+.card-header {
+  padding: 0.5rem 1rem;
+  margin-bottom: 0;
+  background-color: orange;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.Title {
+  color: red;
+}
+
+.bg-myorange {
+  background-color: orange;
+}
 .App {
   text-align: center;
 }
@@ -24,6 +42,10 @@
   color: white;
 }
 
+.card-header {
+  background-color: orange;
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -35,4 +57,19 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.mystyle {
+  color: "white";
+  backgroundcolor: "Orange";
+  padding: "10px";
+  fontfamily: "Arial";
+}
+
+.greycard {
+  backgroundcolor: "Grey";
+}
+
+.bluetext {
+  color: "darkblue";
 }
