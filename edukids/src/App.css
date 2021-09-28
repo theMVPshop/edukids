@@ -31,6 +31,12 @@
   }
 }
 
+header {
+  background-color: coral;
+  color: white;
+  border-radius: 10%;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -59,17 +65,43 @@
   }
 }
 
-.mystyle {
-  color: "white";
-  backgroundcolor: "Orange";
-  padding: "10px";
-  fontfamily: "Arial";
+.fa {
+  width: 25px;
+  padding: 20px;
+  font-size: 25px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  color: white;
+  border-radius: 50%;
 }
 
-.greycard {
-  backgroundcolor: "Grey";
+.fa:hover {
+  opacity: 0.7;
 }
 
-.bluetext {
-  color: "darkblue";
+.fa-facebook {
+  background: #3b5998;
+}
+
+.fa-twitter {
+  background: #55acee;
+}
+
+.fa-instagram {
+  background: #8a3ab9;
+}
+
+.fa-youtube {
+  background: #bb0000;
+}
+
+.card-header {
+  color: #bb0000;
+  background-color: black;
+}
+
+.special-card-header {
+  color: pink;
+  background-color: wheat;
 }
