@@ -74,27 +74,16 @@ header{
   background: #bb0000;
 }
 
-.pa {
-  width: auto;
+
+.card-header {
+  color: #bb0000;
+  background-color: black;
 }
 
-.pa-color {
-  background-color: purple;
-  border-color: seagreen;
-  border-width: 100px;
+.special-card-header {
+  color: pink;
+  background-color: wheat;
 }
-
-.ka {
-  
-}
-
-.ka-whatever {
-
-  color: #3B5998;
-}
-
-
-
 
 
 
