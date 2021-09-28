@@ -42,3 +42,60 @@ header{
     transform: rotate(360deg);
   }
 }
+
+.fa {  
+  width: 25px;
+  padding: 20px;
+  font-size: 25px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  color: white;
+  border-radius: 50%; 
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+}
+
+.fa-instagram {
+  background: #8a3ab9;
+}
+
+.fa-youtube {
+  background: #bb0000;
+}
+
+.pa {
+  width: auto;
+}
+
+.pa-color {
+  background-color: purple;
+  border-color: seagreen;
+  border-width: 100px;
+}
+
+.ka {
+  
+}
+
+.ka-whatever {
+
+  color: #3B5998;
+}
+
+
+
+
+
+
+
