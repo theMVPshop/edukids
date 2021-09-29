@@ -1,3 +1,5 @@
+@import './styling/CareerDetail.css'
+
 .App {
   text-align: center;
 }
@@ -12,6 +14,7 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
 
 
 .App-header {
@@ -70,21 +73,58 @@
   background: #bb0000;
 }
 
-
-.card-header {
-  background-color: rgb(250, 100, 46);
-  color:white;
-  text-align:center;
-}
-
-.list-group-item{
-  border:none;
-}
 /* .special-card-header {
   color: pink;
   background-color: wheat;
 } */
 
+/* ABOUT CSS */
 
+/* CAREER CSS */
 
+/* CAREER DETAIL CSS */
+.CareerDetail-card-header {
+  background-color: rgb(250, 100, 46);
+  color:white;
+  text-align:center;
+}
 
+.CareerDetail-list-group-item{
+  /* display: list-item; */
+  border:none;
+  /* list-style-type: none; */
+}
+
+.CareerDetail-beige-background-card {
+  background-color: #f8f8f8;
+}
+
+.CareerDetail-accordion-item {
+  margin: 25px;
+}
+
+.CareerDetail-span {
+  color: rgb(250, 100, 46);
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+/* CLASS DETAIL CSS */
+
+/* CLASSES CSS */
+
+/* CONTACT CSS */
+
+/* EVENTS CSS */
+
+/* FACILITIES CSS */
+
+/* FOOTER CSS */
+
+/* FREQUENT QUESTIONS CSS */
+
+/* HEADER CSS */
+
+/* HOME CSS */
+
+/* TEAM CSS */

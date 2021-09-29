@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Card, Col, Container, ListGroup, Row, Tabs, Tab } from 'react-bootstrap';
+import { Button, Card, Col, Container, ListGroup, Row, Tabs, Tab, Accordion } from 'react-bootstrap';
 
 function CareerDetail() {
   
@@ -16,26 +16,59 @@ function CareerDetail() {
           <Row>
             <Card>
               <Card.Body>
-                <Card.Header>How to Apply?</Card.Header>
+                <Card.Header className="CareerDetail-card-header">How to Apply?</Card.Header>
                 <ListGroup>
-                  <ListGroup.Item>Lorem Ipsum</ListGroup.Item>
-                  <ListGroup.Item>Lorem Ipsum</ListGroup.Item>
-                  <ListGroup.Item>Lorem Ipsum</ListGroup.Item>
-                  <ListGroup.Item>Lorem Ipsum</ListGroup.Item>
-                  <ListGroup.Item>Lorem Ipsum</ListGroup.Item>
+                  <ListGroup.Item><span className="CareerDetail-span">—</span>Lorem Ipsum</ListGroup.Item>
+                  <ListGroup.Item><span className="CareerDetail-span">—</span>Lorem Ipsum</ListGroup.Item>
+                  <ListGroup.Item><span className="CareerDetail-span">—</span>Lorem Ipsum</ListGroup.Item>
+                  <ListGroup.Item><span className="CareerDetail-span">—</span>Lorem Ipsum</ListGroup.Item>
+                  <ListGroup.Item><span className="CareerDetail-span">—</span>Lorem Ipsum</ListGroup.Item>
                 </ListGroup>
               </Card.Body>
             </Card>
           </Row>
           <Row>
-            <Card>
+            <Card className="CareerDetail-beige-background-card">
               <Card.Body>
-                <Card.Header>Frequently Asked Questions</Card.Header>
-                <ListGroup>
-                  <ListGroup.Item>Lorem Ipsum (dropdown)</ListGroup.Item>
-                  <ListGroup.Item>Lorem Ipsum (dropdown)</ListGroup.Item>
-                  <ListGroup.Item>Lorem Ipsum (dropdown)</ListGroup.Item>
-                </ListGroup>
+                <Card.Header className="CareerDetail-card-header">Frequently Asked Questions</Card.Header>
+                <Accordion>
+                  <Accordion.Item eventKey="0">
+                    <Accordion.Header>When the announcements?</Accordion.Header>
+                    <Accordion.Body>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+                      est laborum.
+                    </Accordion.Body>
+                  </Accordion.Item>
+                  <Accordion.Item eventKey="1">
+                    <Accordion.Header>Can I apply after rejection?</Accordion.Header>
+                    <Accordion.Body>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+                      est laborum.
+                    </Accordion.Body>
+                  </Accordion.Item>
+                  <Accordion.Item eventKey="2">
+                    <Accordion.Header>Where to interview?</Accordion.Header>
+                    <Accordion.Body>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+                      est laborum.
+                    </Accordion.Body>
+                  </Accordion.Item>
+                </Accordion>
               </Card.Body>
             </Card>
           </Row>
