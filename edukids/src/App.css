@@ -41,12 +41,13 @@
 }
 
 .fa {  
-  width: 25px;
-  padding: 20px;
+  width: 10px;
+  padding: 15px;
+  padding-top: 10px;
   font-size: 25px;
   text-align: center;
   text-decoration: none;
-  margin: 5px 2px;
+  margin: 5px;
   color: white;
   border-radius: 50%; 
 }
@@ -106,6 +107,19 @@
   font-size: 20px;
   margin-right: 20px;
 }
+
+/* .CareerDetail-fa {  
+  width: 70px;
+  padding: 15px;
+  padding-top: 10px;
+  font-size: 25px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px;
+  color: white;
+  border-radius: 50%; 
+  background-color: rgb(250, 100, 46);
+} */
 
 /* CLASS DETAIL CSS */
 
