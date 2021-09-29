@@ -17,19 +17,19 @@ const Header = () => {
                         <Nav.Link href="home">Home</Nav.Link>
                         <Nav.Link href="about">About</Nav.Link>
                         <NavDropdown title="Class">
-                            <NavDropdown.Item href="class/stuff">Stuff</NavDropdown.Item>
-                            <NavDropdown.Item href="class/stuff">Stuff</NavDropdown.Item>
-                            <NavDropdown.Item href="class/stuff">Stuff</NavDropdown.Item>
+                            <NavDropdown.Item href="classes">Classes</NavDropdown.Item>
+                            <NavDropdown.Item href="classdetail">Class Detail</NavDropdown.Item>
                         </NavDropdown>
                         <NavDropdown title="Event">
-                            <NavDropdown.Item href="event/stuff">Stuff</NavDropdown.Item>
-                            <NavDropdown.Item href="event/stuff">Stuff</NavDropdown.Item>
-                            <NavDropdown.Item href="event/stuff">Stuff</NavDropdown.Item>
+                            <NavDropdown.Item href="events">Events</NavDropdown.Item>
+                            <NavDropdown.Item href="eventdetail">Event Detail</NavDropdown.Item>
                         </NavDropdown>
                         <NavDropdown title="Other">
-                            <NavDropdown.Item href="other/stuff">Stuff</NavDropdown.Item>
-                            <NavDropdown.Item href="other/stuff">Stuff</NavDropdown.Item>
-                            <NavDropdown.Item href="other/stuff">Stuff</NavDropdown.Item>
+                            <NavDropdown.Item href="contact">Contact Us</NavDropdown.Item>
+                            <NavDropdown.Item href="faq">FAQ</NavDropdown.Item>
+                            <NavDropdown.Item href="team">Team</NavDropdown.Item>
+                            <NavDropdown.Item href="career">Career</NavDropdown.Item>
+                            <NavDropdown.Item href="careerdetails">Career Detail</NavDropdown.Item>
                         </NavDropdown>
                 </Nav>
                 </Container>

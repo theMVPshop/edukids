@@ -31,11 +31,6 @@
   }
 }
 
-HEAD header {
-  background-color: coral;
-  color: white;
-  border-radius: 10%;
-}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -95,16 +90,58 @@ HEAD header {
   background: #bb0000;
 }
 
-.card-header {
+/* .special-card-header {
+  color: pink;
+  background-color: wheat;
+} */
+
+/* ABOUT CSS */
+
+/* CAREER CSS */
+
+/* CAREER DETAIL CSS */
+.CareerDetail-card-header {
   background-color: rgb(250, 100, 46);
   color: white;
   text-align: center;
 }
 
-.list-group-item {
+.CareerDetail-list-group-item {
+  /* display: list-item; */
   border: none;
+  /* list-style-type: none; */
 }
-/* .special-card-header {
-  color: pink;
-  background-color: wheat;
-} */
+
+.CareerDetail-beige-background-card {
+  background-color: #f8f8f8;
+}
+
+.CareerDetail-accordion-item {
+  margin: 25px;
+}
+
+.CareerDetail-span {
+  color: rgb(250, 100, 46);
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+/* CLASS DETAIL CSS */
+
+/* CLASSES CSS */
+
+/* CONTACT CSS */
+
+/* EVENTS CSS */
+
+/* FACILITIES CSS */
+
+/* FOOTER CSS */
+
+/* FREQUENT QUESTIONS CSS */
+
+/* HEADER CSS */
+
+/* HOME CSS */
+
+/* TEAM CSS */
