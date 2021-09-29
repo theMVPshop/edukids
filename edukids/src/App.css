@@ -31,12 +31,12 @@
   }
 }
 
-<<<<<<< HEAD header {
+HEAD header {
   background-color: coral;
   color: white;
   border-radius: 10%;
 }
-=======>>>>>>>8b4381c3e3f502c49884e357a7a16ceb94729924 .App-header {
+.App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
