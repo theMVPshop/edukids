@@ -38,3 +38,49 @@
     transform: rotate(360deg);
   }
 }
+
+.fa {  
+  width: 25px;
+  padding: 20px;
+  font-size: 25px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  color: white;
+  border-radius: 50%; 
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+}
+
+.fa-instagram {
+  background: #8a3ab9;
+}
+
+.fa-youtube {
+  background: #bb0000;
+}
+
+
+.card-header {
+  color: #bb0000;
+  background-color: black;
+}
+
+.special-card-header {
+  color: pink;
+  background-color: wheat;
+}
+
+
+
+

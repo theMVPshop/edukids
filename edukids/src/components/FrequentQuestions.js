@@ -15,7 +15,7 @@ function FrequentQuestions() {
         <Col>
           <Card>
             <Card.Body>
-              <Card.Header>Questions/Answers</Card.Header>
+              <Card.Header className="special-card-header">Questions/Answers</Card.Header>
               <Card.Title>Check out Frequently Asked Questions</Card.Title>
               <Card.Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
