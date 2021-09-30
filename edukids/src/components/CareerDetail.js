@@ -13,9 +13,9 @@ function CareerDetail() {
         </Col>
       </Row>
       <Row>
-        <Col xs={5}>
+        <Col xs={5} className="CareerDetail-Column">
           <Row>
-            <Card>
+            <Card className="CareerDetail-Card">
               <Card.Body>
                 <Card.Header className="CareerDetail-card-header">How to Apply?</Card.Header>
                 <ListGroup>
@@ -39,7 +39,7 @@ function CareerDetail() {
             </Card>
           </Row>
           <Row>
-            <Card className="CareerDetail-beige-background-card">
+            <Card className="CareerDetail-beige-background-card CareerDetail-Card" >
               <Card.Body>
                 <Card.Header className="CareerDetail-card-header">Frequently Asked Questions</Card.Header>
                 <Accordion>
@@ -84,43 +84,43 @@ function CareerDetail() {
             </Card>
           </Row>
           <Row>
-            <Card>
-              <Card.Body>
+            <Card className="CareerDetail-beige-background-card CareerDetail-Card">
+              <Card.Body className="CareerDetial-Card-Body">
                 <Card.Text className="CareerDetail-fa">
                   <FaFileInvoice />
                 </Card.Text>
                 <Card.Title>Send us your C.V.</Card.Title>
                 <Card.Text>Do you want to work with us? Please, send your CV to domain123@gmail.com</Card.Text>
                 <Card.Text>-- OR --</Card.Text>
-                <Button>Contact Us</Button>
+                <Button className="CareerDetail-Button">Contact Us</Button>
               </Card.Body>
             </Card>
           </Row>
         </Col>
-        <Col>
+        <Col className="CareerDetail-Colum">
           <Row>
-            <Card>
+            <Card className="CareerDetail-Card"> 
               <Card.Body>
-                <Row>
-                  <Col>
+                <Row className="CareerDetial-Right-Row">
+                  <Col className="CareerDetail-Right-Colum">
                     <Card.Text>
                       <Row>Post:</Row>
                       <Row>Teacher</Row>
                     </Card.Text>
                   </Col>
-                  <Col>
+                  <Col className="CareerDetail-Right-Colum">
                     <Card.Text>
                       <Row>Time:</Row>
                       <Row>Full Time</Row>
                     </Card.Text>
                   </Col>
-                  <Col>
+                  <Col className="CareerDetail-Right-Colum">
                     <Card.Text>
                       <Row>Salary:</Row>
                       <Row>Negotiable</Row>
                     </Card.Text>
                   </Col>
-                  <Col>
+                  <Col className="CareerDetail-Right-Colum">
                     <Card.Text>
                       <Row>No. of Vacancy:</Row>
                       <Row>8</Row>
