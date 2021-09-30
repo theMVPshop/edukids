@@ -175,6 +175,7 @@
 .CareerDetail-Right-Colum {
   background-color: rgb(250, 100, 46);
   color: white;
+  align-items: center;
   text-align: center;
 }
 
