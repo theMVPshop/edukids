@@ -1,10 +1,6 @@
 import React from 'react';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import Image from 'react-bootstrap/Image';
-import Card from 'react-bootstrap/Card';
-import CardGroup from 'react-bootstrap/CardGroup';
+import { Container, Row, Col, Image, Card, CardGroup } from 'react-bootstrap';
+
 
 
 
@@ -81,16 +77,16 @@ function ClassDetail() {
     {/* ****gallery goes here**** */}
     <CardGroup>
   <Card>
-    <Card.Img variant="top" src="holder.js/30px30" />
+    <Card.Img variant="top" src="https://images.unsplash.com/photo-1574704530833-d47190a0d92f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8/5px5" />
   </Card>
   <Card>
-    <Card.Img variant="top" src="holder.js/30px30" />
+    <Card.Img variant="top" src="https://images.unsplash.com/flagged/photo-1572818640942-05bbb70c9089?ixlib=rb-1.2.1/15px15" />
   </Card>
   <Card>
-    <Card.Img variant="top" src="holder.js/30px30" />
+    <Card.Img variant="top" src="https://images.unsplash.com/flagged/photo-1572818640942-05bbb70c9089?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8/15px15/30px30" />
   </Card>
   <Card>
-    <Card.Img variant="top" src="holder.js/30px30" />
+    <Card.Img variant="top" src="https://images.unsplash.com/flagged/photo-1572818640942-05bbb70c9089?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8/15px15/30px30" />
   </Card>
 </CardGroup>
     </Col>

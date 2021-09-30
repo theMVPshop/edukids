@@ -1,5 +1,7 @@
 import React from 'react'
 import {Container, Row, Col, Card, Button, Form, Image } from 'react-bootstrap';
+import { FaFortAwesomeAlt } from "react-icons/fa";
+
 
 export default function Facilities() {
     return (
@@ -10,25 +12,25 @@ export default function Facilities() {
 {/* *** list column ***       */}
     <Col>
     <Row>
-    <Col><Image src="../edukids/img/programs.svg" roundedCircle /></Col>
+    <Col xs={1}><FaFortAwesomeAlt/></Col>
     <Col>  <h6>Meals Provided</h6>
    <br/>
    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p></Col>
   </Row>
-  <Row>
-    <Col><Image src="../edukids/img/programs.svg" roundedCircle /></Col>
+  <Row >
+    <Col xs={1}><Image src="../edukids/img/programs.svg" roundedCircle /></Col>
     <Col>  <h6>Transportation</h6>
    <br/>
    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p></Col>
   </Row>
-  <Row>
-    <Col><Image src="../edukids/img/programs.svg" roundedCircle /></Col>
+  <Row >
+    <Col xs={1}><Image src="../edukids/img/programs.svg" roundedCircle /></Col>
     <Col>  <h6>Full Day Session</h6>
    <br/>
    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p></Col>
   </Row>
-  <Row>
-    <Col><Image src="../edukids/img/programs.svg" roundedCircle /></Col>
+  <Row >
+    <Col xs={1}><Image src="../edukids/img/programs.svg" roundedCircle /></Col>
     <Col>  <h6>Extra Activies</h6>
    <br/>
    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p></Col>
@@ -37,26 +39,26 @@ export default function Facilities() {
 {/* *** list column ***     */}
     <Col>
 <Row>
-    <Col><Image src="../edukids/img/programs.svg" roundedCircle /></Col>
-    <Col>  <h6>Languages Lesson</h6>
+    <Col xs={1}><Image src="../edukids/img/programs.svg" roundedCircle /></Col>
+    <Col >  <h6>Languages Lesson</h6>
    <br/>
    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p></Col>
   </Row>
   <Row>
-    <Col><Image src="../edukids/img/programs.svg" roundedCircle /></Col>
-    <Col>  <h6>Qualified Teachers</h6>
+    <Col xs={1}><Image src="../edukids/img/programs.svg" roundedCircle /></Col>
+    <Col >  <h6>Qualified Teachers</h6>
    <br/>
    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p></Col>
   </Row>
   <Row>
-    <Col><Image src="../edukids/img/programs.svg" roundedCircle /></Col>
-    <Col>  <h6>Special Education</h6>
+    <Col xs={1}><Image src="../edukids/img/programs.svg" roundedCircle /></Col>
+    <Col >  <h6>Special Education</h6>
    <br/>
    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p></Col>
   </Row>
   <Row>
-    <Col><Image src="../edukids/img/programs.svg" roundedCircle /></Col>
-    <Col>  <h6>Health Care</h6>
+    <Col xs={1}><Image src="../edukids/img/programs.svg" roundedCircle /></Col>
+    <Col >  <h6>Health Care</h6>
    <br/>
    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p></Col>
   </Row>
