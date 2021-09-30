@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Nav, Navbar, NavDropdown, Form, FormControl, Button } from 'react-bootstrap';
-
+import {ReactComponent as EdukidsLogo} from '../img/edukids_logo.svg';
 
 const Header = () => {
 
@@ -8,8 +8,9 @@ const Header = () => {
         <div className="App">
         <Navbar bg="dark" variant="myblue"
             sticky="top" expand="lg">
-        <Navbar.Brand href="home" className="justify-content-start" >Logo</Navbar.Brand>
-
+        <Navbar.Brand href="home">
+            <EdukidsLogo href="home" className="svg" />
+        </Navbar.Brand>
             <Container>
                 <Container variant="myblue">
                 <Nav className="justify-content-center">

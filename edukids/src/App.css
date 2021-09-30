@@ -194,6 +194,16 @@
 
 /* HEADER CSS */
 
+.svg {
+  width: 100px;
+  height: 25px;
+}
+
+.svg-footer {
+  width: 150px;
+  height: 50px;
+}
+
 /* HOME CSS */
 
 /* TEAM CSS */
