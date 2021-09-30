@@ -1,5 +1,6 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
+import { FaFacebook, FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
 
 const Footer = () => {
 
@@ -12,10 +13,18 @@ const Footer = () => {
                     <Col>
                     <h3>Logo</h3>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                    <a href="https://www.facebook.com/" className="fa fa-facebook"></a>
-		            <a href="https://twitter.com/" className="fa fa-twitter"></a>
-                    <a href="https://www.instagram.com/" className="fa fa-instagram"></a>
-                    <a href="https://www.youtube.com/" className="fa fa-youtube"></a>
+                    <a href="https://www.facebook.com/" className="fa fa-facebook">
+                        <FaFacebook />
+                    </a>
+		            <a href="https://twitter.com/" className="fa fa-twitter">
+                        <FaTwitter />
+                    </a>
+                    <a href="https://www.instagram.com/" className="fa fa-instagram">
+                        <FaInstagram />
+                    </a>
+                    <a href="https://www.youtube.com/" className="fa fa-youtube">
+                        <FaYoutube />
+                    </a>
                     </Col>
                     <Col>
                     <h6>EduKids</h6>
