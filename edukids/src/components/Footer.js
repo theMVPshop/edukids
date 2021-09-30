@@ -1,6 +1,7 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import { FaFacebook, FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
+import {ReactComponent as EdukidsLogo} from '../img/edukids_logo.svg';
 
 const Footer = () => {
 
@@ -11,8 +12,8 @@ const Footer = () => {
             <Container className="footer-bottom">
                 <Row>
                     <Col>
-                    <h3>Logo</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <EdukidsLogo className="svg svg-footer"/>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
                     <a href="https://www.facebook.com/" className="fa fa-facebook">
                         <FaFacebook />
                     </a>
