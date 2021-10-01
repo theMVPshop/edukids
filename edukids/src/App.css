@@ -2,13 +2,6 @@
   background-color: blue;
 }
 
-.card-header {
-  padding: 0.5rem 1rem;
-  margin-bottom: 0;
-  background-color: orange;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
-}
-
 .Title {
   color: red;
 }
@@ -40,10 +33,6 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.card-header {
-  background-color: orange;
 }
 
 .App-link {

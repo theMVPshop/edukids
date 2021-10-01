@@ -5,31 +5,37 @@ import { BsMap, BsPhone, BsFillEnvelopeOpenFill } from 'react-icons/bs'
 function Classes(props) {
   return(
     <Container>
+      <Row className="justify-content-md-center">
+        <Col md='auto'>
+          <h1>Contact Us</h1>
+          <p>image goes here!</p>
+        </Col>
+      </Row>
       <Row>
         <Col>
           <Row>
-            <Card>
-              <h1>Contact Us for Further Information</h1>
-              <h5>lorem ipsum blah blah blah</h5>
+            <Card className="Contact-contactHeader">
+              <span>Contact Us for Further Information</span>
+              <span>lorem ipsum blah blah blah</span>
             </Card>
           </Row>
           <Row>
-            <Card>
-              <BsMap />
-              <Badge bg="secondary">Location Address</Badge>
-            </Card>
+              <Badge className="Contact-locationBadge">
+                <BsMap />
+                <span>Location Address</span>
+              </Badge>
           </Row>
           <Row>
-            <Card>
-              <BsFillEnvelopeOpenFill />
-              <Badge bg="secondary">Email Address</Badge>
-            </Card>
+              <Badge className="Contact-addressBadge"> 
+                <BsFillEnvelopeOpenFill />
+                <span>Email Address</span>
+              </Badge>            
           </Row>
           <Row>
-            <Card>
-              <BsPhone />
-              <Badge bg="secondary">Phone Number</Badge>
-            </Card>
+              <Badge className="Contact-phoneBadge">
+                <BsPhone />
+                <span>Phone Number</span>
+              </Badge>
           </Row>
         </Col>
         <Col>
