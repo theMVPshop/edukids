@@ -8,13 +8,14 @@ const Header = () => {
         <div className="App">
         <Navbar bg="dark" variant="myblue"
             sticky="top" expand="lg">
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
         <Navbar.Brand href="home">
             <EdukidsLogo href="home" className="svg" />
         </Navbar.Brand>
             <Container>
                 <Container variant="myblue">
                 <Nav className="justify-content-center">
-                    
                         <Nav.Link href="home">Home</Nav.Link>
                         <Nav.Link href="about">About</Nav.Link>
                         <NavDropdown title="Class">
@@ -44,6 +45,7 @@ const Header = () => {
                 />
             </Form>
             <Button> Book a Visit </Button>
+            </Navbar.Collapse>
         </Navbar>
       </div>  
     );

@@ -367,6 +367,15 @@ margin-top: -35px;
 /* FACILITIES CSS */
 
 /* FOOTER CSS */
+.footer{
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: white;
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
 
 /* FREQUENT QUESTIONS CSS */
 
@@ -380,6 +389,10 @@ margin-top: -35px;
 .svg-footer {
   width: 150px;
   height: 50px;
+}
+
+.header{
+  position: ;
 }
 
 /* HOME CSS */
