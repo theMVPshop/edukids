@@ -256,7 +256,36 @@
 
 /* CLASS DETAIL CSS */
 
+
 /* CLASSES CSS */
+.Classes-Col{
+  display: flex;
+  justify-content: center;
+}
+
+.Classes-Card{
+  width: 300px;
+  border-radius: 5%;
+  padding:2%;
+  /* display:flex;
+  justify-content: center;
+  flex-wrap: wrap; */
+}
+
+.Classes-Card-Body{
+  color:white;
+  text-align: center;
+}
+
+.Classes-Card-Img{
+  border-radius: 8%;
+  border: 3px solid white;
+}
+
+.Classes-Card-Col{
+  border-right: 1px solid rgba(255, 255, 255, 0.42);
+}
+
 
 /* CONTACT CSS */
 
