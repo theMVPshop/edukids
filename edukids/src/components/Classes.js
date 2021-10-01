@@ -10,21 +10,22 @@ function Classes(props) {
     <div>
       <Container>
         <Row>
-          <Col>
-            <Card style={{ width: '18rem' }}>
-              <Card.Img variant="top" src="https://images.unsplash.com/photo-1505672678657-cc7037095e60?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8" />
-              <Card.Body className="card-body">
-                <Card.Title>Card Title</Card.Title>
+          <Col className="Classes-Col">
+            <Card className="Classes-Card" style={{backgroundColor:"rgb(254,93,55)"}} >
+              <Card.Img className="Classes-Card-Img"
+              variant="top" src="https://images.unsplash.com/photo-1505672678657-cc7037095e60?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8" />
+              <Card.Body className="Classes-Card-Body">
+                <Card.Title>Physical Class</Card.Title>
                 <Card.Text>
                   Some quick example text to build on the card title and make up the bulk of the card's content.
                 </Card.Text>
-                <Row>
-                  <Col>
+                <Row >
+                  <Col className="Classes-Card-Col">
                     <Card.Text>
                       Age 2-5 Years
                 </Card.Text>
                   </Col>
-                  <Col>
+                  <Col className="Classes-Card-Col">
                     <Card.Text>
                       Size 18 Seats
                 </Card.Text>
@@ -39,22 +40,22 @@ function Classes(props) {
             </Card>
           </Col>
 
-          <Col>
-            <Card style={{ width: '18rem' }}>
-              <Card.Img variant="top" src="https://images.unsplash.com/photo-1505672678657-cc7037095e60?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8" />
-              <Card.Body>
-                <Card.Title>Card Title</Card.Title>
+          <Col className="Classes-Col">
+            <Card className="Classes-Card" style={{backgroundColor:"rgb(234,170,20)" }}>
+              <Card.Img className="Classes-Card-Img" variant="top" src="https://images.unsplash.com/photo-1505672678657-cc7037095e60?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8" />
+              <Card.Body className="Classes-Card-Body">
+                <Card.Title>Creative Class</Card.Title>
                 <Card.Text>
                   Some quick example text to build on the card title and make up the bulk of the card's content.
                 </Card.Text>
                 <Row>
-                  <Col>
+                  <Col className="Classes-Card-Col">
                     <Card.Text>
                       Age
                       2-5 Years
                 </Card.Text>
                   </Col>
-                  <Col>
+                  <Col className="Classes-Card-Col">
                     <Card.Text>
                       Size
                       18 Seats
@@ -71,22 +72,22 @@ function Classes(props) {
             </Card>
           </Col>
 
-          <Col>
-            <Card style={{ width: '18rem' }}>
-              <Card.Img variant="top" src="https://images.unsplash.com/photo-1505672678657-cc7037095e60?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8" />
-              <Card.Body>
-                <Card.Title>Card Title</Card.Title>
+          <Col className="Classes-Col">
+            <Card className="Classes-Card" style={{backgroundColor:"rgb(4,185,146)"}}>
+              <Card.Img className="Classes-Card-Img" variant="top" src="https://images.unsplash.com/photo-1505672678657-cc7037095e60?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8" />
+              <Card.Body className="Classes-Card-Body">
+                <Card.Title>Learning Class</Card.Title>
                 <Card.Text>
                   Some quick example text to build on the card title and make up the bulk of the card's content.
                 </Card.Text>
                 <Row>
-                  <Col>
+                  <Col className="Classes-Card-Col">
                     <Card.Text>
                       Age
                       2-5 Years
                 </Card.Text>
                   </Col>
-                  <Col>
+                  <Col className="Classes-Card-Col">
                     <Card.Text>
                       Size
                       18 Seats
