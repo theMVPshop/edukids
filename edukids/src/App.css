@@ -2,13 +2,6 @@
   background-color: blue;
 }
 
-.card-header {
-  padding: 0.5rem 1rem;
-  margin-bottom: 0;
-  background-color: orange;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
-}
-
 .Title {
   color: red;
 }
@@ -40,10 +33,6 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.card-header {
-  background-color: orange;
 }
 
 .App-link {
@@ -181,7 +170,36 @@
 
 /* CLASS DETAIL CSS */
 
+
 /* CLASSES CSS */
+.Classes-Col{
+  display: flex;
+  justify-content: center;
+}
+
+.Classes-Card{
+  width: 300px;
+  border-radius: 5%;
+  padding:2%;
+  /* display:flex;
+  justify-content: center;
+  flex-wrap: wrap; */
+}
+
+.Classes-Card-Body{
+  color:white;
+  text-align: center;
+}
+
+.Classes-Card-Img{
+  border-radius: 8%;
+  border: 3px solid white;
+}
+
+.Classes-Card-Col{
+  border-right: 1px solid rgba(255, 255, 255, 0.42);
+}
+
 
 /* CONTACT CSS */
 
