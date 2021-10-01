@@ -4,7 +4,7 @@ import { Col, Container, Row, Card, Form } from 'react-bootstrap';
 function Career(props) {
 
   return(
-    <Container className="ka-whatever">
+    <Container className="">
       <Row className="justify-content-md-center">
         <Col md="auto">
         <h1>Career</h1>

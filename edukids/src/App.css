@@ -1,3 +1,21 @@
+.bg-myblue {
+  background-color: blue;
+}
+
+.card-header {
+  padding: 0.5rem 1rem;
+  margin-bottom: 0;
+  background-color: orange;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.Title {
+  color: red;
+}
+
+.bg-myorange {
+  background-color: orange;
+}
 .App {
   text-align: center;
 }
@@ -13,7 +31,6 @@
   }
 }
 
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -25,10 +42,13 @@
   color: white;
 }
 
+.card-header {
+  background-color: orange;
+}
+
 .App-link {
   color: #61dafb;
 }
-
 
 @keyframes App-logo-spin {
   from {
@@ -39,15 +59,16 @@
   }
 }
 
-.fa {  
-  width: 25px;
-  padding: 20px;
+.fa {
+  width: 10px;
+  padding: 15px;
+  padding-top: 10px;
   font-size: 25px;
   text-align: center;
   text-decoration: none;
-  margin: 5px 2px;
+  margin: 5px;
   color: white;
-  border-radius: 50%; 
+  border-radius: 50%;
 }
 
 .fa:hover {
@@ -55,11 +76,11 @@
 }
 
 .fa-facebook {
-  background: #3B5998;
+  background: #3b5998;
 }
 
 .fa-twitter {
-  background: #55ACEE;
+  background: #55acee;
 }
 
 .fa-instagram {
@@ -70,17 +91,120 @@
   background: #bb0000;
 }
 
-
-.card-header {
-  color: #bb0000;
-  background-color: black;
-}
-
-.special-card-header {
+/* .special-card-header {
   color: pink;
   background-color: wheat;
+} */
+
+/* ABOUT CSS */
+
+/* CAREER CSS */
+
+/* CAREER DETAIL CSS */
+.CareerDetail-card-header {
+  background-color: rgb(250, 100, 46);
+  color: white;
+  text-align: center;
 }
 
+.CareerDetail-list-group-item {
+  /* display: list-item; */
+  border: none;
 
+  /* list-style-type: none; */
+}
 
+.CareerDetail-beige-background-card {
+  background-color: #f8f8f8;
+  margin-bottom: 30px;
+}
 
+.CareerDetail-accordion-item {
+  margin: 25px;
+}
+
+.CareerDetail-span {
+  color: rgb(250, 100, 46);
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.CareerDetail-fa {
+  width: 70px;
+  padding: 15px;
+  padding-top: 10px;
+  font-size: 25px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px;
+  color: white;
+  border-radius: 50%;
+  background-color: rgb(250, 100, 46);
+}
+
+.CareerDetial-Card-Body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.CareerDetail-Button {
+  width: 150px;
+  height: 50px;
+  background-color: rgb(250, 100, 46);
+  border-radius: 30px;
+  border-color: rgb(199, 85, 47);
+  border-bottom: 3px solid rgb(199, 85, 47);
+}
+
+.CareerDetail-Card {
+  /* border: none; */
+}
+
+.CareerDetail-Column {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.CareerDetial-Right-Row {
+  background-color: rgb(250, 100, 46);
+  padding: 30px;
+}
+
+.CareerDetail-Right-Colum {
+  background-color: rgb(250, 100, 46);
+  color: white;
+  align-items: center;
+  text-align: center;
+}
+
+/* CLASS DETAIL CSS */
+
+/* CLASSES CSS */
+
+/* CONTACT CSS */
+
+/* EVENTS CSS */
+
+/* FACILITIES CSS */
+
+/* FOOTER CSS */
+
+/* FREQUENT QUESTIONS CSS */
+
+/* HEADER CSS */
+
+.svg {
+  width: 100px;
+  height: 25px;
+}
+
+.svg-footer {
+  width: 150px;
+  height: 50px;
+}
+
+/* HOME CSS */
+
+/* TEAM CSS */

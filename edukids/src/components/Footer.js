@@ -1,5 +1,7 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
+import { FaFacebook, FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
+import {ReactComponent as EdukidsLogo} from '../img/edukids_logo.svg';
 
 const Footer = () => {
 
@@ -10,18 +12,26 @@ const Footer = () => {
             <Container className="footer-bottom">
                 <Row>
                     <Col>
-                    <h3>Logo</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                    <a href="www.facebook.com" className="fa fa-facebook"></a>
-		            <a href="#" className="fa fa-twitter"></a>
-                    <a href="#" className="fa fa-instagram"></a>
-                    <a href="#" className="fa fa-youtube"></a>
+                    <EdukidsLogo className="svg svg-footer"/>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                    <a href="https://www.facebook.com/" className="fa fa-facebook">
+                        <FaFacebook />
+                    </a>
+		            <a href="https://twitter.com/" className="fa fa-twitter">
+                        <FaTwitter />
+                    </a>
+                    <a href="https://www.instagram.com/" className="fa fa-instagram">
+                        <FaInstagram />
+                    </a>
+                    <a href="https://www.youtube.com/" className="fa fa-youtube">
+                        <FaYoutube />
+                    </a>
                     </Col>
                     <Col>
                     <h6>EduKids</h6>
                     <ul className="list-unstyled">
-                        <li>About us</li>
-                        <li>Careers</li>
+                        <li><a href="about">About us</a></li>
+                        <li><a href="career">Careers</a></li>
                         <li>News & Articles</li>
                         <li>Legal Notice</li>
                     </ul>
@@ -30,8 +40,8 @@ const Footer = () => {
                     <h6>Support</h6>
                     <ul className="list-unstyled">
                         <li>Help Center</li>
-                        <li>Contact Us</li>
-                        <li>FAQ</li>
+                        <li><a href="contact">Contact Us</a></li>
+                        <li><a href="faq">FAQ</a></li>
                         <li>Parent Community</li>
                     </ul>
                     </Col>
