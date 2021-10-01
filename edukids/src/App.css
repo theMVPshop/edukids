@@ -2,13 +2,6 @@
   background-color: blue;
 }
 
-.card-header {
-  padding: 0.5rem 1rem;
-  margin-bottom: 0;
-  background-color: orange;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
-}
-
 .Title {
   color: red;
 }
@@ -40,10 +33,6 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.card-header {
-  background-color: orange;
 }
 
 .App-link {
@@ -180,6 +169,45 @@
 }
 
 /* CLASS DETAIL CSS */
+.ClassDetail-h2 {
+  color: #220d38;
+  
+}
+
+.ClassDetail-h3 {
+  color: #220d38;
+}
+.ClassDetail-container{
+  max-width: 90vw;
+  min-width: auto;
+}
+.ClassDetail-teacher-card-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 250px;
+  background-color: #03b991;
+  color: whitesmoke;
+  border-radius: 20px;
+  margin-top: 30px;
+}
+.ClassDetail-teacher-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.ClassDetail-teacher-img {
+height: 90px;
+width: 90px;
+border-radius: 50%;
+margin-top: -35px;
+}
+.ClassDetail-teacher-card-text {
+ text-align: center;
+ margin-top: 25px;
+}
 
 /* CLASSES CSS */
 

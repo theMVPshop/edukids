@@ -8,13 +8,13 @@ import { Container, Row, Col, Image, Card, CardGroup } from 'react-bootstrap';
 function ClassDetail() {
   return(
     <div>
-   <Container>
+   <Container className="ClassDetail-container">
 
     *** Class Detail header IMG ***
 
   <Row>
     <Col>
-    <h2>Class Description</h2>
+    <h2 className="ClassDetail-h2">Class Description</h2>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium fugiat cumque nemo eaque deleniti perferendis vel vero in ut assumenda!</p>
     <Col xs={6} md={4}>
       <Image src="../../../img/tutor-and-multicultural-kids-playing-with-construc-M27G27Q.jpg/360x300" thumbnail />
@@ -44,8 +44,8 @@ function ClassDetail() {
   </Row>
 
   <Row>
-    <Col>
-    <h3>Class Curriculum</h3>
+    <Col xs={6} md={4}>
+    <h3 className="ClassDetail-h3">Class Curriculum</h3>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quo ratione recusandae!</p>
     <ul>
         <li>Lorem ipsum dolor sit amet consectetur.</li>
@@ -54,16 +54,18 @@ function ClassDetail() {
         <li>Lorem ipsum dolor sit amet consectetur.</li>
     </ul>
     </Col>
-    <Col>
+    <Col >
     {/* ***Teacher card *** */}
 
-    <Card border="warning" style={{ width: '18rem' }}>
-        <Card.Img variant="top" src="holder.js/60px60" />
-        <Card.Body>
-          <Card.Title>Card title</Card.Title>
-          <Card.Text>
-            <b>John Doe</b>
-            Teacher
+    <Card className="ClassDetail-teacher-card-area">
+        <Card.Body className="ClassDetail-teacher-card">
+        <Card.Img variant="top" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8dGVhY2hlciUyMGhlYWRzaG90fGVufDB8fDB8fA%3D%3D/15x15" className="ClassDetail-teacher-img" />
+          
+          <Card.Text className="ClassDetail-teacher-card-text">
+            <b>Jane Deo</b>
+            <br/>
+            teacher
+            <br/>
             lead-in to additional content. This content is a little bit longer.
           </Card.Text>
         </Card.Body>
