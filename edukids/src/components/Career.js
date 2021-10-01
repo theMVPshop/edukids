@@ -1,10 +1,10 @@
 import React from 'react';
-import { Col, Container, Row, Card, Form } from 'react-bootstrap';
+import { Col, Container, Row, Card, Form, Button } from 'react-bootstrap';
 
 function Career(props) {
 
   return(
-    <Container className="">
+    <Container>
       <Row className="justify-content-md-center">
         <Col md="auto">
         <h1>Career</h1>
@@ -12,59 +12,77 @@ function Career(props) {
         </Col>
       </Row>
       <Row>
-        <Card>
+        <Card className="Career-card-a">
           <Card.Body>
-            <Card.Title>Let's join with us!</Card.Title>
-            <Card.Text>lorem ipsum</Card.Text>
+            <Card.Header className="Career-card-header Career-card-header-a">Vacancy/Careers</Card.Header>
+            <Card.Title className="Career-card-title-a">Let's join with us!</Card.Title>
+            <Card.Text className="Career-card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique feugiat nibh eget condimentum. Donec mattis massa augue, sit amet facilisis nunc fermentum eu. Aliquam.</Card.Text>
           </Card.Body>
         </Card>
       </Row>
       <Row>
         <Col>
           <Row>
-            <Card>
-              <Card.Title>Teacher</Card.Title>
-              <Card.Text>teacher job description</Card.Text>
+            <Card className="Career-card-b">
+              <Card.Body>
+                <Card.Header className="Career-card-header Career-card-header-b">Full Time/Part Time</Card.Header>
+                <Card.Title className="Career-card-title-b">Teacher</Card.Title>
+                <Card.Text className="Career-card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer egestas tellus nec mattis tincidunt. Duis nisl ipsum.</Card.Text>
+                <Button className="Career-button">Apply Now!</Button>
+              </Card.Body>
             </Card>
           </Row>
           <Row>
-            <Card>
-              <Card.Title>Assistant</Card.Title>
-              <Card.Text>assistant job description</Card.Text>
+            <Card className="Career-card-b">
+              <Card.Body>
+                <Card.Header className="Career-card-header Career-card-header-b">Part Time</Card.Header>
+                <Card.Title className="Career-card-title-b">Assistant</Card.Title>
+                <Card.Text className="Career-card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer egestas tellus nec mattis tincidunt. Duis nisl ipsum.</Card.Text>
+                <Button className="Career-button">Apply Now!</Button>
+              </Card.Body>
             </Card>
           </Row>
         </Col>
         <Col>
           <Row>
-            <Card>
-              <Card.Title>Manager</Card.Title>
-              <Card.Text>manager job description</Card.Text>
+            <Card className="Career-card-b">
+              <Card.Body>
+                <Card.Header className="Career-card-header Career-card-header-b">Full Time</Card.Header>
+                <Card.Title className="Career-card-title-b">Manager</Card.Title>
+                <Card.Text className="Career-card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer egestas tellus nec mattis tincidunt. Duis nisl ipsum.</Card.Text>
+                <Button className="Career-button">Apply Now!</Button>
+              </Card.Body>
             </Card>
           </Row>
           <Row>
-            <Card>
-              <Card.Title>Accountant</Card.Title>
-              <Card.Text>accountant job description</Card.Text>
+            <Card className="Career-card-b">
+              <Card.Body>
+                <Card.Header className="Career-card-header Career-card-header-b">Full Time/Part Time</Card.Header>
+                <Card.Title className="Career-card-title-b">Accountant</Card.Title>
+                <Card.Text className="Career-card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer egestas tellus nec mattis tincidunt. Duis nisl ipsum.</Card.Text>
+                <Button className="Career-button">Apply Now!</Button>
+              </Card.Body>
             </Card>
           </Row>
         </Col>
         <Col xs={5}>
-          <Form>
+          <Form className="Career-form">
             <Form.Group>
-              <Form.Label>Join Our Team</Form.Label>
-              <Form.Control type="text" placeholder="Your Name" />
-              <Form.Control type="email" placeholder="Your Email" />
-              <Form.Control type="text" placeholder="Your Position" />
-              <Form.Control rows={3} type="textarea" placeholder="Enter Your Message" />
+              <Form.Label className="Career-form-label">Join Our Team</Form.Label>
+              <Form.Control type="text" placeholder="Your Name" className="Career-form-control" />
+              <Form.Control type="email" placeholder="Your Email" className="Career-form-control" />
+              <Form.Control type="text" placeholder="Your Position" className="Career-form-control" />
+              <Form.Control type="textarea" style={{height: "170px"}} placeholder="Enter Your Message" className="Career-form-control" />
+              <Button type="submit">Send Application</Button>
             </Form.Group>
           </Form>
         </Col>
       </Row>
       <Row>
         <Col>
-          <Card>
+          <Card className="Career-card-d">
             <Card.Body>
-              <Card.Title>Our Benefits</Card.Title>
+              <Card.Header className="Career-card-header Career-card-header-d">Our Benefits</Card.Header>
               <Card.Text>Our school has been present for over 15 years to provide best quality education for kids.</Card.Text>
             </Card.Body>
           </Card>
@@ -75,7 +93,7 @@ function Career(props) {
       </Row>
       <Row>
         <Col>
-          <Card>
+          <Card className="Career-card-c">
             <Card.Body>
               <Card.Img></Card.Img>
               <Card.Title>Award Winning</Card.Title>
@@ -84,7 +102,7 @@ function Career(props) {
           </Card>
         </Col>
         <Col>
-          <Card>
+          <Card className="Career-card-c">
             <Card.Body>
               <Card.Img></Card.Img>
               <Card.Title>Affordable Fees</Card.Title>
@@ -93,7 +111,7 @@ function Career(props) {
           </Card>
         </Col>
         <Col>
-          <Card>
+          <Card className="Career-card-b">
             <Card.Body>
               <Card.Img></Card.Img>
               <Card.Title>Best Environment</Card.Title>

@@ -1,6 +1,8 @@
 import React, {Component} from 'react'
 // import { Button } from "@material-ui/core";
-import {Col, Container, Row} from 'react-bootstrap';
+import { Button, Card, Col, Container, ListGroup, Row, Tabs, Tab, Accordion } from 'react-bootstrap';
+import { FaBook } from 'react-icons/fa'
+
 
 class About extends Component {
 
@@ -10,7 +12,7 @@ class About extends Component {
             
             <Container>
                 <Row className="justify-content-md-center">
-    <Col md="auto">We Are Kindergarten And Childhood Is Our Passion</Col>
+    <Col md="auto"><h1>We Are Kindergarten And Childhood Is Our Passion</h1></Col>
   </Row>
   <Row className="justify-content-md-center">
   <Col md="auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -20,17 +22,74 @@ class About extends Component {
       <Container>
           
       </Container>
-      <Row>
-          <Col>Put Image here. </Col>
-          <Col md="auto">Put a title and then put some lorem ipsum and some bullets here</Col>
+      <Row className="About-Row">
+          <Col xs={6} >
+              <Card className="About-Card">
+              <Card.Img classname="About-Card-Image" src="https://images.unsplash.com/photo-1587323655395-b1c77a12c89a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx"></Card.Img>
+              </Card>
+          
+          </Col>
+          <Col  xs={6} >
+            <Card  className="About-Card"> 
+                
+                <Card.Text><h1>Our Great Vision</h1></Card.Text>
+                <Card.Text><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                            Tellus rutrum tellus pellentesque eu tincidunt tortor. Cras fermentum odio eu feugiat. Nunc lobortis mattis aliquam faucibus purus in massa tempor nec. 
+                            Dignissim convallis aenean et tortor at risus viverra adipiscing. Leo vel fringilla est ullamcorper eget nulla facilisi. Aliquet porttitor lacus luctus accumsan tortor. 
+                            </p> </Card.Text>
+          <ListGroup>
+                  <ListGroup.Item className="About-list-group-item">
+                    <span>—</span>Lorem Ipsum
+                  </ListGroup.Item >
+                  <ListGroup.Item className="About-list-group-item">
+                    <span>—</span>Lorem Ipsum
+                  </ListGroup.Item>
+                  <ListGroup.Item className="About-list-group-item">
+                    <span>—</span>Lorem Ipsum
+                  </ListGroup.Item>
+                  <ListGroup.Item className="About-list-group-item">
+                    <span>—</span>Lorem Ipsum
+                  </ListGroup.Item>
+                </ListGroup> 
+                </Card>
+              </Col>
     </Row>
-    <Row>
-          <Col md="auto">Put a title and then put some lorem ipsum and some bullets here</Col>
-          <Col>Put Image here. </Col>
+    <Row className="About-Row">
+    <Col  xs={6} >
+            <Card  className="About-Card"> 
+                
+                <Card.Text><h1>Our Great Vision</h1></Card.Text>
+                <Card.Text><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                            Tellus rutrum tellus pellentesque eu tincidunt tortor. Cras fermentum odio eu feugiat. Nunc lobortis mattis aliquam faucibus purus in massa tempor nec. 
+                            Dignissim convallis aenean et tortor at risus viverra adipiscing. Leo vel fringilla est ullamcorper eget nulla facilisi. Aliquet porttitor lacus luctus accumsan tortor. 
+                            </p> </Card.Text>
+          <ListGroup>
+                  <ListGroup.Item className="About-list-group-item">
+                    <span>—</span>Lorem Ipsum
+                  </ListGroup.Item >
+                  <ListGroup.Item className="About-list-group-item">
+                    <span>—</span>Lorem Ipsum
+                  </ListGroup.Item>
+                  <ListGroup.Item className="About-list-group-item">
+                    <span>—</span>Lorem Ipsum
+                  </ListGroup.Item>
+                  <ListGroup.Item className="About-list-group-item">
+                    <span>—</span>Lorem Ipsum
+                  </ListGroup.Item>
+                </ListGroup> 
+                </Card>
+              </Col>
+              <Col xs={6} >
+              <Card className="About-Card">
+              <Card.Img classname="About-Card-Image" src="https://images.unsplash.com/photo-1587323655395-b1c77a12c89a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx"></Card.Img>
+              </Card>
+          
+          </Col>
     </Row>
 
-    <Row>
+    <Row className="About-Green-Row">
         <Col>
+        <FaBook />
         <Row className="justify-content-md-center">Class Sessions</Row>
         <Row className="justify-content-md-center">Sunday - Monday</Row>
         <Row className="justify-content-md-center">8:00 am - 12:30 pm</Row>
