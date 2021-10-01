@@ -2,13 +2,6 @@
   background-color: blue;
 }
 
-.card-header {
-  padding: 0.5rem 1rem;
-  margin-bottom: 0;
-  background-color: orange;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
-}
-
 .Title {
   color: red;
 }
@@ -40,10 +33,6 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.card-header {
-  background-color: orange;
 }
 
 .App-link {
@@ -99,6 +88,92 @@
 /* ABOUT CSS */
 
 /* CAREER CSS */
+.Career-card-a {
+  border: none;
+  text-align: center;
+  width: 60%;
+  margin: auto;
+}
+
+.Career-card-title-a {
+  font-size: 45px;
+  font-weight: 700;
+  color: #2E224C;
+}
+
+.Career-card-text {
+  font-size: small;
+}
+
+.Career-card-header {
+  background-color: white;
+  color: rgb(250, 100, 46);
+  width: fit-content;
+  font-weight: 700;
+}
+
+.Career-card-header-a {
+  border: 2px solid rgb(250, 100, 46);
+  margin: auto;
+  margin-bottom: 25px;
+}
+
+.Career-card-b {
+  margin-bottom: 20px;
+}
+
+.Career-card-header-b {
+  border: none;
+  padding: 0;
+  margin-bottom: 25px;
+}
+
+.Career-card-title-b {
+  font-weight: 700;
+  color: #2E224C;
+}
+
+.Career-button {
+  width: 80%;
+  height: 50px;
+  background-color: rgb(250, 100, 46);
+  border-radius: 30px;
+  border-color: rgb(199, 85, 47);
+  border-bottom: 3px solid rgb(199, 85, 47);
+  font-weight: 700;
+}
+
+.Career-form {
+  background-color: rgb(250, 100, 46);
+  height: 80%;
+  border: 2px solid rgb(199, 85, 47);
+  justify-content: center;
+  text-align: center;
+}
+
+.Career-form-label {
+  font-weight: 700;
+  margin: 30px 0 25px;
+  color: white;
+}
+
+.Career-form-control {
+  padding: 10px;
+  margin: auto auto 10px auto;
+  width: 90%;
+
+}
+
+.Career-card-header-d {
+  border: 2px solid rgb(250, 100, 46);
+  margin-left: 70%;
+  margin-bottom: 25px;
+}
+
+.Career-card-d {
+  border: none;
+  text-align: right;
+}
 
 /* CAREER DETAIL CSS */
 .CareerDetail-card-header {
@@ -129,11 +204,7 @@
   margin-right: 20px;
 }
 
-<<<<<<< HEAD
-.CareerDetail-fa {  
-=======
 .CareerDetail-fa {
->>>>>>> 36b20ff0fbf2b95e15a9047c6c4fe5fc5a286e81
   width: 70px;
   padding: 15px;
   padding-top: 10px;
@@ -145,8 +216,6 @@
   border-radius: 50%;
   background-color: rgb(250, 100, 46);
 }
-<<<<<<< HEAD
-=======
 
 .CareerDetial-Card-Body {
   display: flex;
@@ -184,7 +253,6 @@
   align-items: center;
   text-align: center;
 }
->>>>>>> 36b20ff0fbf2b95e15a9047c6c4fe5fc5a286e81
 
 /* CLASS DETAIL CSS */
 
