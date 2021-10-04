@@ -125,6 +125,11 @@
 }
 
 /* CAREER CSS */
+.Career-card-column {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
 .Career-card-a {
   border: none;
   text-align: center;
@@ -182,7 +187,7 @@
 
 .Career-form {
   background-color: rgb(250, 100, 46);
-  height: 80%;
+  /* height: 80%; */
   border: 2px solid rgb(199, 85, 47);
   justify-content: center;
   text-align: center;
@@ -198,6 +203,15 @@
   padding: 10px;
   margin: auto auto 10px auto;
   width: 90%;
+}
+
+.Career-form-button {
+  width: 90%;
+  background-color: rgb(1,184,145);
+  border-color: rgb(26, 100, 84);
+  border-bottom: 3px solid rgb(26, 100, 84);
+  height: 50px;
+  margin-bottom: 20px;
 }
 
 .Career-card-header-d {
@@ -371,7 +385,7 @@ margin-top: -35px;
   margin-top: 1rem;
   padding: 1rem;
   background-color: white;
-  position: sticky;
+  position: static;
   bottom: 0;
   left: 0;
   width: 100%;

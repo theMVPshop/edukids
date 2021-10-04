@@ -21,7 +21,7 @@ function Career(props) {
         </Card>
       </Row>
       <Row>
-        <Col>
+        <Col className="Career-card-column">
           <Row>
             <Card className="Career-card-b">
               <Card.Body>
@@ -43,7 +43,7 @@ function Career(props) {
             </Card>
           </Row>
         </Col>
-        <Col>
+        <Col className="Career-card-column">
           <Row>
             <Card className="Career-card-b">
               <Card.Body>
@@ -73,7 +73,7 @@ function Career(props) {
               <Form.Control type="email" placeholder="Your Email" className="Career-form-control" />
               <Form.Control type="text" placeholder="Your Position" className="Career-form-control" />
               <Form.Control type="textarea" style={{height: "170px"}} placeholder="Enter Your Message" className="Career-form-control" />
-              <Button type="submit">Send Application</Button>
+              <Button type="submit" className="Career-form-button">Send Application</Button>
             </Form.Group>
           </Form>
         </Col>
