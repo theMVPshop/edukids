@@ -293,13 +293,12 @@
 /* CLASS DETAIL CSS */
 .ClassDetail-h2 {
   color: #220d38;
-  
 }
 
 .ClassDetail-h3 {
   color: #220d38;
 }
-.ClassDetail-container{
+.ClassDetail-container {
   max-width: 90vw;
   min-width: auto;
 }
@@ -321,14 +320,54 @@
   flex-direction: column;
 }
 .ClassDetail-teacher-img {
-height: 90px;
-width: 90px;
-border-radius: 50%;
-margin-top: -35px;
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  margin-top: -35px;
 }
 .ClassDetail-teacher-card-text {
- text-align: center;
- margin-top: 25px;
+  text-align: center;
+  margin-top: 25px;
+}
+.ClassDetail-information-card-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 250px;
+  background-color: #fff;
+  color: #220d38;
+  border-radius: 20px;
+}
+.classDetail-information-button {
+  background-color: rgb(250, 100, 46);
+  color: #fff;
+  padding: 4px 50px;
+  border: none;
+  border-radius: 25px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.classDetail-information-paragraph {
+  font-size: 10px;
+  font-weight: 600;
+}
+.classDetail-information-title {
+  color: rgb(250, 100, 46);
+  font-size: 11px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.classDetail-information-item {
+  color: #220d38;
+  font-weight: 800;
+  font-size: 14px;
+  margin-top: -8px;
+}
+.classDetail-Description-image {
+  width: 450px;
+  height: 300px;
+  border-radius: 25px;
 }
 
 /* CLASSES CSS */
@@ -367,7 +406,7 @@ margin-top: -35px;
 /* FACILITIES CSS */
 
 /* FOOTER CSS */
-.footer{
+.footer {
   margin-top: 1rem;
   padding: 1rem;
   background-color: white;
@@ -391,7 +430,7 @@ margin-top: -35px;
   height: 50px;
 }
 
-.header{
+.header {
   position: ;
 }
 
