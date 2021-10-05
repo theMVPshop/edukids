@@ -5,7 +5,6 @@ import {ReactComponent as EdukidsLogo} from '../img/edukids_logo.svg';
 const Header = () => {
 
     return (
-        <div className="App">
         <Navbar bg="dark" variant="myblue"
             sticky="top" expand="lg">
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -47,7 +46,6 @@ const Header = () => {
             <Button> Book a Visit </Button>
             </Navbar.Collapse>
         </Navbar>
-      </div>  
     );
 
 };
