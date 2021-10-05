@@ -293,13 +293,12 @@
 /* CLASS DETAIL CSS */
 .ClassDetail-h2 {
   color: #220d38;
-  
 }
 
 .ClassDetail-h3 {
   color: #220d38;
 }
-.ClassDetail-container{
+.ClassDetail-container {
   max-width: 90vw;
   min-width: auto;
 }
@@ -321,14 +320,14 @@
   flex-direction: column;
 }
 .ClassDetail-teacher-img {
-height: 90px;
-width: 90px;
-border-radius: 50%;
-margin-top: -35px;
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  margin-top: -35px;
 }
 .ClassDetail-teacher-card-text {
- text-align: center;
- margin-top: 25px;
+  text-align: center;
+  margin-top: 25px;
 }
 
 /* CLASSES CSS */
@@ -367,7 +366,7 @@ margin-top: -35px;
 /* FACILITIES CSS */
 
 /* FOOTER CSS */
-.footer{
+.footer {
   margin-top: 1rem;
   padding: 1rem;
   background-color: white;
@@ -389,10 +388,6 @@ margin-top: -35px;
 .svg-footer {
   width: 150px;
   height: 50px;
-}
-
-.header{
-  position: ;
 }
 
 /* HOME CSS */
