@@ -1,5 +1,6 @@
 import React from 'react';
 import { Col, Container, Row, Card, Form, Button } from 'react-bootstrap';
+import { FaCoins, FaSchool, FaTrophy } from 'react-icons/fa';
 
 function Career(props) {
 
@@ -27,7 +28,7 @@ function Career(props) {
               <Card.Body>
                 <Card.Header className="Career-card-header Career-card-header-b">Full Time/Part Time</Card.Header>
                 <Card.Title className="Career-card-title-b">Teacher</Card.Title>
-                <Card.Text className="Career-card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer egestas tellus nec mattis tincidunt. Duis nisl ipsum.</Card.Text>
+                <Card.Text className="Career-card-text Career-card-text-b">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer egestas tellus nec mattis tincidunt. Duis nisl ipsum.</Card.Text>
                 <Button className="Career-button">Apply Now!</Button>
               </Card.Body>
             </Card>
@@ -37,7 +38,7 @@ function Career(props) {
               <Card.Body>
                 <Card.Header className="Career-card-header Career-card-header-b">Part Time</Card.Header>
                 <Card.Title className="Career-card-title-b">Assistant</Card.Title>
-                <Card.Text className="Career-card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer egestas tellus nec mattis tincidunt. Duis nisl ipsum.</Card.Text>
+                <Card.Text className="Career-card-text Career-card-text-b">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer egestas tellus nec mattis tincidunt. Duis nisl ipsum.</Card.Text>
                 <Button className="Career-button">Apply Now!</Button>
               </Card.Body>
             </Card>
@@ -49,7 +50,7 @@ function Career(props) {
               <Card.Body>
                 <Card.Header className="Career-card-header Career-card-header-b">Full Time</Card.Header>
                 <Card.Title className="Career-card-title-b">Manager</Card.Title>
-                <Card.Text className="Career-card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer egestas tellus nec mattis tincidunt. Duis nisl ipsum.</Card.Text>
+                <Card.Text className="Career-card-text Career-card-text-b">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer egestas tellus nec mattis tincidunt. Duis nisl ipsum.</Card.Text>
                 <Button className="Career-button">Apply Now!</Button>
               </Card.Body>
             </Card>
@@ -59,7 +60,7 @@ function Career(props) {
               <Card.Body>
                 <Card.Header className="Career-card-header Career-card-header-b">Full Time/Part Time</Card.Header>
                 <Card.Title className="Career-card-title-b">Accountant</Card.Title>
-                <Card.Text className="Career-card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer egestas tellus nec mattis tincidunt. Duis nisl ipsum.</Card.Text>
+                <Card.Text className="Career-card-text Career-card-text-b">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer egestas tellus nec mattis tincidunt. Duis nisl ipsum.</Card.Text>
                 <Button className="Career-button">Apply Now!</Button>
               </Card.Body>
             </Card>
@@ -78,44 +79,62 @@ function Career(props) {
           </Form>
         </Col>
       </Row>
-      <Row>
+      <Row className="Career-row-d">
         <Col>
           <Card className="Career-card-d">
             <Card.Body>
               <Card.Header className="Career-card-header Career-card-header-d">Our Benefits</Card.Header>
-              <Card.Text>Our school has been present for over 15 years to provide best quality education for kids.</Card.Text>
+              <Card.Text className="Career-card-text-d">Our school has been present for over 15 years to provide best quality education for kids.</Card.Text>
             </Card.Body>
           </Card>
         </Col>
         <Col>
-          <Card body>Lorem ipsum</Card>
+          <Card body className="Career-card-e">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus urna quis suscipit posuere. Sed quis felis tempor, iaculis justo eget, consectetur nisi. Suspendisse consequat, enim non convallis congue, quam diam pretium erat, eget volutpat ipsum ex vitae nunc.</Card>
         </Col>
       </Row>
-      <Row>
+      <Row className="Career-row-c">
         <Col>
           <Card className="Career-card-c">
             <Card.Body>
-              <Card.Img></Card.Img>
-              <Card.Title>Award Winning</Card.Title>
-              <Card.Text>Lorem ipsum</Card.Text>
+              <Row>
+                <Col xs={3} className="Career-icon-background">
+                  <FaTrophy className="Career-icons"/>
+                </Col>
+                <Col>
+                  <Card.Title className="Career-card-title-c">Award Winning</Card.Title>
+                  <Card.Text className="Career-card-text">orem ipsum dolor sit amet, consectetur adipiscing elit.</Card.Text>
+                </Col>
+              </Row>
             </Card.Body>
           </Card>
         </Col>
         <Col>
           <Card className="Career-card-c">
             <Card.Body>
-              <Card.Img></Card.Img>
-              <Card.Title>Affordable Fees</Card.Title>
-              <Card.Text>Lorem ipsum</Card.Text>
+              <Row>
+                <Col xs={3} className="Career-icon-background">
+                  <FaCoins className="Career-icons"/>
+                </Col>
+                <Col>
+                  <Card.Title className="Career-card-title-c">Affordable Fees</Card.Title>
+                  <Card.Text className="Career-card-text">orem ipsum dolor sit amet, consectetur adipiscing elit.</Card.Text>
+                </Col>
+              </Row>
             </Card.Body>
           </Card>
         </Col>
         <Col>
-          <Card className="Career-card-b">
+          <Card className="Career-card-c">
             <Card.Body>
-              <Card.Img></Card.Img>
-              <Card.Title>Best Environment</Card.Title>
-              <Card.Text>Lorem ipsum</Card.Text>
+              <Row>
+                <Col xs={3} className="Career-icon-background">
+                  <FaSchool className="Career-icons"/>
+                </Col>
+                <Col>
+                  <Card.Title className="Career-card-title-c">Best Environment</Card.Title>
+                  <Card.Text className="Career-card-text">orem ipsum dolor sit amet, consectetur adipiscing elit.</Card.Text>
+                </Col>
+              </Row>
             </Card.Body>
           </Card>
         </Col>

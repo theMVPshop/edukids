@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+  font-family: 'Amaranth', sans-serif;
+}
+
 .bg-myblue {
   background-color: blue;
 }
@@ -126,8 +132,7 @@
 
 /* CAREER CSS */
 .Career-card-column {
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 30px;
 }
 
 .Career-card-a {
@@ -135,16 +140,18 @@
   text-align: center;
   width: 60%;
   margin: auto;
+  margin-bottom: 40px;
 }
 
 .Career-card-title-a {
   font-size: 45px;
   font-weight: 700;
   color: #2e224c;
+  margin-bottom: 20px;
 }
 
 .Career-card-text {
-  font-size: small;
+  font-size: medium;
 }
 
 .Career-card-header {
@@ -161,18 +168,25 @@
 }
 
 .Career-card-b {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .Career-card-header-b {
   border: none;
   padding: 0;
   margin-bottom: 25px;
+  margin-top: 15px;
 }
 
 .Career-card-title-b {
   font-weight: 700;
   color: #2e224c;
+  margin-bottom: 20px;
+}
+
+.Career-card-text-b {
+  margin-bottom: 30px;
+  width: 80%;
 }
 
 .Career-button {
@@ -183,14 +197,16 @@
   border-color: rgb(199, 85, 47);
   border-bottom: 3px solid rgb(199, 85, 47);
   font-weight: 700;
+  margin-bottom: 20px;
 }
 
 .Career-form {
   background-color: rgb(250, 100, 46);
-  /* height: 80%; */
   border: 2px solid rgb(199, 85, 47);
   justify-content: center;
   text-align: center;
+  width: 80%;
+  margin: auto;
 }
 
 .Career-form-label {
@@ -214,15 +230,60 @@
   margin-bottom: 20px;
 }
 
-.Career-card-header-d {
-  border: 2px solid rgb(250, 100, 46);
-  margin-left: 70%;
-  margin-bottom: 25px;
+.Career-row-d {
+  margin-top: 50px;
 }
 
 .Career-card-d {
   border: none;
   text-align: right;
+}
+
+.Career-card-header-d {
+  border: 2px solid rgb(250, 100, 46);
+  margin-left: auto;
+  margin-bottom: 25px;
+}
+
+.Career-card-text-d {
+  font-size: x-large;
+  width: 90%;
+  margin-left: auto;
+  color: #2e224c;
+  font-weight: 700;
+}
+
+.Career-card-e {
+  width: 90%;
+  border: none;
+  margin-top: 10px;
+}
+
+.Career-row-c {
+  width: 95%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.Career-card-c {
+  margin: auto;
+  padding: 10px;
+}
+
+.Career-card-title-c {
+  font-weight: 700;
+  color: #2e224c;
+}
+
+.Career-icon-background {
+  background-color: rgb(250, 100, 46);
+  margin-left: 10px;
+  text-align: center;
+}
+
+.Career-icons {
+  margin-top: 18px;
+  font-size: 44px;
 }
 
 /* CAREER DETAIL CSS */
