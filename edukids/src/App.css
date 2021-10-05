@@ -362,6 +362,41 @@ margin-top: -35px;
 
 /* CONTACT CSS */
 
+.Contact-leftCol {
+  align-items: center;
+}
+
+.Contact-contactHeader {
+  margin-top: 1rem;
+}
+
+.Contact-contactHeader span {
+  color: #2d1f4c;
+}
+
+.Contact-locationBadge {
+  width: auto;
+  height: auto;
+  background-color: rgb(250, 100, 46) !important;
+}
+
+.Contact-addressBadge {
+  width: auto;
+  height: auto;
+  background-color: #05b992 !important;
+}
+
+.Contact-phoneBadge {
+  width: auto;
+  height: auto;
+  background-color: #ebaa0f !important;
+}
+
+.Contact-formCard {
+  margin: auto;
+  padding: 1rem;
+}
+
 /* EVENTS CSS */
 
 /* FACILITIES CSS */
