@@ -2,7 +2,7 @@ import React from "react";
 import {Switch, Route} from "react-router";
 import Home from "./components/Home";
 import Career from './components/Career';
-import Event from "./components/Events";
+import Events from "./components/Events";
 import Classes from"./components/Classes";
 import Contact from './components/Contact'
 import About from "./components/About"
@@ -19,7 +19,7 @@ const Router = () => {
         <Route exact path="/" component={Home} />
         <Route exact path="/About" component={About} />
         <Route exact path="/Career" component={Career} />
-        <Route exact path="/Event" component={Event} />
+        <Route exact path="/Events" component={Events} />
         <Route exact path="/Classes" component={Classes} />
         <Route exact path="/Contact" component={Contact} />
         <Route exact path="/ClassDetail" component={ClassDetail} />

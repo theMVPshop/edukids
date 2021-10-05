@@ -515,6 +515,10 @@ margin-top: -35px;
 
 /* EVENTS CSS */
 
+.nounderline {
+  text-decoration: none !important;
+}
+
 /* FACILITIES CSS */
 
 /* FOOTER CSS */
