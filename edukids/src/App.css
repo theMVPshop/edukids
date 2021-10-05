@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 body {
-  font-family: 'Amaranth', sans-serif;
+  font-family: "Amaranth", sans-serif;
 }
 
 .bg-myblue {
@@ -223,7 +223,7 @@ body {
 
 .Career-form-button {
   width: 90%;
-  background-color: rgb(1,184,145);
+  background-color: rgb(1, 184, 145);
   border-color: rgb(26, 100, 84);
   border-bottom: 3px solid rgb(26, 100, 84);
   height: 50px;
@@ -368,13 +368,12 @@ body {
 /* CLASS DETAIL CSS */
 .ClassDetail-h2 {
   color: #220d38;
-  
 }
 
 .ClassDetail-h3 {
   color: #220d38;
 }
-.ClassDetail-container{
+.ClassDetail-container {
   max-width: 90vw;
   min-width: auto;
 }
@@ -396,18 +395,57 @@ body {
   flex-direction: column;
 }
 .ClassDetail-teacher-img {
-height: 90px;
-width: 90px;
-border-radius: 50%;
-margin-top: -35px;
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  margin-top: -35px;
 }
 .ClassDetail-teacher-card-text {
- text-align: center;
- margin-top: 25px;
+  text-align: center;
+  margin-top: 25px;
+}
+.ClassDetail-information-card-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 250px;
+  background-color: #fff;
+  color: #220d38;
+  border-radius: 20px;
+}
+.classDetail-information-button {
+  background-color: rgb(250, 100, 46);
+  color: #fff;
+  padding: 4px 50px;
+  border: none;
+  border-radius: 25px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.classDetail-information-paragraph {
+  font-size: 10px;
+  font-weight: 600;
+}
+.classDetail-information-title {
+  color: rgb(250, 100, 46);
+  font-size: 11px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.classDetail-information-item {
+  color: #220d38;
+  font-weight: 800;
+  font-size: 14px;
+  margin-top: -8px;
+}
+.classDetail-Description-image {
+  width: 450px;
+  height: 300px;
+  border-radius: 25px;
 }
 
 /* CLASSES CSS */
-
 
 .Classes-Col {
   display: flex;
@@ -416,7 +454,7 @@ margin-top: -35px;
 
 .Classes-Card {
   width: 380px;
-  height:500px;
+  height: 500px;
   border-radius: 5%;
   padding: 2%;
   /* display:flex;
@@ -431,7 +469,7 @@ margin-top: -35px;
 
 .Classes-Card-Img {
   width: 360px;
-  height:280px;
+  height: 280px;
   border-radius: 8%;
   border: 3px solid white;
 }
@@ -439,40 +477,39 @@ margin-top: -35px;
 .Classes-Card-Col {
   border-right: 1px solid rgba(255, 255, 255, 0.42);
 }
-.Classes-Col-Form{
-  display:flex;
+.Classes-Col-Form {
+  display: flex;
   justify-content: center;
 }
-.Classes-Form{
+.Classes-Form {
   width: 450px;
-  height:500px;
-  color:white;
+  height: 500px;
+  color: white;
   border-radius: 8%;
-  background-color:rgb(254,93,55);
+  background-color: rgb(254, 93, 55);
   padding: 30px;
   text-align: center;
 }
 
-.mb-3{
+.mb-3 {
   margin-top: 1rem;
 }
 
-.Classes-Form-Button{
-  background-color:rgb(4,185,146);
+.Classes-Form-Button {
+  background-color: rgb(4, 185, 146);
   border-color: rgb(4, 162, 128);
-  border-bottom: 3px solid  rgb(5, 145, 115)
+  border-bottom: 3px solid rgb(5, 145, 115);
 }
 
-
-.Classes-Row-1{
-  margin-top:30px;
-}
-
-.Classes-Row-2{
+.Classes-Row-1 {
   margin-top: 30px;
 }
 
-.Classes-Row-3{
+.Classes-Row-2 {
+  margin-top: 30px;
+}
+
+.Classes-Row-3 {
   margin: 60px;
 }
 
@@ -518,10 +555,14 @@ margin-top: -35px;
 
 /* EVENTS CSS */
 
+.nounderline {
+  text-decoration: none !important;
+}
+
 /* FACILITIES CSS */
 
 /* FOOTER CSS */
-.footer{
+.footer {
   margin-top: 1rem;
   padding: 1rem;
   background-color: white;
@@ -545,7 +586,7 @@ margin-top: -35px;
   height: 50px;
 }
 
-.header{
+.header {
   position: fixed;
 }
 
