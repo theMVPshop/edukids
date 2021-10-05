@@ -1,7 +1,14 @@
 import React from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import CardHeader from 'react-bootstrap/esm/CardHeader';
-import Image1 from '../src/img/adorable-kids-playing-with-constructor-on-floor-in-ZP6VC78.jpg'
+import Image1 from '../img/adorable-kids-playing-with-constructor-on-floor-in-ZP6VC78.jpg';
+import Image2 from '../img/boys-and-girls-dancing-PZNK4D9.jpg';
+import Image3 from '../img/cheerful-women-in-printing-office-JQ5K4XE.jpg';
+import Image4 from '../img/cute-girl-playing-with-paint-in-art-class-85QTUD9.jpg';
+import Image5 from '../img/education-teachers-university-and-schools-concept--JA74V7F.jpg';
+import Image6 from '../img/emotion-emoticons-used-by-a-psychologist-during-a--D2BFM6T.jpg';
+
+
 
 const Events = () => {
 
@@ -67,27 +74,13 @@ const Events = () => {
                     
                 <Col className="lg-4 md-12 mb-4 mb-lg-0">
                     <img
-                    src="edukids/src/img/adorable-kids-playing-with-constructor-on-floor-in-ZP6VC78.jpg"
+                    src={Image1}
                     className="w-100 shadow-1-strong rounded mb-4"
                     alt=""
                     />
 
                     <img
-                    src="edukids/src/img/boys-and-girls-dancing-PZNK4D9.jpg"
-                    className="w-100 shadow-1-strong rounded mb-4"
-                    alt=""
-                    />
-                </Col>
-
-                <Col className="lg-4 mb-4 mb-lg-0">
-                    <img
-                    src="edukids/src/img/cheerful-women-in-printing-office-JQ5K4XE.jpg"
-                    className="w-100 shadow-1-strong rounded mb-4"
-                    alt=""
-                    />
-
-                    <img
-                    src="edukids/src/img/cute-girl-playing-with-paint-in-art-class-85QTUD9.jpg"
+                    src={Image2}
                     className="w-100 shadow-1-strong rounded mb-4"
                     alt=""
                     />
@@ -95,13 +88,27 @@ const Events = () => {
 
                 <Col className="lg-4 mb-4 mb-lg-0">
                     <img
-                    src="edukids/src/img/education-teachers-university-and-schools-concept--JA74V7F.jpg"
+                    src={Image3}
                     className="w-100 shadow-1-strong rounded mb-4"
                     alt=""
                     />
 
                     <img
-                    src="edukids/src/img/emotion-emoticons-used-by-a-psychologist-during-a--D2BFM6T.jpg"
+                    src={Image4}
+                    className="w-100 shadow-1-strong rounded mb-4"
+                    alt=""
+                    />
+                </Col>
+
+                <Col className="lg-4 mb-4 mb-lg-0">
+                    <img
+                    src={Image5}
+                    className="w-100 shadow-1-strong rounded mb-4"
+                    alt=""
+                    />
+
+                    <img
+                    src={Image6}
                     className="w-100 shadow-1-strong rounded mb-4"
                     alt=""
                     />
