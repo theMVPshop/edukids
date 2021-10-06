@@ -552,7 +552,7 @@ body {
 }
 
 .Contact-locationBadge {
-  width: 69%;
+  width: 70%;
   margin: auto;
   height: auto;
   color: white;
@@ -570,7 +570,7 @@ body {
 }
 
 .Contact-addressBadge {
-  width: 69%;
+  width: 70%;
   margin: auto;
   height: auto;
   color: white;
@@ -578,7 +578,7 @@ body {
 }
 
 .Contact-phoneBadge {
-  width: 69%;
+  width: 70%;
   margin: auto;
   height: auto;
   color: white;
@@ -590,6 +590,9 @@ body {
   padding: 1rem;
 }
 
+.Contact.formBtn{
+  background-color: rgb(250, 100, 46) !important;
+}
 /* EVENTS CSS */
 
 .nounderline {

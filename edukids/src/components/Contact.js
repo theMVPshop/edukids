@@ -1,5 +1,5 @@
 import React from 'react';
-import { Badge, Card, Col, Container, Form, Row } from 'react-bootstrap';
+import { Button, Card, Col, Container, Form, Row } from 'react-bootstrap';
 import { BsMap, BsPhone, BsFillEnvelopeOpenFill } from 'react-icons/bs'
 
 function Classes(props) {
@@ -77,6 +77,7 @@ function Classes(props) {
                 <Form.Group classname="mb-3" controlId="exampleForm.ControlTextarea3">
                   <Form.Control as="textarea" placeholder="Message" rows={3} />
                 </Form.Group>
+                <Button className="Contact.formBtn" variant="secondary" type="submit">Send Message</Button>
               </Form>
             </Card>
           </Col>
