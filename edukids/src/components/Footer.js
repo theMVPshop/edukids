@@ -30,8 +30,8 @@ const Footer = () => {
                     <Col>
                     <h6>EduKids</h6>
                     <ul className="list-unstyled">
-                        <li><a href="about">About us</a></li>
-                        <li><a href="career">Careers</a></li>
+                        <li><a className="nounderline" href="about">About us</a></li>
+                        <li><a className="nounderline" href="career">Careers</a></li>
                         <li>News & Articles</li>
                         <li>Legal Notice</li>
                     </ul>
@@ -40,8 +40,8 @@ const Footer = () => {
                     <h6>Support</h6>
                     <ul className="list-unstyled">
                         <li>Help Center</li>
-                        <li><a href="contact">Contact Us</a></li>
-                        <li><a href="faq">FAQ</a></li>
+                        <li><a className="nounderline" href="contact">Contact Us</a></li>
+                        <li><a className="nounderline" href="faq">FAQ</a></li>
                         <li>Parent Community</li>
                     </ul>
                     </Col>
