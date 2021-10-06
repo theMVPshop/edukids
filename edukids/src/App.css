@@ -685,10 +685,17 @@ body {
 }
 
 .FAQ-image-caption {
-  width: 80%;
+  width: 85%;
   background-color: rgb(250, 100, 46);
   margin-left: 16px;
-  margin-top: -80px;
+  margin-top: -70px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.FAQ-image-caption-icon {
+  font-size: 30px;
+  margin-bottom: 10px;
 }
 
 /* HEADER CSS */
