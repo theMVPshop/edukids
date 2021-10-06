@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import { FaFacebook, FaInstagram, FaTwitter, FaPinterest } from 'react-icons/fa';
 // import { Button } from "@material-ui/core";
 import { Col, Container, Row, Card, CardGroup } from 'react-bootstrap';
 import Image1 from '../img/portrait-of-smiling-male-school-teacher-standing-i-7BJLS3R.jpg';
@@ -27,7 +28,9 @@ class Team extends Component {
       <Card.Text>
       Teacher
       </Card.Text>
-      <Card.Text>Facebook Twitter Instagram Pinterest</Card.Text>
+      <Card.Text><a href="https://www.facebook.com/" className="Team-fa">
+                        <FaFacebook />
+                    </a> <FaTwitter /> <FaInstagram /> <FaPinterest /> </Card.Text>
     </Card.Body >
     <Card.Footer>
     </Card.Footer>
@@ -39,7 +42,7 @@ class Team extends Component {
       <Card.Text>
       Teacher
       </Card.Text>
-      <Card.Text>Facebook Twitter Instagram Pinterest</Card.Text>
+      <Card.Text><FaFacebook /> <FaTwitter /> <FaInstagram /> <FaPinterest /> </Card.Text>
     </Card.Body>
     <Card.Footer>
     </Card.Footer>
@@ -51,7 +54,7 @@ class Team extends Component {
       <Card.Text>
       Teacher
       </Card.Text>
-      <Card.Text>Facebook Twitter Instagram Pinterest</Card.Text>
+      <Card.Text><FaFacebook /> <FaTwitter /> <FaInstagram /> <FaPinterest /> </Card.Text>
     </Card.Body>
     <Card.Footer>
     </Card.Footer>
@@ -67,7 +70,7 @@ class Team extends Component {
       <Card.Text>
       Teacher
       </Card.Text>
-      <Card.Text>Facebook Twitter Instagram Pinterest</Card.Text>
+      <Card.Text><FaFacebook /> <FaTwitter /> <FaInstagram /> <FaPinterest /> </Card.Text>
     </Card.Body>
     <Card.Footer>
     </Card.Footer>
@@ -79,7 +82,7 @@ class Team extends Component {
       <Card.Text>
       Teacher
       </Card.Text>
-      <Card.Text>Facebook Twitter Instagram Pinterest</Card.Text>
+      <Card.Text><FaFacebook /> <FaTwitter /> <FaInstagram /> <FaPinterest /> </Card.Text>
     </Card.Body>
     <Card.Footer>
     </Card.Footer>
@@ -91,7 +94,7 @@ class Team extends Component {
       <Card.Text>
       Teacher
       </Card.Text>
-      <Card.Text>Facebook Twitter Instagram Pinterest</Card.Text>
+      <Card.Text><FaFacebook /> <FaTwitter /> <FaInstagram /> <FaPinterest /> </Card.Text>
     </Card.Body>
     <Card.Footer>
     </Card.Footer>
