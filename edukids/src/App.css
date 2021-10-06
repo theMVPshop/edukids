@@ -537,10 +537,12 @@ body {
 
 .Contact-contactHeader {
   margin-top: 1rem;
+  border: none;
 }
 
 .Contact-contactHeader span {
   color: #2d1f4c;
+  
 }
 
 .Contact-locationBadge {
@@ -556,7 +558,8 @@ body {
 }
 
 .Contact-phoneBadge {
-  width: auto;
+  width: 69%;
+  margin: auto;
   height: auto;
   background-color: #ebaa0f !important;
 }
@@ -606,3 +609,18 @@ body {
 /* HOME CSS */
 
 /* TEAM CSS */
+
+/* HEAD CSS */
+.Head-Container {
+  background-image: url("./img/backImage.png");
+  height: 500px;
+  background-size: cover;
+  padding: 150px;
+  text-align: center;
+  color: white;
+}
+
+.Head-H1 {
+  font-size: 50px;
+  font-weight: 900;
+}
