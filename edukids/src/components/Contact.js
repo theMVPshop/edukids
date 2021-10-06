@@ -5,6 +5,9 @@ import { BsMap, BsPhone, BsFillEnvelopeOpenFill } from 'react-icons/bs'
 function Classes(props) {
   return(
     <Container className="Contact-mainContainer">
+      <Container className="Head-Container">
+      <h1 className="Head-H1">Contact</h1>
+    </Container>
       <Row className="justify-content-md-center">
         <Col md='auto'>
           <h1>Contact Us</h1>
@@ -20,28 +23,49 @@ function Classes(props) {
             </Card>
           </Row>
           <Row>
-              <Badge className="Contact-locationBadge">
-                <BsMap />
-                <span>Location Address</span>
-                <br/>
-                <span>145 Kateway, CA 25615, San Francisco</span>
-              </Badge>
+          <Card className="Contact-locationBadge">
+                <Card.Body>
+                  <Row>
+                    <Col xs={2}>
+                      <BsMap />
+                    </Col>
+                    <Col>
+                      <Card.Title>Location Address</Card.Title>
+                      <Card.Text>145 Kateway, CA 25615, San Francisco</Card.Text>
+                    </Col>
+                  </Row>
+                </Card.Body>
+              </Card>
           </Row>
           <Row>
-              <Badge className="Contact-addressBadge"> 
-                <BsFillEnvelopeOpenFill />
-                <span>Email Address</span>
-                <br/>
-                <span>yourcompany@domain.com</span>
-              </Badge>            
+          <Card className="Contact-addressBadge">
+                <Card.Body>
+                  <Row>
+                    <Col xs={2}>
+                      <BsFillEnvelopeOpenFill />
+                    </Col>
+                    <Col>
+                      <Card.Title>Email Address</Card.Title>
+                      <Card.Text>yourcompany@domain.com</Card.Text>
+                    </Col>
+                  </Row>
+                </Card.Body>
+              </Card>
           </Row>
           <Row>
-              <Badge className="Contact-phoneBadge">
-                <BsPhone />
-                <span>Phone Number</span>
-                <br/>
-                <span>Phone: +22-656-258 // Mob: +259-55-9825 </span>
-              </Badge>
+              <Card className="Contact-phoneBadge">
+                <Card.Body>
+                  <Row>
+                    <Col xs={2}>
+                      <BsPhone />
+                    </Col>
+                    <Col>
+                      <Card.Title>Phone Number</Card.Title>
+                      <Card.Text>Phone: +22-656-258 // Mob: +259-55-9825</Card.Text>
+                    </Col>
+                  </Row>
+                </Card.Body>
+              </Card>
           </Row>
         </Col>
         <Col>
