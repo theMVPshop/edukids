@@ -514,6 +514,9 @@ body {
 }
 
 /* CONTACT CSS */
+.Contact-mainContainer{
+  width: 100%;
+}
 
 .Contact-leftCol {
   align-items: center;
@@ -522,6 +525,9 @@ body {
 .Contact-contactHeader {
   margin-top: 1rem;
   border: none;
+  width: 69%;
+  margin: auto;
+  height: auto;
 }
 
 .Contact-contactHeader span {
@@ -535,6 +541,16 @@ body {
   height: auto;
   color: white;
   background-color: rgb(250, 100, 46) !important;
+}
+
+.Contact-headerTitle{
+  color: #2e1b5c !important;
+  font-size: 3.25vw;
+  font-weight: bold;
+}
+
+.Contact-headerBody{
+  font-size:  1vw;
 }
 
 .Contact-addressBadge {
