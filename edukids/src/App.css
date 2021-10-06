@@ -598,3 +598,18 @@ body {
 /* HOME CSS */
 
 /* TEAM CSS */
+
+/* HEAD CSS */
+.Head-Container {
+  background-image: url("./img/backImage.png");
+  height: 500px;
+  background-size: cover;
+  padding: 150px;
+  text-align: center;
+  color: white;
+}
+
+.Head-H1 {
+  font-size: 50px;
+  font-weight: 900;
+}
