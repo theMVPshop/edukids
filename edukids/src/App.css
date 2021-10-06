@@ -597,6 +597,14 @@ body {
 
 /* HOME CSS */
 
+.Home-Card-Col {
+  display: flex;
+  justify-content: center;
+}
+
+.Classes-List-Group-Item{
+  border: none;
+}
 /* TEAM CSS */
 
 /* HEAD CSS */
