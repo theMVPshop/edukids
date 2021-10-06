@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Button, Card, Container, Col, ListGroup, Row } from 'react-bootstrap';
+import { FaFacebook } from 'react-icons/fa';
 
 class Home extends Component {
 
@@ -7,21 +8,22 @@ class Home extends Component {
         return (
             <div>
                 <Container>
-                    <Row>
-                        <h1>Let the Children Change the World Today!</h1>
-                    </Row>
-                    <Row>
-                        <Col>
-                            <Button variant="primary" type="button">
-                                Learn More
+                    <Container className="Classes-Head-Container">
+                        <Row>
+                            <h1 className="Head-H1"> Let the Children Change the World Today!</h1>
+                        </Row>
+                        <Row>
+                            <Col>
+                                <Button variant="primary" type="button">
+                                    Learn More
                        </Button>
 
-                            <Button variant="primary" type="button">
-                                Contact Us
+                                <Button variant="primary" type="button">
+                                    Contact Us
                        </Button>
-                        </Col>
-                    </Row>
-
+                            </Col>
+                        </Row>
+                    </Container>
                     <Row>
                         <h3>Discover School Activities</h3>
                     </Row>
@@ -90,14 +92,33 @@ class Home extends Component {
                     <Row>
                         <h4>School Facilities We Offer</h4>
                     </Row>
-                        <Col>
-                        
-                        </Col>
-                    <Row>
-                        <Col>
+{/**Don't know how to build this out...will keep working on it */}
+                    <Col>
+                        <Row>
+                            <Col>
+                                <FaFacebook />
+                            </Col>
+                            <Col>
+                                <h7>Meals Provided</h7>
+                                <div />
+                                <h9>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </h9>
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col>
+                                <FaFacebook />
+                            </Col>
+                            <Col>
+                                <h7>Meals Provided</h7>
+                                <div />
+                                <h9>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </h9>
+                            </Col>
+                        </Row>
 
-                        </Col>
-                    </Row>
+
+                    </Col>
+                    
+                    
                 </Container>
             </div>
 
