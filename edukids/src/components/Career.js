@@ -6,12 +6,9 @@ function Career(props) {
 
   return(
     <Container>
-      <Row className="justify-content-md-center">
-        <Col md="auto">
-        <h1>Career</h1>
-        <p>Image goes here!</p>
-        </Col>
-      </Row>
+      <Container className="Head-Container">
+        <h1 className="Head-H1">Career</h1>
+      </Container>
       <Row>
         <Card className="Career-card-a">
           <Card.Body>
