@@ -527,7 +527,7 @@ body {
 }
 
 /* CONTACT CSS */
-.Contact-mainContainer{
+.Contact-mainContainer {
   width: 100%;
 }
 
@@ -555,14 +555,14 @@ body {
   background-color: rgb(250, 100, 46) !important;
 }
 
-.Contact-headerTitle{
+.Contact-headerTitle {
   color: #2e1b5c !important;
   font-size: 3.25vw;
   font-weight: bold;
 }
 
-.Contact-headerBody{
-  font-size:  1vw;
+.Contact-headerBody {
+  font-size: 1vw;
 }
 
 .Contact-addressBadge {
@@ -586,7 +586,7 @@ body {
   padding: 1rem;
 }
 
-.Contact.formBtn{
+.Contact.formBtn {
   background-color: rgb(250, 100, 46) !important;
 }
 /* EVENTS CSS */
@@ -761,6 +761,17 @@ body {
   border-radius: 15px;
   color: white;
   text-align: center;
+}
+.Team-fa {
+  padding: 5px;
+  padding-top: 0px;
+  border: 1px solid white;
+  font-size: 25px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px;
+  color: white;
+  border-radius: 50%;
 }
 
 /* HEAD CSS */
