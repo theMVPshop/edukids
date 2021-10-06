@@ -530,14 +530,18 @@ body {
 }
 
 .Contact-locationBadge {
-  width: auto;
+  width: 69%;
+  margin: auto;
   height: auto;
+  color: white;
   background-color: rgb(250, 100, 46) !important;
 }
 
 .Contact-addressBadge {
-  width: auto;
+  width: 69%;
+  margin: auto;
   height: auto;
+  color: white;
   background-color: #05b992 !important;
 }
 
@@ -545,6 +549,7 @@ body {
   width: 69%;
   margin: auto;
   height: auto;
+  color: white;
   background-color: #ebaa0f !important;
 }
 

@@ -20,20 +20,34 @@ function Classes(props) {
             </Card>
           </Row>
           <Row>
-              <Card className="Contact-locationBadge">
-                <BsMap />
-                <span>Location Address</span>
-                <br/>
-                <span>145 Kateway, CA 25615, San Francisco</span>
+          <Card className="Contact-locationBadge">
+                <Card.Body>
+                  <Row>
+                    <Col xs={2}>
+                      <BsMap />
+                    </Col>
+                    <Col>
+                      <Card.Title>Location Address</Card.Title>
+                      <Card.Text>145 Kateway, CA 25615, San Francisco</Card.Text>
+                    </Col>
+                  </Row>
+                </Card.Body>
               </Card>
           </Row>
           <Row>
-              <Card className="Contact-addressBadge"> 
-                <BsFillEnvelopeOpenFill />
-                <span>Email Address</span>
-                <br/>
-                <span>yourcompany@domain.com</span>
-              </Card>            
+          <Card className="Contact-addressBadge">
+                <Card.Body>
+                  <Row>
+                    <Col xs={2}>
+                      <BsFillEnvelopeOpenFill />
+                    </Col>
+                    <Col>
+                      <Card.Title>Email Address</Card.Title>
+                      <Card.Text>yourcompany@domain.com</Card.Text>
+                    </Col>
+                  </Row>
+                </Card.Body>
+              </Card>
           </Row>
           <Row>
               <Card className="Contact-phoneBadge">
@@ -44,7 +58,7 @@ function Classes(props) {
                     </Col>
                     <Col>
                       <Card.Title>Phone Number</Card.Title>
-                      <Card.Text>Phone: +22-656-258 // Mob: +259-55-9825 </Card.Text>
+                      <Card.Text>Phone: +22-656-258 // Mob: +259-55-9825</Card.Text>
                     </Col>
                   </Row>
                 </Card.Body>
