@@ -573,6 +573,87 @@ body {
 }
 
 /* FREQUENT QUESTIONS CSS */
+.FAQ-card {
+  border: none;
+}
+
+.FAQ-card-header {
+  background-color: white;
+  color: rgb(250, 100, 46);
+  width: fit-content;
+  font-weight: 700;
+  border: 2px solid rgb(250, 100, 46);
+  margin-bottom: 25px;
+}
+
+.FAQ-card-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #2e224c;
+  margin-bottom: 20px;
+}
+
+.FAQ-card-text {
+  margin-bottom: 30px;
+}
+
+.FAQ-accordion {
+
+}
+
+.FAQ-accordion-item {
+  margin-bottom: 15px;
+  box-shadow: 0px 0px 5px #c0c4cf;
+  border: none;
+}
+
+.FAQ-accordion-header button{
+  color: #2e224c;
+  font-weight: 700;
+}
+
+.FAQ-form {
+  background-color: rgb(250, 100, 46);
+  border: 2px solid rgb(199, 85, 47);
+  justify-content: center;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+
+.FAQ-form-label {
+  font-size: 25px;
+  font-weight: 700;
+  margin: 40px 0 30px;
+  color: white;
+}
+
+.FAQ-form-control {
+  padding: 10px;
+  margin: auto auto 10px auto;
+  height: 60px;
+  width: 90%;
+}
+
+.FAQ-form-button {
+  width: 90%;
+  background-color: rgb(1, 184, 145);
+  border-color: rgb(26, 100, 84);
+  border-bottom: 3px solid rgb(26, 100, 84);
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.FAQ-image-card {
+  border: none;
+}
+
+.FAQ-image-caption {
+  width: 80%;
+  background-color: rgb(250, 100, 46);
+  margin-left: 16px;
+  margin-top: -80px;
+}
 
 /* HEADER CSS */
 
