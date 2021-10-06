@@ -585,6 +585,12 @@ body {
   background-color: #ebaa0f !important;
 }
 
+.Contact-icon {
+  width: 3vw;
+  height: 3vw;
+  margin-top: .5vw;
+}
+
 .Contact-formCard {
   margin: auto;
   padding: 1rem;

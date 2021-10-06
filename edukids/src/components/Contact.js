@@ -13,7 +13,7 @@ function Classes(props) {
             <Row>
               <Card className="Contact-contactHeader">
                 <Card.Title className="Contact-headerTitle">Contact Us for Further Information</Card.Title>
-                <Card.Text className="Contact-headerBody">lorem ipsum blah blah blah</Card.Text>
+                <Card.Text className="Contact-headerBody">Quam reprehenderit omnis facere! Pretium dis asperiores veritatis, impedit congue, ante commodi, uliam. </Card.Text>
               </Card>
             </Row>
             <Row>
@@ -21,7 +21,7 @@ function Classes(props) {
                   <Card.Body>
                     <Row>
                       <Col xs={2}>
-                        <BsMap />
+                        <BsMap className="Contact-icon"/>
                       </Col>
                       <Col>
                         <Card.Title className="Contact-locationTitle">Location Address</Card.Title>
@@ -36,7 +36,7 @@ function Classes(props) {
                   <Card.Body>
                     <Row>
                       <Col xs={2}>
-                        <BsFillEnvelopeOpenFill />
+                        <BsFillEnvelopeOpenFill className="Contact-icon"/>
                       </Col>
                       <Col>
                         <Card.Title>Email Address</Card.Title>
@@ -51,7 +51,7 @@ function Classes(props) {
                   <Card.Body>
                     <Row>
                       <Col xs={2}>
-                        <BsPhone />
+                        <BsPhone className="Contact-icon"/>
                       </Col>
                       <Col>
                         <Card.Title>Phone Number</Card.Title>
@@ -65,16 +65,16 @@ function Classes(props) {
           <Col>
             <Card className="Contact-formCard">
               <Form className="p-2 bg-light">
-              <Form.Group classname="mb-3 p-2 bg-light border" controlId="exampleForm.ControlTextarea1">
+              <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
                   <Form.Control type="text" placeholder="Name" />
                 </Form.Group>
-                <Form.Group classname="mb-3" controlId="exampleForm.ControlInput2">
+                <Form.Group className="mb-3" controlId="exampleForm.ControlInput2">
                   <Form.Control type="email" placeholder="Email" />
                 </Form.Group>
-                <Form.Group classname="mb-3" controlId="exampleForm.ControlTextarea2">
+                <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea2">
                   <Form.Control type="text" placeholder="Subject" />
                 </Form.Group>
-                <Form.Group classname="mb-3" controlId="exampleForm.ControlTextarea3">
+                <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea3">
                   <Form.Control as="textarea" placeholder="Message" rows={3} />
                 </Form.Group>
                 <Button className="Contact.formBtn" variant="secondary" type="submit">Send Message</Button>
