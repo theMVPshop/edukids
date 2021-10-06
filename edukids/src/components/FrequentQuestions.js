@@ -1,29 +1,29 @@
 import React from 'react';
-import { Container, Row, Col, Card, Accordion, Form } from 'react-bootstrap';
+import { Container, Row, Col, Card, Accordion, Form, Button } from 'react-bootstrap';
+import Image from '../img/emotion-emoticons-used-by-a-psychologist-during-a--D2BFM6T.jpg'
+import {} from 'react-icons';
+import { FaQuoteRight } from 'react-icons/fa';
 
 function FrequentQuestions() {
 
   return(
     <Container>
-      <Row className="justify-content-md-center">
-        <Col md="auto">
-        <h1>FAQ</h1>
-        <p>image goes here!</p>
-        </Col>
-      </Row>
-      <Row>
-        <Col>
-          <Card>
+      <Container className="Head-Container">
+        <h1 className="Head-H1">FAQ</h1>
+      </Container>
+      <Row style={{marginBottom: '70px'}}>
+        <Col xs={7}>
+          <Card className="FAQ-card">
             <Card.Body>
-              <Card.Header className="special-card-header">Questions/Answers</Card.Header>
-              <Card.Title>Check out Frequently Asked Questions</Card.Title>
-              <Card.Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                    commodo consequat.</Card.Text>
-              <Accordion>
-                <Accordion.Item eventKey="0">
-                  <Accordion.Header>How we became best among others?</Accordion.Header>
+              <Card.Header className="FAQ-card-header">Questions/Answers</Card.Header>
+              <Card.Title className="FAQ-card-title">Check out Frequently Asked Questions</Card.Title>
+              <Card.Text className="FAQ-card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+              veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+              commodo consequat.</Card.Text>
+              <Accordion className="FAQ-accordion">
+                <Accordion.Item eventKey="0" className="FAQ-accordion-item">
+                  <Accordion.Header className="FAQ-accordion-header">How we became best among others?</Accordion.Header>
                   <Accordion.Body>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
@@ -34,8 +34,8 @@ function FrequentQuestions() {
                     est laborum.
                   </Accordion.Body>
                 </Accordion.Item>
-                <Accordion.Item eventKey="1">
-                  <Accordion.Header>Why choose us for your projects?</Accordion.Header>
+                <Accordion.Item eventKey="1" className="FAQ-accordion-item">
+                  <Accordion.Header className="FAQ-accordion-header">Why choose us for your projects?</Accordion.Header>
                   <Accordion.Body>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
@@ -46,8 +46,8 @@ function FrequentQuestions() {
                     est laborum.
                   </Accordion.Body>
                 </Accordion.Item>
-                <Accordion.Item eventKey="2">
-                  <Accordion.Header>What we offer to you?</Accordion.Header>
+                <Accordion.Item eventKey="2" className="FAQ-accordion-item">
+                  <Accordion.Header className="FAQ-accordion-header">What do we offer to you?</Accordion.Header>
                   <Accordion.Body>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
@@ -58,8 +58,8 @@ function FrequentQuestions() {
                     est laborum.
                   </Accordion.Body>
                 </Accordion.Item>
-                <Accordion.Item eventKey="3">
-                  <Accordion.Header>How we provide services for you?</Accordion.Header>
+                <Accordion.Item eventKey="3" className="FAQ-accordion-item">
+                  <Accordion.Header className="FAQ-accordion-header">How we provide services for you?</Accordion.Header>
                   <Accordion.Body>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
@@ -70,8 +70,8 @@ function FrequentQuestions() {
                     est laborum.
                   </Accordion.Body>
                 </Accordion.Item>
-                <Accordion.Item eventKey="4">
-                  <Accordion.Header>Are we affordable to hire?</Accordion.Header>
+                <Accordion.Item eventKey="4" className="FAQ-accordion-item">
+                  <Accordion.Header className="FAQ-accordion-header">Are we affordable to hire?</Accordion.Header>
                   <Accordion.Body>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
@@ -87,41 +87,49 @@ function FrequentQuestions() {
           </Card>
         </Col>
         <Col>
-        `<Form>
+          <Form className="FAQ-form">
             <Form.Group>
-              <Form.Label>Any Questions? Ask Us!!</Form.Label>
-              <Form.Control type="text" placeholder="Your Name" />
-              <Form.Control type="email" placeholder="Your Email" />
-              <Form.Control type="text" placeholder="Mobile Number" />
-              <Form.Control rows={3} type="textarea" placeholder="Enter Your Message" />
+              <Form.Label className="FAQ-form-label">Any Questions? Ask Us!!</Form.Label>
+              <Form.Control type="text" placeholder="Your Name" className="FAQ-form-control"/>
+              <Form.Control type="email" placeholder="Your Email" className="FAQ-form-control"/>
+              <Form.Control type="text" placeholder="Mobile Number" className="FAQ-form-control"/>
+              <Form.Control rows={3} type="textarea" style={{height: "170px"}} placeholder="Enter Your Message" className="FAQ-form-control"/>
+              <Button type="submit" className="FAQ-form-button">Submit Questions</Button>
             </Form.Group>
           </Form>
         </Col>
       </Row>
-      <Row>
+      <Row style={{marginBottom: '150px'}}>
         <Col>
-          <Card>
+          <Card className="FAQ-image-card">
             <Card.Body>
-              <Card.Img src="https://images.unsplash.com/photo-1587323655395-b1c77a12c89a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx"></Card.Img>
-              <Card.Text>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                    commodo consequat."</Card.Text>
+              <Card.Img src={Image}></Card.Img>
+            </Card.Body>
+          </Card>
+          <Card className="FAQ-image-caption">
+            <Card.Body style={{color: "white"}}>
+              <FaQuoteRight className="FAQ-image-caption-icon"/>
+              <Card.Title style={{fontWeight: "700"}}>
+                Give us a chance to prove it!
+              </Card.Title>
+              <Card.Text style={{fontSize: "16px"}}>
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.""
+              </Card.Text>
             </Card.Body>
           </Card>
         </Col>
-        <Col>
-          <Card>
+        <Col xs={6}>
+          <Card className="FAQ-card">
             <Card.Body>
-              <Card.Header>Questions/Answers</Card.Header>
-              <Card.Title>Benefits & What we do?</Card.Title>
-              <Card.Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                    commodo consequat.</Card.Text>
-              <Accordion>
-                <Accordion.Item eventKey="0">
-                  <Accordion.Header>We build everything you can think of!</Accordion.Header>
+              <Card.Header className="FAQ-card-header">Questions/Answers</Card.Header>
+              <Card.Title className="FAQ-card-title">Benefits & What we do?</Card.Title>
+              <Card.Text className="FAQ-card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+              veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+              commodo consequat.</Card.Text>
+              <Accordion className="FAQ-accordion">
+                <Accordion.Item eventKey="0" className="FAQ-accordion-item">
+                  <Accordion.Header className="FAQ-accordion-header">We build everything you can think of!</Accordion.Header>
                   <Accordion.Body>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
@@ -132,8 +140,8 @@ function FrequentQuestions() {
                     est laborum.
                   </Accordion.Body>
                 </Accordion.Item>
-                <Accordion.Item eventKey="1">
-                  <Accordion.Header>We makes your construction project special.</Accordion.Header>
+                <Accordion.Item eventKey="1" className="FAQ-accordion-item">
+                  <Accordion.Header className="FAQ-accordion-header">We makes your construction project special.</Accordion.Header>
                   <Accordion.Body>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
@@ -144,8 +152,8 @@ function FrequentQuestions() {
                     est laborum.
                   </Accordion.Body>
                 </Accordion.Item>
-                <Accordion.Item eventKey="2">
-                  <Accordion.Header>We guarantee success with our project.</Accordion.Header>
+                <Accordion.Item eventKey="2" className="FAQ-accordion-item">
+                  <Accordion.Header className="FAQ-accordion-header">We guarantee success with our project.</Accordion.Header>
                   <Accordion.Body>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
@@ -156,8 +164,8 @@ function FrequentQuestions() {
                     est laborum.
                   </Accordion.Body>
                 </Accordion.Item>
-                <Accordion.Item eventKey="3">
-                  <Accordion.Header>We help you to construct any project.</Accordion.Header>
+                <Accordion.Item eventKey="3" className="FAQ-accordion-item">
+                  <Accordion.Header className="FAQ-accordion-header">We help you to construct any project.</Accordion.Header>
                   <Accordion.Body>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
@@ -168,8 +176,8 @@ function FrequentQuestions() {
                     est laborum.
                   </Accordion.Body>
                 </Accordion.Item>
-                <Accordion.Item eventKey="4">
-                  <Accordion.Header>We make it possible to work in a tight timeframe.</Accordion.Header>
+                <Accordion.Item eventKey="4" className="FAQ-accordion-item">
+                  <Accordion.Header className="FAQ-accordion-header">We make possible to work in a tight timeframe.</Accordion.Header>
                   <Accordion.Body>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim

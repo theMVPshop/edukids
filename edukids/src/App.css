@@ -517,9 +517,6 @@ body {
   border-bottom: 3px solid rgb(5, 145, 115);
 }
 
-.Classes-Row-1 {
-  margin-top: 30px;
-}
 
 .Classes-Row-2 {
   margin-top: 30px;
@@ -530,7 +527,7 @@ body {
 }
 
 /* CONTACT CSS */
-.Contact-mainContainer{
+.Contact-mainContainer {
   width: 100%;
 }
 
@@ -548,7 +545,6 @@ body {
 
 .Contact-contactHeader span {
   color: #2d1f4c;
-  
 }
 
 .Contact-locationBadge {
@@ -559,14 +555,14 @@ body {
   background-color: rgb(250, 100, 46) !important;
 }
 
-.Contact-headerTitle{
+.Contact-headerTitle {
   color: #2e1b5c !important;
   font-size: 3.25vw;
   font-weight: bold;
 }
 
-.Contact-headerBody{
-  font-size:  1vw;
+.Contact-headerBody {
+  font-size: 1vw;
 }
 
 .Contact-addressBadge {
@@ -596,7 +592,7 @@ body {
   padding: 1rem;
 }
 
-.Contact.formBtn{
+.Contact.formBtn {
   background-color: rgb(250, 100, 46) !important;
 }
 /* EVENTS CSS */
@@ -619,6 +615,94 @@ body {
 }
 
 /* FREQUENT QUESTIONS CSS */
+.FAQ-card {
+  border: none;
+}
+
+.FAQ-card-header {
+  background-color: white;
+  color: rgb(250, 100, 46);
+  width: fit-content;
+  font-weight: 700;
+  border: 2px solid rgb(250, 100, 46);
+  margin-bottom: 25px;
+}
+
+.FAQ-card-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #2e224c;
+  margin-bottom: 20px;
+}
+
+.FAQ-card-text {
+  margin-bottom: 30px;
+}
+
+.FAQ-accordion {
+
+}
+
+.FAQ-accordion-item {
+  margin-bottom: 15px;
+  box-shadow: 0px 0px 5px #c0c4cf;
+  border: none;
+}
+
+.FAQ-accordion-header button{
+  color: #2e224c;
+  font-weight: 700;
+}
+
+.FAQ-form {
+  background-color: rgb(250, 100, 46);
+  border: 2px solid rgb(199, 85, 47);
+  justify-content: center;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+
+.FAQ-form-label {
+  font-size: 25px;
+  font-weight: 700;
+  margin: 40px 0 30px;
+  color: white;
+}
+
+.FAQ-form-control {
+  padding: 10px;
+  margin: auto auto 10px auto;
+  height: 60px;
+  width: 90%;
+}
+
+.FAQ-form-button {
+  width: 90%;
+  background-color: rgb(1, 184, 145);
+  border-color: rgb(26, 100, 84);
+  border-bottom: 3px solid rgb(26, 100, 84);
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.FAQ-image-card {
+  border: none;
+}
+
+.FAQ-image-caption {
+  width: 85%;
+  background-color: rgb(250, 100, 46);
+  margin-left: 16px;
+  margin-top: -70px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.FAQ-image-caption-icon {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
 
 /* HEADER CSS */
 
@@ -638,15 +722,63 @@ body {
 
 /* HOME CSS */
 
+.Classes-Head-Container{
+    background-image: url("./img/backImage.png");
+    height: 500px;
+    background-size: cover;
+    padding: 100px;
+    text-align: center;
+    color: white;
+}
+
 .Home-Card-Col {
   display: flex;
   justify-content: center;
 }
 
-.Classes-List-Group-Item{
+.Classes-List-Group-Item {
   border: none;
 }
 /* TEAM CSS */
+
+.Team-Card-Image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.Team-Card-Body1 {
+  background-color: orange;
+  border-radius: 15px;
+  color: white;
+  text-align: center;
+}
+
+.Team-Card-Body2 {
+  background-color: rgb(75, 193, 118);
+  border-radius: 15px;
+  color: white;
+  text-align: center;
+}
+
+.Team-Card-Body3 {
+  background-color: yellow;
+  border-radius: 15px;
+  color: white;
+  text-align: center;
+}
+.Team-fa {
+  padding: 5px;
+  padding-top: 0px;
+  border: 1px solid white;
+  font-size: 25px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px;
+  color: white;
+  border-radius: 50%;
+}
 
 /* HEAD CSS */
 .Head-Container {
