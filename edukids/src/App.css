@@ -521,10 +521,12 @@ body {
 
 .Contact-contactHeader {
   margin-top: 1rem;
+  border: none;
 }
 
 .Contact-contactHeader span {
   color: #2d1f4c;
+  
 }
 
 .Contact-locationBadge {
@@ -540,7 +542,8 @@ body {
 }
 
 .Contact-phoneBadge {
-  width: auto;
+  width: 69%;
+  margin: auto;
   height: auto;
   background-color: #ebaa0f !important;
 }
