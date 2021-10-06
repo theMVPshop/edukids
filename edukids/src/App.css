@@ -97,6 +97,12 @@ body {
   border: none;
 }
 
+.About-Card-With-Image {
+  border-color: rgb(218, 218, 218);
+  border-width: 20px;
+  border-radius: 15px;
+}
+
 .About-Row {
   margin: 20px;
 }
@@ -126,8 +132,18 @@ body {
   background-color: rgb(75, 193, 118);
   border-radius: 15px;
   color: white;
+  text-align: center;
   /* border-color: rgb(199, 85, 47);
   border-bottom: 3px solid rgb(199, 85, 47); */
+}
+
+.About-Green-Icon-Row {
+  margin: 20px;
+}
+
+.About-icons {
+  margin: 30px;
+  font-size: 44px;
 }
 
 /* CAREER CSS */
@@ -511,6 +527,9 @@ body {
 }
 
 /* CONTACT CSS */
+.Contact-mainContainer{
+  width: 100%;
+}
 
 .Contact-leftCol {
   align-items: center;
@@ -519,29 +538,46 @@ body {
 .Contact-contactHeader {
   margin-top: 1rem;
   border: none;
+  width: 69%;
+  margin: auto;
+  height: auto;
 }
 
 .Contact-contactHeader span {
   color: #2d1f4c;
-  
 }
 
 .Contact-locationBadge {
-  width: auto;
+  width: 70%;
+  margin: auto;
   height: auto;
+  color: white;
   background-color: rgb(250, 100, 46) !important;
 }
 
+.Contact-headerTitle{
+  color: #2e1b5c !important;
+  font-size: 3.25vw;
+  font-weight: bold;
+}
+
+.Contact-headerBody{
+  font-size:  1vw;
+}
+
 .Contact-addressBadge {
-  width: auto;
+  width: 70%;
+  margin: auto;
   height: auto;
+  color: white;
   background-color: #05b992 !important;
 }
 
 .Contact-phoneBadge {
-  width: 69%;
+  width: 70%;
   margin: auto;
   height: auto;
+  color: white;
   background-color: #ebaa0f !important;
 }
 
@@ -550,6 +586,9 @@ body {
   padding: 1rem;
 }
 
+.Contact.formBtn{
+  background-color: rgb(250, 100, 46) !important;
+}
 /* EVENTS CSS */
 
 .nounderline {
@@ -603,10 +642,38 @@ body {
   justify-content: center;
 }
 
-.Classes-List-Group-Item{
+.Classes-List-Group-Item {
   border: none;
 }
 /* TEAM CSS */
+
+.Team-Card-Image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.Team-Card-Body1 {
+  background-color: orange;
+  border-radius: 15px;
+  color: white;
+  text-align: center;
+}
+
+.Team-Card-Body2 {
+  background-color: rgb(75, 193, 118);
+  border-radius: 15px;
+  color: white;
+  text-align: center;
+}
+
+.Team-Card-Body3 {
+  background-color: yellow;
+  border-radius: 15px;
+  color: white;
+  text-align: center;
+}
 
 /* HEAD CSS */
 .Head-Container {
