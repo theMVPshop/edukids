@@ -548,4 +548,12 @@ margin-top: -35px;
 
 /* HOME CSS */
 
+.Home-Card-Col {
+  display: flex;
+  justify-content: center;
+}
+
+.Classes-List-Group-Item{
+  border: none;
+}
 /* TEAM CSS */
