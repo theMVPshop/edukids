@@ -5,6 +5,9 @@ import { BsMap, BsPhone, BsFillEnvelopeOpenFill } from 'react-icons/bs'
 function Classes(props) {
   return(
     <Container className="Contact-mainContainer">
+      <Container className="Head-Container">
+      <h1 className="Head-H1">Contact</h1>
+    </Container>
       <Row className="justify-content-md-center">
         <Col md='auto'>
           <h1>Contact Us</h1>
