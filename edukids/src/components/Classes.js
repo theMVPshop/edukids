@@ -9,11 +9,14 @@ function Classes(props) {
   return (
     <div>
       <Container>
+        <Container className="Head-Container">
+          <h1 className="Head-H1">Classes</h1>
+        </Container>
         <Row className="Classes-Row-1">
           <Col className="Classes-Col">
-            <Card className="Classes-Card" style={{backgroundColor:"rgb(254,93,55)"}} >
+            <Card className="Classes-Card" style={{ backgroundColor: "rgb(254,93,55)" }} >
               <Card.Img className="Classes-Card-Img"
-              variant="top" src="https://images.unsplash.com/photo-1505672678657-cc7037095e60?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8" />
+                variant="top" src="https://images.unsplash.com/photo-1505672678657-cc7037095e60?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8" />
               <Card.Body className="Classes-Card-Body">
                 <Card.Title>Physical Class</Card.Title>
                 <Card.Text>
@@ -41,7 +44,7 @@ function Classes(props) {
           </Col>
 
           <Col className="Classes-Col">
-            <Card className="Classes-Card" style={{backgroundColor:"rgb(234,170,20)" }}>
+            <Card className="Classes-Card" style={{ backgroundColor: "rgb(234,170,20)" }}>
               <Card.Img className="Classes-Card-Img" variant="top" src="https://images.unsplash.com/photo-1505672678657-cc7037095e60?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8" />
               <Card.Body className="Classes-Card-Body">
                 <Card.Title>Creative Class</Card.Title>
@@ -73,7 +76,7 @@ function Classes(props) {
           </Col>
 
           <Col className="Classes-Col">
-            <Card className="Classes-Card" style={{backgroundColor:"rgb(4,185,146)"}}>
+            <Card className="Classes-Card" style={{ backgroundColor: "rgb(4,185,146)" }}>
               <Card.Img className="Classes-Card-Img" variant="top" src="https://images.unsplash.com/photo-1505672678657-cc7037095e60?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8" />
               <Card.Body className="Classes-Card-Body">
                 <Card.Title>Learning Class</Card.Title>
@@ -104,12 +107,12 @@ function Classes(props) {
             </Card>
           </Col>
         </Row>
-       
+
         <Row className="Classes-Row-2">
           <Col className="Classes-Col">
-            <Card className="Classes-Card" style={{backgroundColor:"rgb(254,93,55)"}} >
+            <Card className="Classes-Card" style={{ backgroundColor: "rgb(254,93,55)" }} >
               <Card.Img className="Classes-Card-Img"
-              variant="top" src="https://images.unsplash.com/photo-1505672678657-cc7037095e60?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8" />
+                variant="top" src="https://images.unsplash.com/photo-1505672678657-cc7037095e60?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8" />
               <Card.Body className="Classes-Card-Body">
                 <Card.Title>Physical Class</Card.Title>
                 <Card.Text>
@@ -137,7 +140,7 @@ function Classes(props) {
           </Col>
 
           <Col className="Classes-Col">
-            <Card className="Classes-Card" style={{backgroundColor:"rgb(234,170,20)" }}>
+            <Card className="Classes-Card" style={{ backgroundColor: "rgb(234,170,20)" }}>
               <Card.Img className="Classes-Card-Img" variant="top" src="https://images.unsplash.com/photo-1505672678657-cc7037095e60?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8" />
               <Card.Body className="Classes-Card-Body">
                 <Card.Title>Creative Class</Card.Title>
@@ -169,7 +172,7 @@ function Classes(props) {
           </Col>
 
           <Col className="Classes-Col">
-            <Card className="Classes-Card" style={{backgroundColor:"rgb(4,185,146)"}}>
+            <Card className="Classes-Card" style={{ backgroundColor: "rgb(4,185,146)" }}>
               <Card.Img className="Classes-Card-Img" variant="top" src="https://images.unsplash.com/photo-1505672678657-cc7037095e60?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8" />
               <Card.Body className="Classes-Card-Body">
                 <Card.Title>Learning Class</Card.Title>
@@ -221,7 +224,7 @@ function Classes(props) {
                 <Form.Control type="email" placeholder="Enter email" />
               </Form.Group>
               <Form.Group className="mb-3" controlId="formBasicMsg" >
-                <Form.Control as="textarea" rows={4}type="msg"placeholder="Message"/>
+                <Form.Control as="textarea" rows={4} type="msg" placeholder="Message" />
               </Form.Group>
               <Button className="Classes-Form-Button" variant="primary" type="submit">
                 Submit Now
