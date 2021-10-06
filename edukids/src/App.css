@@ -374,7 +374,7 @@ body {
   color: #220d38;
 }
 .ClassDetail-container {
-  max-width: 90vw;
+  max-width: 80vw;
   min-width: auto;
 }
 .ClassDetail-teacher-card-area {
@@ -443,6 +443,12 @@ body {
   width: 450px;
   height: 300px;
   border-radius: 25px;
+}
+.classDetail-Activities-gallery-photo {
+  height: 110px;
+  width: auto;
+  border-radius: 20px;
+  margin-right: 6px;
 }
 
 /* CLASSES CSS */
