@@ -390,6 +390,10 @@ body {
 .ClassDetail-h3 {
   color: #220d38;
 }
+.ClassDetail-p {
+  color: #220d38;
+  font-weight: 500;
+}
 .ClassDetail-container {
   max-width: 80vw;
   min-width: auto;
@@ -531,7 +535,6 @@ body {
   border-bottom: 3px solid rgb(5, 145, 115);
 }
 
-
 .Classes-Row-2 {
   margin-top: 30px;
 }
@@ -598,7 +601,7 @@ body {
 .Contact-icon {
   width: 3vw;
   height: 3vw;
-  margin-top: .5vw;
+  margin-top: 0.5vw;
 }
 
 .Contact-formCard {
@@ -654,7 +657,6 @@ body {
 }
 
 .FAQ-accordion {
-
 }
 
 .FAQ-accordion-item {
@@ -663,7 +665,7 @@ body {
   border: none;
 }
 
-.FAQ-accordion-header button{
+.FAQ-accordion-header button {
   color: #2e224c;
   font-weight: 700;
 }
@@ -736,13 +738,13 @@ body {
 
 /* HOME CSS */
 
-.Classes-Head-Container{
-    background-image: url("./img/backImage.png");
-    height: 500px;
-    background-size: cover;
-    padding: 100px;
-    text-align: center;
-    color: white;
+.Classes-Head-Container {
+  background-image: url("./img/backImage.png");
+  height: 500px;
+  background-size: cover;
+  padding: 100px;
+  text-align: center;
+  color: white;
 }
 
 .Home-Card-Col {

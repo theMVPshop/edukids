@@ -11,7 +11,7 @@ function ClassDetail() {
         <Row className="justify-content-md-center">
           <Col>
             <h2 className="ClassDetail-h2">Class Description</h2>
-            <p>
+            <p className="ClassDetail-p">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Praesentium fugiat cumque nemo eaque deleniti perferendis vel vero
               in ut assumenda!
@@ -23,7 +23,7 @@ function ClassDetail() {
             />
 
             <h3 className="ClassDetail-h3">Class Curriculum</h3>
-            <p>
+            <p className="ClassDetail-p">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti
               accusantium voluptate maxime obcaecati? Impedit maxime dolores
               vero quas? Blanditiis cumque non ullam recusandae fugiat neque
