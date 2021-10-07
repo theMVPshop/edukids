@@ -7,6 +7,7 @@ import Image2 from '../img/young-teacher-at-university-XG8ZTHV.jpg';
 import Image3 from '../img/education-teachers-university-and-schools-concept--JA74V7F.jpg'
 import Image4 from '../img/smiling-science-teacher-YXXHLVC.jpg'
 import Image5 from '../img/cheerful-women-in-printing-office-JQ5K4XE.jpg'
+import Image6 from '../img/ana_scott.jpg'
 
 
 class Team extends Component {
@@ -21,7 +22,7 @@ class Team extends Component {
 <Row className="justify-content-md-center" >
 <CardGroup >
     
-  <Card align="center" >
+  <Card className="Team-Card" >
     <Card.Img className="Team-Card-Image" src={Image1}/>
     <Card.Body className="Team-Card-Body1">
       <Card.Title>John Doe</Card.Title>
@@ -45,7 +46,7 @@ class Team extends Component {
     <Card.Footer>
     </Card.Footer>
   </Card>
-  <Card align="center">
+  <Card className="Team-Card" >
     <Card.Img className="Team-Card-Image" src={Image2}/>
     <Card.Body className="Team-Card-Body2">
       <Card.Title>Sally Watson</Card.Title>
@@ -69,7 +70,7 @@ class Team extends Component {
     <Card.Footer>
     </Card.Footer>
   </Card>
-  <Card align="center">
+  <Card className="Team-Card" >
     <Card.Img className="Team-Card-Image" src={Image3}/>
     <Card.Body className="Team-Card-Body3">
       <Card.Title>Mary James</Card.Title>
@@ -97,7 +98,7 @@ class Team extends Component {
 </Row>
 <Row className="justify-content-md-center">
 <CardGroup>
-<Card align="center">
+<Card className="Team-Card" >
     <Card.Img className="Team-Card-Image" src={Image4}/>
     <Card.Body className="Team-Card-Body3">
       <Card.Title>Jimmer Housten</Card.Title>
@@ -121,7 +122,7 @@ class Team extends Component {
     <Card.Footer>
     </Card.Footer>
   </Card>
-  <Card align="center">
+  <Card className="Team-Card" >
     <Card.Img className="Team-Card-Image" src={Image5}/>
     <Card.Body className="Team-Card-Body1">
       <Card.Title>Alison WHite</Card.Title>
@@ -145,8 +146,8 @@ class Team extends Component {
     <Card.Footer>
     </Card.Footer>
   </Card>
-  <Card align="center">
-    <Card.Img className="Team-Card-Image" src={Image5}/>
+  <Card className="Team-Card" >
+    <Card.Img className="Team-Card-Image" src={Image6}/>
     <Card.Body className="Team-Card-Body2">
       <Card.Title>Ana Scott</Card.Title>
       <Card.Text>
