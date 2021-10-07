@@ -1,8 +1,9 @@
 import React, {Component} from 'react'
 // import { Button } from "@material-ui/core";
 import { Button, Card, Col, Container, ListGroup, Row, Tabs, Tab, Accordion } from 'react-bootstrap';
-import { FaBook } from 'react-icons/fa'
-
+import { FaBook, FaBuilding, FaRegClock, FaPhone, FaCheckCircle} from 'react-icons/fa'
+import Image1 from '../img/emotion-emoticons-used-by-a-psychologist-during-a--D2BFM6T.jpg';
+import Image2 from '../img/painting-together-P9VHLJH.jpg';
 
 class About extends Component {
 
@@ -11,6 +12,9 @@ class About extends Component {
         return (
             
             <Container>
+                  <Container className="Head-Container">
+      <h1 className="Head-H1">About Us</h1>
+    </Container>
                 <Row className="justify-content-md-center">
     <Col md="auto"><h1>We Are Kindergarten And Childhood Is Our Passion</h1></Col>
   </Row>
@@ -24,8 +28,8 @@ class About extends Component {
       </Container>
       <Row className="About-Row">
           <Col xs={6} >
-              <Card className="About-Card">
-              <Card.Img classname="About-Card-Image" src="https://images.unsplash.com/photo-1587323655395-b1c77a12c89a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx"></Card.Img>
+              <Card className="About-Card-With-Image">
+              <Card.Img classname="About-Card-Image" src={Image1}></Card.Img>
               </Card>
           
           </Col>
@@ -39,16 +43,16 @@ class About extends Component {
                             </p> </Card.Text>
           <ListGroup>
                   <ListGroup.Item className="About-list-group-item">
-                    <span>—</span>Lorem Ipsum
+                    <span style={{margin: "10px",  color: "orange"}}><FaCheckCircle /></span>Supporting child's Personality
                   </ListGroup.Item >
                   <ListGroup.Item className="About-list-group-item">
-                    <span>—</span>Lorem Ipsum
+                    <span style={{margin: "10px",  color: "orange"}}><FaCheckCircle /></span>Indoor/Outdoor Games for Little Kids
                   </ListGroup.Item>
                   <ListGroup.Item className="About-list-group-item">
-                    <span>—</span>Lorem Ipsum
+                    <span style={{margin: "10px",  color: "orange"}}><FaCheckCircle /></span>Professional & Qualified Teachers
                   </ListGroup.Item>
                   <ListGroup.Item className="About-list-group-item">
-                    <span>—</span>Lorem Ipsum
+                    <span style={{margin: "10px",  color: "orange"}}><FaCheckCircle /></span>Best Learning School for kids
                   </ListGroup.Item>
                 </ListGroup> 
                 </Card>
@@ -65,23 +69,23 @@ class About extends Component {
                             </p> </Card.Text>
           <ListGroup>
                   <ListGroup.Item className="About-list-group-item">
-                    <span>—</span>Lorem Ipsum
+                    <span style={{margin: "10px",  color: "orange"}}><FaCheckCircle /></span>Supporting child's Personality 
                   </ListGroup.Item >
                   <ListGroup.Item className="About-list-group-item">
-                    <span>—</span>Lorem Ipsum
+                    <span style={{margin: "10px",  color: "orange"}}><FaCheckCircle /></span>Indoor/Outdoor Games for Little Kids
                   </ListGroup.Item>
                   <ListGroup.Item className="About-list-group-item">
-                    <span>—</span>Lorem Ipsum
+                    <span style={{margin: "10px",  color: "orange"}}><FaCheckCircle /></span>Professional & Qualified Teachers
                   </ListGroup.Item>
                   <ListGroup.Item className="About-list-group-item">
-                    <span>—</span>Lorem Ipsum
-                  </ListGroup.Item>
+                    <span style={{margin: "10px",  color: "orange"}}><FaCheckCircle /></span>Best Learning School for kids
+                    </ListGroup.Item>
                 </ListGroup> 
                 </Card>
               </Col>
               <Col xs={6} >
-              <Card className="About-Card">
-              <Card.Img classname="About-Card-Image" src="https://images.unsplash.com/photo-1587323655395-b1c77a12c89a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx"></Card.Img>
+              <Card className="About-Card-With-Image">
+              <Card.Img classname="About-Card-Image" src={Image2}></Card.Img>
               </Card>
           
           </Col>
@@ -89,23 +93,36 @@ class About extends Component {
 
     <Row className="About-Green-Row">
         <Col>
-        <FaBook />
+        <FaBook className="About-icons"/>
+        <Row className="About-Green-Icon-Row">         
         <Row className="justify-content-md-center">Class Sessions</Row>
         <Row className="justify-content-md-center">Sunday - Monday</Row>
         <Row className="justify-content-md-center">8:00 am - 12:30 pm</Row>
+        </Row>
         </Col>
         <Col>
+        
+        <FaBuilding className="About-icons"/>
+        <Row className="About-Green-Icon-Row">    
         <Row className="justify-content-md-center">Location Address</Row>
         <Row className="justify-content-md-center">145 While Kateway</Row>
         <Row className="justify-content-md-center">CA 25615, San Francisco</Row>
+        </Row>
         </Col>
         <Col>
+        <FaRegClock className="About-icons"/>
+        <Row className="About-Green-Icon-Row"> 
         <Row className="justify-content-md-center">Our Office Hour</Row>
         <Row className="justify-content-md-center">Sunady - Monday</Row>
-        <Row className="justify-content-md-center">7:00 am - 5:30pm</Row></Col>
+        <Row className="justify-content-md-center">7:00 am - 5:30pm</Row>
+        </Row>
+        </Col>
         <Col>
+        <FaPhone className="About-icons"/>
+        <Row className="About-Green-Icon-Row"> 
         <Row className="justify-content-md-center">Phone & Email</Row>
-        <Row className="justify-content-md-center">(+22)-658-258 / +259-55-9825</Row>
+        <Row className="justify-content-md-center">(+22)-658-258 / +259-55-9825</Row> 
+        </Row>
         </Col>
     </Row>
             </Container>
