@@ -1,6 +1,8 @@
 import React from 'react';
 import { Container, Row, Col, Card, Accordion, Form, Button } from 'react-bootstrap';
-import Image from '../img/tutor-and-multicultural-kids-playing-with-construc-M27G27Q.jpg'
+import Image from '../img/emotion-emoticons-used-by-a-psychologist-during-a--D2BFM6T.jpg'
+import {} from 'react-icons';
+import { FaQuoteRight } from 'react-icons/fa';
 
 function FrequentQuestions() {
 
@@ -104,11 +106,19 @@ function FrequentQuestions() {
               <Card.Img src={Image}></Card.Img>
             </Card.Body>
           </Card>
-          <Card body className="FAQ-image-caption">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          <Card className="FAQ-image-caption">
+            <Card.Body style={{color: "white"}}>
+              <FaQuoteRight className="FAQ-image-caption-icon"/>
+              <Card.Title style={{fontWeight: "700"}}>
+                Give us a chance to prove it!
+              </Card.Title>
+              <Card.Text style={{fontSize: "16px"}}>
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.""
+              </Card.Text>
+            </Card.Body>
           </Card>
         </Col>
-        <Col xs={7}>
+        <Col xs={6}>
           <Card className="FAQ-card">
             <Card.Body>
               <Card.Header className="FAQ-card-header">Questions/Answers</Card.Header>
