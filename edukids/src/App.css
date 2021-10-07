@@ -555,6 +555,7 @@ body {
   width: 69%;
   margin: auto;
   height: auto;
+  padding-left: 0;
 }
 
 .Contact-contactHeader span {
@@ -606,7 +607,7 @@ body {
   padding: 1rem;
 }
 
-.Contact.formBtn {
+.Contact-formBtn {
   background-color: rgb(250, 100, 46) !important;
 }
 /* EVENTS CSS */
