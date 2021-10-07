@@ -507,6 +507,17 @@ body {
 .Classes-Card-Col {
   border-right: 1px solid rgba(255, 255, 255, 0.42);
 }
+
+.Classes-Body-Title {
+  color: #2e1b5c !important;
+  font-size: 3.25vw;
+  font-weight: bold;
+}
+
+.Classes-Body-Text{
+  display:flex;
+  text-align: center;
+}
 .Classes-Col-Form {
   display: flex;
   justify-content: center;
@@ -735,8 +746,8 @@ body {
 
 /* HOME CSS */
 
-.Classes-Head-Container {
-  background-image: url("./img/backImage.png");
+.Home-Head-Container {
+  background-image: url("./img/boys-and-girls-dancing-PZNK4D9.jpg");
   height: 500px;
   background-size: cover;
   padding: 100px;

@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import { Button, Card, Container, Col, ListGroup, Row } from 'react-bootstrap';
-import { FaFacebook } from 'react-icons/fa';
-
+import { FaFacebook , FaCheckCircle} from 'react-icons/fa'
 class Home extends Component {
 
     render() {
@@ -71,16 +70,16 @@ class Home extends Component {
 
                             <ListGroup>
                                 <ListGroup.Item className="Classes-List-Group-Item">
-                                    <span>—</span>Lorem Ipsum
+                                    <span style={{ margin: "10px", color: "orange" }}><FaCheckCircle /></span>Lorem Ipsum
                                 </ListGroup.Item >
                                 <ListGroup.Item className="Classes-List-Group-Item">
-                                    <span>—</span>Lorem Ipsum
+                                    <span style={{ margin: "10px", color: "orange" }}><FaCheckCircle /></span>Lorem Ipsum
                                 </ListGroup.Item>
                                 <ListGroup.Item className="Classes-List-Group-Item">
-                                    <span>—</span>Lorem Ipsum
+                                    <span style={{ margin: "10px", color: "orange" }}><FaCheckCircle /></span>Lorem Ipsum
                                 </ListGroup.Item>
                                 <ListGroup.Item className="Classes-List-Group-Item">
-                                    <span>—</span>Lorem Ipsum
+                                    <span style={{ margin: "10px", color: "orange" }}><FaCheckCircle /></span>Lorem Ipsum
                              </ListGroup.Item>
                             </ListGroup>
                             <Button variant="primary" type="button">
@@ -92,33 +91,23 @@ class Home extends Component {
                     <Row>
                         <h4>School Facilities We Offer</h4>
                     </Row>
-{/**Don't know how to build this out...will keep working on it */}
-                    <Col>
+                    {/**Don't know how to build this out...will keep working on it */}
+
+                    <Container className="Home-Head-Container">
                         <Row>
-                            <Col>
-                                <FaFacebook />
-                            </Col>
-                            <Col>
-                                <h7>Meals Provided</h7>
-                                <div />
-                                <h9>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </h9>
-                            </Col>
+                            <h1 className="Head-H1">Choose Us For Your Child Better Future</h1>
+                            <h8>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h8>
                         </Row>
                         <Row>
                             <Col>
-                                <FaFacebook />
-                            </Col>
-                            <Col>
-                                <h7>Meals Provided</h7>
-                                <div />
-                                <h9>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </h9>
+                                <Button variant="primary" type="button">
+                                    Join Us Now
+                       </Button>
                             </Col>
                         </Row>
+                    </Container> 
 
 
-                    </Col>
-                    
-                    
                 </Container>
             </div>
 
