@@ -11,13 +11,13 @@ function Classes(props) {
         <Row >
           <Col>
             <Row>
-              <Card className="Contact-contactHeader">
+              <Card className="Contact-contactHeader mb-3">
                 <Card.Title className="Contact-headerTitle">Contact Us for Further Information</Card.Title>
                 <Card.Text className="Contact-headerBody">Quam reprehenderit omnis facere! Pretium dis asperiores veritatis, impedit congue, ante commodi, uliam. </Card.Text>
               </Card>
             </Row>
             <Row>
-            <Card className="Contact-locationBadge">
+            <Card className="Contact-locationBadge mb-3">
                   <Card.Body>
                     <Row>
                       <Col xs={2}>
@@ -32,7 +32,7 @@ function Classes(props) {
                 </Card>
             </Row>
             <Row>
-            <Card className="Contact-addressBadge">
+              <Card className="Contact-addressBadge mb-3">
                   <Card.Body>
                     <Row>
                       <Col xs={2}>
@@ -44,10 +44,10 @@ function Classes(props) {
                       </Col>
                     </Row>
                   </Card.Body>
-                </Card>
+              </Card>
             </Row>
             <Row>
-                <Card className="Contact-phoneBadge">
+                <Card className="Contact-phoneBadge mb-3">
                   <Card.Body>
                     <Row>
                       <Col xs={2}>
@@ -63,13 +63,17 @@ function Classes(props) {
             </Row>
           </Col>
           <Col>
-            <Card className="Contact-formCard">
+            <Card className="Contact-formCard w-75">
               <Form className="p-2 bg-light">
               <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-                  <Form.Control type="text" placeholder="Name" />
-                </Form.Group>
-                <Form.Group className="mb-3" controlId="exampleForm.ControlInput2">
-                  <Form.Control type="email" placeholder="Email" />
+                <Row>
+                  <Col>
+                    <Form.Control type="text" placeholder="Name" /> 
+                  </Col>
+                  <Col>
+                    <Form.Control type="email" placeholder="Email" />
+                  </Col>
+                </Row>
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea2">
                   <Form.Control type="text" placeholder="Subject" />
@@ -77,7 +81,7 @@ function Classes(props) {
                 <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea3">
                   <Form.Control as="textarea" placeholder="Message" rows={3} />
                 </Form.Group>
-                <Button className="Contact.formBtn" variant="secondary" type="submit">Send Message</Button>
+                <Button className="Contact-formBtn" variant="secondary" type="submit" bg="Contact-button">Send Message</Button>
               </Form>
             </Card>
           </Col>
