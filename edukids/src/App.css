@@ -517,7 +517,6 @@ body {
   border-bottom: 3px solid rgb(5, 145, 115);
 }
 
-
 .Classes-Row-2 {
   margin-top: 30px;
 }
@@ -634,7 +633,6 @@ body {
 }
 
 .FAQ-accordion {
-
 }
 
 .FAQ-accordion-item {
@@ -643,7 +641,7 @@ body {
   border: none;
 }
 
-.FAQ-accordion-header button{
+.FAQ-accordion-header button {
   color: #2e224c;
   font-weight: 700;
 }
@@ -709,13 +707,13 @@ body {
 
 /* HOME CSS */
 
-.Classes-Head-Container{
-    background-image: url("./img/backImage.png");
-    height: 500px;
-    background-size: cover;
-    padding: 100px;
-    text-align: center;
-    color: white;
+.Classes-Head-Container {
+  background-image: url("./img/backImage.png");
+  height: 500px;
+  background-size: cover;
+  padding: 100px;
+  text-align: center;
+  color: white;
 }
 
 .Home-Card-Col {

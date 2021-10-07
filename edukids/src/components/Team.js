@@ -28,9 +28,19 @@ class Team extends Component {
       <Card.Text>
       Teacher
       </Card.Text>
-      <Card.Text><a href="https://www.facebook.com/" className="Team-fa">
-                        <FaFacebook />
-                    </a> <FaTwitter /> <FaInstagram /> <FaPinterest /> </Card.Text>
+      <Card.Text>
+        <a href="https://www.facebook.com/" className="Team-fa">
+        <FaFacebook />
+        </a>
+        <a href="https://twitter.com/" className="Team-fa">
+        <FaTwitter />
+        </a>
+        <a href="https://www.instagram.com/" className="Team-fa">
+        <FaInstagram />
+        </a>
+        <a href="https://www.pinterest.com/" className="Team-fa">
+        <FaPinterest />
+        </a>    </Card.Text>
     </Card.Body >
     <Card.Footer>
     </Card.Footer>
@@ -42,7 +52,19 @@ class Team extends Component {
       <Card.Text>
       Teacher
       </Card.Text>
-      <Card.Text><FaFacebook /> <FaTwitter /> <FaInstagram /> <FaPinterest /> </Card.Text>
+      <Card.Text>
+        <a href="https://www.facebook.com/" className="Team-fa">
+        <FaFacebook />
+        </a>
+        <a href="https://twitter.com/" className="Team-fa">
+        <FaTwitter />
+        </a>
+        <a href="https://www.instagram.com/" className="Team-fa">
+        <FaInstagram />
+        </a>
+        <a href="https://www.pinterest.com/" className="Team-fa">
+        <FaPinterest />
+        </a>    </Card.Text>
     </Card.Body>
     <Card.Footer>
     </Card.Footer>
@@ -54,7 +76,19 @@ class Team extends Component {
       <Card.Text>
       Teacher
       </Card.Text>
-      <Card.Text><FaFacebook /> <FaTwitter /> <FaInstagram /> <FaPinterest /> </Card.Text>
+      <Card.Text>
+        <a href="https://www.facebook.com/" className="Team-fa">
+        <FaFacebook />
+        </a>
+        <a href="https://twitter.com/" className="Team-fa">
+        <FaTwitter />
+        </a>
+        <a href="https://www.instagram.com/" className="Team-fa">
+        <FaInstagram />
+        </a>
+        <a href="https://www.pinterest.com/" className="Team-fa">
+        <FaPinterest />
+        </a>    </Card.Text>
     </Card.Body>
     <Card.Footer>
     </Card.Footer>
@@ -70,7 +104,19 @@ class Team extends Component {
       <Card.Text>
       Teacher
       </Card.Text>
-      <Card.Text><FaFacebook /> <FaTwitter /> <FaInstagram /> <FaPinterest /> </Card.Text>
+      <Card.Text>
+        <a href="https://www.facebook.com/" className="Team-fa">
+        <FaFacebook />
+        </a>
+        <a href="https://twitter.com/" className="Team-fa">
+        <FaTwitter />
+        </a>
+        <a href="https://www.instagram.com/" className="Team-fa">
+        <FaInstagram />
+        </a>
+        <a href="https://www.pinterest.com/" className="Team-fa">
+        <FaPinterest />
+        </a>    </Card.Text>
     </Card.Body>
     <Card.Footer>
     </Card.Footer>
@@ -82,7 +128,19 @@ class Team extends Component {
       <Card.Text>
       Teacher
       </Card.Text>
-      <Card.Text><FaFacebook /> <FaTwitter /> <FaInstagram /> <FaPinterest /> </Card.Text>
+      <Card.Text>
+        <a href="https://www.facebook.com/" className="Team-fa">
+        <FaFacebook />
+        </a>
+        <a href="https://twitter.com/" className="Team-fa">
+        <FaTwitter />
+        </a>
+        <a href="https://www.instagram.com/" className="Team-fa">
+        <FaInstagram />
+        </a>
+        <a href="https://www.pinterest.com/" className="Team-fa">
+        <FaPinterest />
+        </a>    </Card.Text>
     </Card.Body>
     <Card.Footer>
     </Card.Footer>
@@ -94,7 +152,19 @@ class Team extends Component {
       <Card.Text>
       Teacher
       </Card.Text>
-      <Card.Text><FaFacebook /> <FaTwitter /> <FaInstagram /> <FaPinterest /> </Card.Text>
+      <Card.Text>
+        <a href="https://www.facebook.com/" className="Team-fa">
+        <FaFacebook />
+        </a>
+        <a href="https://twitter.com/" className="Team-fa">
+        <FaTwitter />
+        </a>
+        <a href="https://www.instagram.com/" className="Team-fa">
+        <FaInstagram />
+        </a>
+        <a href="https://www.pinterest.com/" className="Team-fa">
+        <FaPinterest />
+        </a>    </Card.Text>
     </Card.Body>
     <Card.Footer>
     </Card.Footer>
