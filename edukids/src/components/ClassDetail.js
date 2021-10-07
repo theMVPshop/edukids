@@ -4,6 +4,9 @@ import { Container, Row, Col, Image, Card, CardGroup } from "react-bootstrap";
 function ClassDetail() {
   return (
     <div>
+      <Container className="Head-Container">
+        <h1 className="Head-H1">Class Detail</h1>
+      </Container>
       <Container className="ClassDetail-container">
         <Row className="justify-content-md-center">
           <Col>
@@ -16,17 +19,22 @@ function ClassDetail() {
 
             <Image
               className="classDetail-Description-image"
-              src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTQ2fHx0ZWFjaGVyJTIwY2xhc3Nyb29tJTIwYmFiaWVzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+              // src="/img/tutor-and-multicultural-kids-playing-with-construc-M27G27Q.jpg"
             />
 
             <h3 className="ClassDetail-h3">Class Curriculum</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Reprehenderit quo ratione recusandae!
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti
+              accusantium voluptate maxime obcaecati? Impedit maxime dolores
+              vero quas? Blanditiis cumque non ullam recusandae fugiat neque
+              error totam expedita, magni ea!
             </p>
-            <ul>
+            <ul className="ClassDetail-list-style">
               <li>Lorem ipsum dolor sit amet consectetur.</li>
-              <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+              <li>
+                <i class="bi bi-check-circle-fill"></i>Lorem ipsum dolor sit
+                amet consectetur adipisicing.
+              </li>
               <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
               <li>Lorem ipsum dolor sit amet consectetur.</li>
             </ul>
