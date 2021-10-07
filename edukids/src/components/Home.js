@@ -16,11 +16,10 @@ class Home extends Component {
                             <Col>
                                 <Button variant="primary" type="button">
                                     Learn More
-                       </Button>
-
+                                </Button>
                                 <Button variant="primary" type="button">
                                     Contact Us
-                       </Button>
+                                </Button>
                             </Col>
                         </Row>
                     </Container>
@@ -81,7 +80,7 @@ class Home extends Component {
                                 </ListGroup.Item>
                                 <ListGroup.Item className="Classes-List-Group-Item">
                                     <span>—</span>Lorem Ipsum
-                             </ListGroup.Item>
+                                </ListGroup.Item>
                             </ListGroup>
                             <Button variant="primary" type="button">
                                 More About Us
