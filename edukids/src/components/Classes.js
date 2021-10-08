@@ -207,9 +207,9 @@ function Classes(props) {
         <Row className="Classes-Row-3">
           <Col>
             <Card.Body>
-              <Card.Title>Get Online Class For Free</Card.Title>
-              <Card.Text>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet porttitor eget dolor morbi non. At imperdiet dui accumsan sit amet nulla facilisi.
+              <Card.Title className="Classes-Body-Title ">Get Online Class For Free</Card.Title>
+              <Card.Text className="Classes-Body-Text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet porttitor eget dolor morbi non. At imperdiet dui accumsan sit amet nulla facilisi.Lorem ipsum dolor sit amet.
                 </Card.Text>
             </Card.Body>
           </Col>

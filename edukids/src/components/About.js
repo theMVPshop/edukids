@@ -1,15 +1,20 @@
 import React, {Component} from 'react'
 // import { Button } from "@material-ui/core";
 import { Button, Card, Col, Container, ListGroup, Row, Tabs, Tab, Accordion } from 'react-bootstrap';
-import { FaBook, FaBuilding, FaRegClock, FaPhone, FaCheckCircle} from 'react-icons/fa'
+import { FaBook, FaBuilding, FaRegClock, FaPhone, FaCheckCircle, FaCircle} from 'react-icons/fa'
 import Image1 from '../img/emotion-emoticons-used-by-a-psychologist-during-a--D2BFM6T.jpg';
 import Image2 from '../img/painting-together-P9VHLJH.jpg';
 
 class About extends Component {
 
 
+
+  
     render() {
+
+      
         return (
+          
             
             <Container>
                   <Container className="Head-Container">
@@ -17,6 +22,16 @@ class About extends Component {
     </Container>
                 <Row className="justify-content-md-center">
     <Col md="auto"><h1>We Are Kindergarten And Childhood Is Our Passion</h1></Col>
+    
+          <Row className="About-Head-Row"><Col xs lg="5"></Col><Col><hr /></Col><Col xs lg="1" className="About-Head-Col"><FaCircle /><FaCircle /><FaCircle /></Col><Col ><hr /></Col><Col Col xs lg="5"></Col></Row>
+          {/* <Row className="justify-content-md-center">
+                <Col xs lg="3"></Col>
+                <Col md="auto">
+                    <Col className="About-Head-Col"><Col><hr /></Col><FaCircle /><FaCircle /><FaCircle /></Col><Col><hr /></Col>
+                </Col>
+                <Col xs lg="3"></Col>
+            </Row> */}
+
   </Row>
   <Row className="justify-content-md-center">
   <Col md="auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
