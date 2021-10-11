@@ -600,6 +600,10 @@ body {
   font-size: 1vw;
 }
 
+.Contact-cardCol{
+  margin: 1rem;
+}
+
 .Contact-addressBadge {
   width: 70%;
   margin: auto;
@@ -623,7 +627,7 @@ body {
 }
 
 .Contact-formCard {
-  margin: auto;
+  margin: 1rem;
   padding: 1rem;
 }
 
