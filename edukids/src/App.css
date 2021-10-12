@@ -13,7 +13,7 @@ body {
 }
 
 .bg-myorange {
-  background-color: orange;
+  background-color: rgb(250, 100, 46);
 }
 .App {
   text-align: center;
@@ -94,7 +94,7 @@ body {
 /* ABOUT CSS */
 
 .About-Head-Row {
-  color: orange;
+  color: rgb(250, 100, 46);
   text-align: center;
 }
 
@@ -629,6 +629,10 @@ body {
   font-size: 1vw;
 }
 
+.Contact-cardCol{
+  margin: 1rem;
+}
+
 .Contact-addressBadge {
   width: 70%;
   margin: auto;
@@ -652,7 +656,7 @@ body {
 }
 
 .Contact-formCard {
-  margin: auto;
+  margin: 1rem;
   padding: 1rem;
 }
 
@@ -889,7 +893,7 @@ body {
 }
 
 .Team-Card-Body1 {
-  background-color: orange;
+  background-color: rgb(250, 100, 46);
   border-radius: 15px;
   color: white;
   text-align: center;

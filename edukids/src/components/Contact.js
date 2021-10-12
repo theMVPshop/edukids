@@ -9,7 +9,7 @@ function Classes(props) {
       <h1 className="Head-H1">Contact Us</h1>
       </Container>
         <Row >
-          <Col>
+          <Col className="Contact-cardCol">
             <Row>
               <Card className="Contact-contactHeader mb-3">
                 <Card.Title className="Contact-headerTitle">Contact Us for Further Information</Card.Title>
