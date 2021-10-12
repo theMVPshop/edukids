@@ -765,12 +765,12 @@ body {
   color: white;
 }
 .Home-Bottom-Container {
-  background-image: url("./img/boys-and-girls-dancing-PZNK4D9.jpg");
+  /* background-image: url("./img/boys-and-girls-dancing-PZNK4D9.jpg"); */
   height: 500px;
   background-size: cover;
   padding: 100px;
   text-align: center;
-  color: white;
+  /* color: white; */
 }
 
 .Home-Button-a{
@@ -815,31 +815,40 @@ body {
 .Home-List-Group-Item{
   border:none;
 }
-.Home-Cards-a{
+
+.Home-Cards {
   display:flex;
   justify-content: center;
   text-align: center;
+  width: 25%;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 30px;
+  color: white;
+  border-radius: 10%;
+}
+
+.Home-Cards-a{
   background-color: #05b992 !important;
   border-color: rgb(32, 126, 106);
   border-bottom: 3px solid rgb(32, 126, 106);
 }
 
 .Home-Cards-b{
-  display:flex;
-  justify-content: center;
-  text-align: center;
   background-color: rgb(254,93,55) !important;
   border-color:rgb(210, 78, 49) ;
   border-bottom: 3px solid rgb(210, 78, 49)  ;
 
 }
 .Home-Cards-c{
-  display:flex;
-  justify-content: center;
-  text-align: center;
   background-color: rgb(234,170,20) !important;
   border-color: rgb(187, 140, 29);
   border-bottom:3px solid rgb(187, 140, 29);
+}
+
+.Home-Card-Icon {
+  font-size: 70px;
+  margin-bottom: 20px;
 }
 
 /* .Classes-List-Group-Item {
