@@ -767,13 +767,14 @@ body {
 /* HOME CSS */
 
 .Home-Head-Container {
-  background-image: url("./img/cute-girl-playing-with-paint-in-art-class-85QTUD9.jpg");
-  height: 500px;
+  background-image: url("./img/home-page-girl-with-paint.jpg");
+  height: 800px;
   background-size: cover;
   padding: 100px;
   text-align: center;
   color: white;
 }
+
 .Home-Bottom-Container {
   background-image: url("./img/boys-and-girls-dancing-PZNK4D9.jpg");
   height: 500px;
@@ -825,28 +826,27 @@ body {
 .Home-List-Group-Item {
   border: none;
 }
-.Home-Cards-a {
-  display: flex;
+
+.Home-Cards {
+  display:flex;
   justify-content: center;
   text-align: center;
+}
+
+.Home-Cards-a {
   background-color: #05b992 !important;
   border-color: rgb(32, 126, 106);
   border-bottom: 3px solid rgb(32, 126, 106);
 }
 
-.Home-Cards-b {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  background-color: rgb(254, 93, 55) !important;
-  border-color: rgb(210, 78, 49);
-  border-bottom: 3px solid rgb(210, 78, 49);
+.Home-Cards-b{
+  background-color: rgb(254,93,55) !important;
+  border-color:rgb(210, 78, 49) ;
+  border-bottom: 3px solid rgb(210, 78, 49)  ;
+
 }
-.Home-Cards-c {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  background-color: rgb(234, 170, 20) !important;
+.Home-Cards-c{
+  background-color: rgb(234,170,20) !important;
   border-color: rgb(187, 140, 29);
   border-bottom: 3px solid rgb(187, 140, 29);
 }
@@ -903,7 +903,7 @@ body {
 
 /* HEAD CSS */
 .Head-Container {
-  background-image: url("./img/backImage.png");
+  background-image: url("./img/head-image-with-clouds.png");
   height: 500px;
   background-size: cover;
   padding: 150px;
