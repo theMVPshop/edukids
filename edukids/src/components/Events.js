@@ -1,3 +1,4 @@
+import Button from '@restart/ui/esm/Button';
 import React from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import CardHeader from 'react-bootstrap/esm/CardHeader';
@@ -7,6 +8,12 @@ import Image3 from '../img/cheerful-women-in-printing-office-JQ5K4XE.jpg';
 import Image4 from '../img/cute-girl-playing-with-paint-in-art-class-85QTUD9.jpg';
 import Image5 from '../img/education-teachers-university-and-schools-concept--JA74V7F.jpg';
 import Image6 from '../img/emotion-emoticons-used-by-a-psychologist-during-a--D2BFM6T.jpg';
+import Image7 from '../img/happy-educator-hugging-adorable-kids-in-kindergart-CSSFQDV.jpg';
+import Image8 from '../img/happy-kids-are-painting-at-home-FSC2Q9C.jpg';
+import Image9 from '../img/kindergarten-age-girl-learning-about-the-planets-a-EKX3YDA.jpg';
+import Image10 from '../img/mother-or-nursery-teacher-teaches-her-children-to--QK27JT7.jpg';
+import Image11 from '../img/painting-together-P9VHLJH.jpg';
+import Image12 from '../img/sitting-on-a-carpet-P8BAWTX.jpg';
 
 
 
@@ -14,6 +21,10 @@ const Events = () => {
 
     return (
         <Container>
+
+            <Container className="Head-Container">
+                <h1 className="Head-H1">Events</h1>
+            </Container>
 
             <Row className="justify-content-md-center">
                 <Col xs lg="4"></Col>
@@ -52,18 +63,18 @@ const Events = () => {
                 <Col xs lg="2"></Col>
                 <Col md="auto">
                     <p>
-                    <a className="btn btn-link nounderline" data-toggle="collapse" href="#" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    <Button className="btn btn-link nounderline" data-toggle="collapse" href="#" aria-expanded="false" aria-controls="collapseExample">
                         All
-                    </a>
-                    <a className="btn btn-link nounderline" data-toggle="collapse" href="#" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    </Button>
+                    <Button className="btn btn-link nounderline" data-toggle="collapse" href="#" aria-expanded="false" aria-controls="collapseExample">
                         Painting
-                    </a>
-                    <a className="btn btn-link nounderline" data-toggle="collapse" href="#" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    </Button>
+                    <Button className="btn btn-link nounderline" data-toggle="collapse" href="#" aria-expanded="false" aria-controls="collapseExample">
                         Indoor
-                    </a>
-                    <a className="btn btn-link nounderline" data-toggle="collapse" href="#" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    </Button>
+                    <Button className="btn btn-link nounderline" data-toggle="collapse" href="#" aria-expanded="false" aria-controls="collapseExample">
                         Outdoor
-                    </a> 
+                    </Button> 
                     </p>
                     
                 </Col>
@@ -76,13 +87,13 @@ const Events = () => {
                     <img
                     src={Image1}
                     className="w-100 shadow-1-strong rounded mb-4"
-                    alt=""
+                    alt="indoor"
                     />
 
                     <img
                     src={Image2}
                     className="w-100 shadow-1-strong rounded mb-4"
-                    alt=""
+                    alt="outdoor"
                     />
                 </Col>
 
@@ -90,13 +101,13 @@ const Events = () => {
                     <img
                     src={Image3}
                     className="w-100 shadow-1-strong rounded mb-4"
-                    alt=""
+                    alt="painting"
                     />
 
                     <img
                     src={Image4}
                     className="w-100 shadow-1-strong rounded mb-4"
-                    alt=""
+                    alt="painting"
                     />
                 </Col>
 
@@ -104,13 +115,55 @@ const Events = () => {
                     <img
                     src={Image5}
                     className="w-100 shadow-1-strong rounded mb-4"
-                    alt=""
+                    alt="outdoor"
                     />
 
                     <img
                     src={Image6}
                     className="w-100 shadow-1-strong rounded mb-4"
-                    alt=""
+                    alt="indoor"
+                    />
+                </Col>
+
+                <Col className="lg-4 mb-4 mb-lg-0">
+                    <img
+                    src={Image7}
+                    className="w-100 shadow-1-strong rounded mb-4"
+                    alt="outdoor"
+                    />
+
+                    <img
+                    src={Image8}
+                    className="w-100 shadow-1-strong rounded mb-4"
+                    alt="indoor"
+                    />
+                </Col>
+
+                <Col className="lg-4 mb-4 mb-lg-0">
+                    <img
+                    src={Image9}
+                    className="w-100 shadow-1-strong rounded mb-4"
+                    alt="outdoor"
+                    />
+
+                    <img
+                    src={Image10}
+                    className="w-100 shadow-1-strong rounded mb-4"
+                    alt="indoor"
+                    />
+                </Col>
+
+                <Col className="lg-4 mb-4 mb-lg-0">
+                    <img
+                    src={Image11}
+                    className="w-100 shadow-1-strong rounded mb-4"
+                    alt="outdoor"
+                    />
+
+                    <img
+                    src={Image12}
+                    className="w-100 shadow-1-strong rounded mb-4"
+                    alt="indoor"
                     />
                 </Col>
             </Row>

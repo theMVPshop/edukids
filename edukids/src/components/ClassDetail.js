@@ -1,6 +1,17 @@
 import React from "react";
 import { Container, Row, Col, Image, Card, CardGroup } from "react-bootstrap";
-
+import {
+  FaFacebook,
+  FaInstagram,
+  FaTwitter,
+  FaGoogle,
+  FaYoutube,
+  FaCheckCircle,
+} from "react-icons/fa";
+import ClassDetailImage1 from "../img/adorable-kids-playing-with-constructor-on-floor-in-ZP6VC78.jpg";
+import ClassDetailImage2 from "../img/cute-girl-playing-with-paint-in-art-class-85QTUD9.jpg";
+import ClassDetailImage3 from "../img/sitting-on-a-carpet-P8BAWTX.jpg";
+import ClassDetailImage4 from "../img/painting-together-P9VHLJH.jpg";
 function ClassDetail() {
   return (
     <div>
@@ -11,62 +22,76 @@ function ClassDetail() {
         <Row className="justify-content-md-center">
           <Col>
             <h2 className="ClassDetail-h2">Class Description</h2>
-            <p>
+            <p className="ClassDetail-p">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Praesentium fugiat cumque nemo eaque deleniti perferendis vel vero
               in ut assumenda!
             </p>
 
-            <Image
-              className="classDetail-Description-image"
-              // src="/img/tutor-and-multicultural-kids-playing-with-construc-M27G27Q.jpg"
-            />
+            <Image className="classDetail-Description-image" />
 
-            <h3 className="ClassDetail-h3">Class Curriculum</h3>
-            <p>
+            <h4 className="ClassDetail-h4">Class Curriculum</h4>
+            <p className="ClassDetail-p">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti
               accusantium voluptate maxime obcaecati? Impedit maxime dolores
               vero quas? Blanditiis cumque non ullam recusandae fugiat neque
               error totam expedita, magni ea!
             </p>
             <ul className="ClassDetail-list-style">
-              <li>Lorem ipsum dolor sit amet consectetur.</li>
               <li>
-                <i class="bi bi-check-circle-fill"></i>Lorem ipsum dolor sit
-                amet consectetur adipisicing.
+                <span style={{ margin: "10px", color: "rgb(250, 100, 46)" }}>
+                  <FaCheckCircle />
+                </span>
+                Lorem ipsum dolor sit amet consectetur.
               </li>
-              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-              <li>Lorem ipsum dolor sit amet consectetur.</li>
+              <li>
+                <span style={{ margin: "10px", color: "rgb(250, 100, 46)" }}>
+                  <FaCheckCircle />
+                </span>
+                Lorem ipsum dolor sit amet consectetur adipisicing.
+              </li>
+              <li>
+                <span style={{ margin: "10px", color: "rgb(250, 100, 46)" }}>
+                  <FaCheckCircle />
+                </span>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </li>
+              <li>
+                <span style={{ margin: "10px", color: "rgb(250, 100, 46)" }}>
+                  <FaCheckCircle />
+                </span>
+                Lorem ipsum dolor sit amet consectetur.
+              </li>
             </ul>
 
-            <h4>Class Activities Gallery:</h4>
+            <h4 className="ClassDetail-h4">Class Activities Gallery:</h4>
             {/* ****gallery goes here**** */}
             <CardGroup>
               <Card>
                 <Image
                   className="classDetail-Activities-gallery-photo"
-                  src="https://images.unsplash.com/photo-1574704530833-d47190a0d92f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8"
+                  src={ClassDetailImage1}
                   rounded
                 />
               </Card>
               <Card>
                 <Image
                   className="classDetail-Activities-gallery-photo"
-                  src="https://images.unsplash.com/photo-1574704530833-d47190a0d92f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8"
+                  src={ClassDetailImage2}
                   rounded
                 />
               </Card>
               <Card>
                 <Image
                   className="classDetail-Activities-gallery-photo"
-                  src="https://images.unsplash.com/photo-1574704530833-d47190a0d92f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8"
+                  src={ClassDetailImage3}
                   rounded
                 />
               </Card>
               <Card>
                 <Image
                   className="classDetail-Activities-gallery-photo"
-                  src="https://images.unsplash.com/photo-1574704530833-d47190a0d92f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8"
+                  src={ClassDetailImage4}
                   rounded
                 />
               </Card>
@@ -109,15 +134,32 @@ function ClassDetail() {
                   src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8dGVhY2hlciUyMGhlYWRzaG90fGVufDB8fDB8fA%3D%3D/15x15"
                   className="ClassDetail-teacher-img"
                 />
-
                 <Card.Text className="ClassDetail-teacher-card-text">
                   <b>Jane Deo</b>
-                  <br />
-                  teacher
-                  <br />
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                  <p className="ClassDetail-teacher-small-text">Teacher</p>
+                  <p className="ClassDetail-teacher-small-text">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Provident neque libero ipsam corporis distinctio atque fuga
+                    mollitia eveniet.
+                  </p>
                 </Card.Text>
+                <div className="ClassDetail-social-container">
+                  <a className="ClassDetail-social" href="">
+                    <FaFacebook />
+                  </a>
+                  <a className="ClassDetail-social" href="">
+                    <FaTwitter />
+                  </a>
+                  <a className="ClassDetail-social" href="">
+                    <FaGoogle />
+                  </a>
+                  <a className="ClassDetail-social" href="">
+                    <FaInstagram />
+                  </a>
+                  <a className="ClassDetail-social" href="">
+                    <FaYoutube />
+                  </a>
+                </div>
               </Card.Body>
             </Card>
           </Col>
