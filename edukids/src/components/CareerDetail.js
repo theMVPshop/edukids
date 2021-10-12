@@ -102,8 +102,8 @@ function CareerDetail() {
                 <Row className="CareerDetial-Right-Row">
                   <Col className="CareerDetail-Right-Colum">
                     <Card.Text className="CareerDetial-Right-Row-Row">
-                      <p>Post</p>
-                      <p>Teacher:</p>
+                      <p>Post:</p>
+                      <p>Teacher</p>
                     </Card.Text>
                   </Col>
                   <Col className="CareerDetail-Right-Colum">

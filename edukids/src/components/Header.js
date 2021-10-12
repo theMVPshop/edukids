@@ -30,7 +30,7 @@ const Header = () => {
                             <NavDropdown.Item href="faq">FAQ</NavDropdown.Item>
                             <NavDropdown.Item href="team">Team</NavDropdown.Item>
                             <NavDropdown.Item href="career">Career</NavDropdown.Item>
-                            <NavDropdown.Item href="careerdetails">Career Detail</NavDropdown.Item>
+                            <NavDropdown.Item href="careerdetail">Career Detail</NavDropdown.Item>
                         </NavDropdown>
                 </Nav>
                 </Container>
