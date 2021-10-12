@@ -848,14 +848,8 @@ body {
 .Home-List-Group-Item {
   border: none;
 }
-<<<<<<< HEAD
-
-.Home-Cards {
-  display:flex;
-=======
 .Home-Cards-a {
   display: flex;
->>>>>>> 000028b9ce2d639ef1afd4c315889597b9e1f94a
   justify-content: center;
   text-align: center;
   width: 25%;
@@ -872,16 +866,6 @@ body {
   border-bottom: 3px solid rgb(32, 126, 106);
 }
 
-<<<<<<< HEAD
-.Home-Cards-b{
-  background-color: rgb(254,93,55) !important;
-  border-color:rgb(210, 78, 49) ;
-  border-bottom: 3px solid rgb(210, 78, 49)  ;
-
-}
-.Home-Cards-c{
-  background-color: rgb(234,170,20) !important;
-=======
 .Home-Cards-b {
   display: flex;
   justify-content: center;
@@ -895,7 +879,6 @@ body {
   justify-content: center;
   text-align: center;
   background-color: rgb(234, 170, 20) !important;
->>>>>>> 000028b9ce2d639ef1afd4c315889597b9e1f94a
   border-color: rgb(187, 140, 29);
   border-bottom: 3px solid rgb(187, 140, 29);
 }
