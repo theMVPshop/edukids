@@ -903,7 +903,7 @@ body {
 
 /* HEAD CSS */
 .Head-Container {
-  background-image: url("./img/backImage.png");
+  background-image: url("./img/head-image-with-clouds.png");
   height: 500px;
   background-size: cover;
   padding: 150px;
