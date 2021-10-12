@@ -1,5 +1,12 @@
 import React from "react";
 import { Container, Row, Col, Image, Card, CardGroup } from "react-bootstrap";
+import {
+  FaFacebook,
+  FaInstagram,
+  FaTwitter,
+  FaPinterest,
+  FaCheckCircle,
+} from "react-icons/fa";
 
 function ClassDetail() {
   return (
@@ -17,12 +24,9 @@ function ClassDetail() {
               in ut assumenda!
             </p>
 
-            <Image
-              className="classDetail-Description-image"
-              // src="/img/tutor-and-multicultural-kids-playing-with-construc-M27G27Q.jpg"
-            />
+            <Image className="classDetail-Description-image" />
 
-            <h3 className="ClassDetail-h3">Class Curriculum</h3>
+            <h4 className="ClassDetail-h4">Class Curriculum</h4>
             <p className="ClassDetail-p">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti
               accusantium voluptate maxime obcaecati? Impedit maxime dolores
@@ -30,16 +34,33 @@ function ClassDetail() {
               error totam expedita, magni ea!
             </p>
             <ul className="ClassDetail-list-style">
-              <li>Lorem ipsum dolor sit amet consectetur.</li>
               <li>
-                <i class="bi bi-check-circle-fill"></i>Lorem ipsum dolor sit
-                amet consectetur adipisicing.
+                <span style={{ margin: "10px", color: "rgb(250, 100, 46)" }}>
+                  <FaCheckCircle />
+                </span>
+                Lorem ipsum dolor sit amet consectetur.
               </li>
-              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-              <li>Lorem ipsum dolor sit amet consectetur.</li>
+              <li>
+                <span style={{ margin: "10px", color: "rgb(250, 100, 46)" }}>
+                  <FaCheckCircle />
+                </span>
+                Lorem ipsum dolor sit amet consectetur adipisicing.
+              </li>
+              <li>
+                <span style={{ margin: "10px", color: "rgb(250, 100, 46)" }}>
+                  <FaCheckCircle />
+                </span>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </li>
+              <li>
+                <span style={{ margin: "10px", color: "rgb(250, 100, 46)" }}>
+                  <FaCheckCircle />
+                </span>
+                Lorem ipsum dolor sit amet consectetur.
+              </li>
             </ul>
 
-            <h4>Class Activities Gallery:</h4>
+            <h4 className="ClassDetail-h4">Class Activities Gallery:</h4>
             {/* ****gallery goes here**** */}
             <CardGroup>
               <Card>
@@ -109,7 +130,6 @@ function ClassDetail() {
                   src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8dGVhY2hlciUyMGhlYWRzaG90fGVufDB8fDB8fA%3D%3D/15x15"
                   className="ClassDetail-teacher-img"
                 />
-
                 <Card.Text className="ClassDetail-teacher-card-text">
                   <b>Jane Deo</b>
                   <br />
@@ -118,6 +138,7 @@ function ClassDetail() {
                   lead-in to additional content. This content is a little bit
                   longer.
                 </Card.Text>
+                <FaFacebook /> <FaTwitter /> <FaInstagram /> <FaPinterest />
               </Card.Body>
             </Card>
           </Col>
