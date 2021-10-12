@@ -371,9 +371,14 @@ body {
 }
 
 .CareerDetail-Card {
-  /* border: none; */
+  border: none;
 }
 
+.CareerDetail-Card-Body {
+  padding-left: 11px;
+  padding-right: 11px;
+  padding-bottom: 0px;
+}
 .CareerDetail-Column {
   margin-left: 15px;
   margin-right: 15px;
@@ -382,6 +387,11 @@ body {
 .CareerDetial-Right-Row {
   background-color: rgb(250, 100, 46);
   padding: 30px;
+}
+
+.CareerDetial-Right-Row-Row {
+  align-items: center;
+  text-align: center;
 }
 
 .CareerDetail-Right-Colum {
@@ -524,8 +534,8 @@ body {
   font-weight: bold;
 }
 
-.Classes-Body-Text{
-  display:flex;
+.Classes-Body-Text {
+  display: flex;
   text-align: center;
 }
 .Classes-Col-Form {
@@ -773,7 +783,7 @@ body {
   color: white;
 }
 
-.Home-Button-a{
+.Home-Button-a {
   width: 200px;
   height: 50px;
   background-color: rgb(250, 100, 46);
@@ -784,20 +794,20 @@ body {
   margin: 10px;
 }
 
-.Home-Button-b{
+.Home-Button-b {
   width: 200px;
   height: 50px;
   background-color: #05b992;
   border-radius: 30px;
-  border-color:  #029373;
-  border-bottom: 3px solid  #029373;
+  border-color: #029373;
+  border-bottom: 3px solid #029373;
   font-weight: 700;
   margin: 10px;
 }
-.Home-Title-Body-a{
-  display:flex;
+.Home-Title-Body-a {
+  display: flex;
   text-align: center;
-  border:none;
+  border: none;
 }
 .Home-Title {
   font-size: 45px;
@@ -805,18 +815,18 @@ body {
   color: #2e224c;
   margin-bottom: 20px;
 }
-.Home-Card{
-  border:none;
+.Home-Card {
+  border: none;
 }
 .Home-Card-Col {
   display: flex;
   justify-content: center;
 }
-.Home-List-Group-Item{
-  border:none;
+.Home-List-Group-Item {
+  border: none;
 }
-.Home-Cards-a{
-  display:flex;
+.Home-Cards-a {
+  display: flex;
   justify-content: center;
   text-align: center;
   background-color: #05b992 !important;
@@ -824,22 +834,21 @@ body {
   border-bottom: 3px solid rgb(32, 126, 106);
 }
 
-.Home-Cards-b{
-  display:flex;
+.Home-Cards-b {
+  display: flex;
   justify-content: center;
   text-align: center;
-  background-color: rgb(254,93,55) !important;
-  border-color:rgb(210, 78, 49) ;
-  border-bottom: 3px solid rgb(210, 78, 49)  ;
-
+  background-color: rgb(254, 93, 55) !important;
+  border-color: rgb(210, 78, 49);
+  border-bottom: 3px solid rgb(210, 78, 49);
 }
-.Home-Cards-c{
-  display:flex;
+.Home-Cards-c {
+  display: flex;
   justify-content: center;
   text-align: center;
-  background-color: rgb(234,170,20) !important;
+  background-color: rgb(234, 170, 20) !important;
   border-color: rgb(187, 140, 29);
-  border-bottom:3px solid rgb(187, 140, 29);
+  border-bottom: 3px solid rgb(187, 140, 29);
 }
 
 /* .Classes-List-Group-Item {
