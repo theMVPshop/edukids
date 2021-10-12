@@ -4,10 +4,14 @@ import {
   FaFacebook,
   FaInstagram,
   FaTwitter,
-  FaPinterest,
+  FaGoogle,
+  FaYoutube,
   FaCheckCircle,
 } from "react-icons/fa";
-
+import ClassDetailImage1 from "../img/adorable-kids-playing-with-constructor-on-floor-in-ZP6VC78.jpg";
+import ClassDetailImage2 from "../img/cute-girl-playing-with-paint-in-art-class-85QTUD9.jpg";
+import ClassDetailImage3 from "../img/sitting-on-a-carpet-P8BAWTX.jpg";
+import ClassDetailImage4 from "../img/painting-together-P9VHLJH.jpg";
 function ClassDetail() {
   return (
     <div>
@@ -66,28 +70,28 @@ function ClassDetail() {
               <Card>
                 <Image
                   className="classDetail-Activities-gallery-photo"
-                  src="https://images.unsplash.com/photo-1574704530833-d47190a0d92f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8"
+                  src={ClassDetailImage1}
                   rounded
                 />
               </Card>
               <Card>
                 <Image
                   className="classDetail-Activities-gallery-photo"
-                  src="https://images.unsplash.com/photo-1574704530833-d47190a0d92f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8"
+                  src={ClassDetailImage2}
                   rounded
                 />
               </Card>
               <Card>
                 <Image
                   className="classDetail-Activities-gallery-photo"
-                  src="https://images.unsplash.com/photo-1574704530833-d47190a0d92f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8"
+                  src={ClassDetailImage3}
                   rounded
                 />
               </Card>
               <Card>
                 <Image
                   className="classDetail-Activities-gallery-photo"
-                  src="https://images.unsplash.com/photo-1574704530833-d47190a0d92f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8"
+                  src={ClassDetailImage4}
                   rounded
                 />
               </Card>
@@ -132,13 +136,30 @@ function ClassDetail() {
                 />
                 <Card.Text className="ClassDetail-teacher-card-text">
                   <b>Jane Deo</b>
-                  <br />
-                  teacher
-                  <br />
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                  <p className="ClassDetail-teacher-small-text">Teacher</p>
+                  <p className="ClassDetail-teacher-small-text">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Provident neque libero ipsam corporis distinctio atque fuga
+                    mollitia eveniet.
+                  </p>
                 </Card.Text>
-                <FaFacebook /> <FaTwitter /> <FaInstagram /> <FaPinterest />
+                <div className="ClassDetail-social-container">
+                  <a className="ClassDetail-social" href="">
+                    <FaFacebook />
+                  </a>
+                  <a className="ClassDetail-social" href="">
+                    <FaTwitter />
+                  </a>
+                  <a className="ClassDetail-social" href="">
+                    <FaGoogle />
+                  </a>
+                  <a className="ClassDetail-social" href="">
+                    <FaInstagram />
+                  </a>
+                  <a className="ClassDetail-social" href="">
+                    <FaYoutube />
+                  </a>
+                </div>
               </Card.Body>
             </Card>
           </Col>
