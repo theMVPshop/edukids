@@ -13,7 +13,7 @@ body {
 }
 
 .bg-myorange {
-  background-color: rgb(250, 100, 46);
+  background-color: orange;
 }
 .App {
   text-align: center;
@@ -94,7 +94,7 @@ body {
 /* ABOUT CSS */
 
 .About-Head-Row {
-  color: rgb(250, 100, 46);
+  color: orange;
   text-align: center;
 }
 
@@ -371,9 +371,14 @@ body {
 }
 
 .CareerDetail-Card {
-  /* border: none; */
+  border: none;
 }
 
+.CareerDetail-Card-Body {
+  padding-left: 11px;
+  padding-right: 11px;
+  padding-bottom: 0px;
+}
 .CareerDetail-Column {
   margin-left: 15px;
   margin-right: 15px;
@@ -382,6 +387,11 @@ body {
 .CareerDetial-Right-Row {
   background-color: rgb(250, 100, 46);
   padding: 30px;
+}
+
+.CareerDetial-Right-Row-Row {
+  align-items: center;
+  text-align: center;
 }
 
 .CareerDetail-Right-Colum {
@@ -395,18 +405,10 @@ body {
 
 .ClassDetail-h2 {
   color: #220d38;
-  font-size: 48px;
-  padding-bottom: 10px;
 }
 
-.ClassDetail-h4 {
+.ClassDetail-h3 {
   color: #220d38;
-  padding: 25px 0;
-}
-.ClassDetail-p {
-  color: #220d38;
-  font-weight: 100;
-  padding-bottom: 10px;
 }
 .ClassDetail-container {
   max-width: 80vw;
@@ -416,13 +418,12 @@ body {
 }
 .ClassDetail-list-style {
   list-style: none;
-  padding-left: 0px;
 }
 .ClassDetail-teacher-card-area {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 350px;
+  height: 300px;
   width: 250px;
   background-color: #03b991;
   color: whitesmoke;
@@ -434,20 +435,16 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  box-sizing: border-box;
 }
 .ClassDetail-teacher-img {
   height: 90px;
   width: 90px;
   border-radius: 50%;
-  margin-top: -15px;
+  margin-top: -35px;
 }
 .ClassDetail-teacher-card-text {
   text-align: center;
   margin-top: 25px;
-}
-.ClassDetail-teacher-small-text {
-  font-size: 10px;
 }
 .ClassDetail-information-card-area {
   display: flex;
@@ -467,7 +464,6 @@ body {
   border-radius: 25px;
   font-weight: 700;
   margin-bottom: 15px;
-  margin-left: 12px;
 }
 .classDetail-information-paragraph {
   font-size: 10px;
@@ -497,21 +493,6 @@ body {
   width: auto;
   border-radius: 20px;
   margin-right: 6px;
-}
-.ClassDetail-social-container {
-  max-width: 70%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 10px;
-}
-.ClassDetail-social {
-  border: 1px solid white;
-  border-radius: 50%;
-  padding: 0 4px;
-  color: whitesmoke;
-  margin: 2px;
-  margin-top: 4px;
 }
 
 /* CLASSES CSS */
@@ -629,10 +610,6 @@ body {
   font-size: 1vw;
 }
 
-.Contact-cardCol{
-  margin: 1rem;
-}
-
 .Contact-addressBadge {
   width: 70%;
   margin: auto;
@@ -656,7 +633,7 @@ body {
 }
 
 .Contact-formCard {
-  margin: 1rem;
+  margin: auto;
   padding: 1rem;
 }
 
@@ -798,12 +775,12 @@ body {
   color: white;
 }
 .Home-Bottom-Container {
-  /* background-image: url("./img/boys-and-girls-dancing-PZNK4D9.jpg"); */
+  background-image: url("./img/boys-and-girls-dancing-PZNK4D9.jpg");
   height: 500px;
   background-size: cover;
   padding: 100px;
   text-align: center;
-  /* color: white; */
+  color: white;
 }
 
 .Home-Button-a {
@@ -852,15 +829,6 @@ body {
   display: flex;
   justify-content: center;
   text-align: center;
-  width: 25%;
-  margin-left: 10px;
-  margin-right: 10px;
-  padding: 30px;
-  color: white;
-  border-radius: 10%;
-}
-
-.Home-Cards-a{
   background-color: #05b992 !important;
   border-color: rgb(32, 126, 106);
   border-bottom: 3px solid rgb(32, 126, 106);
@@ -883,11 +851,6 @@ body {
   border-bottom: 3px solid rgb(187, 140, 29);
 }
 
-.Home-Card-Icon {
-  font-size: 70px;
-  margin-bottom: 20px;
-}
-
 /* .Classes-List-Group-Item {
   border: none;
 } */
@@ -907,7 +870,7 @@ body {
 }
 
 .Team-Card-Body1 {
-  background-color: rgb(250, 100, 46);
+  background-color: orange;
   border-radius: 15px;
   color: white;
   text-align: center;

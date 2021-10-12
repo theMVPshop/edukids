@@ -1,17 +1,15 @@
 import React from 'react';
 import { Button, Card, Col, Container, ListGroup, Row, Tabs, Tab, Accordion } from 'react-bootstrap';
 import { FaFacebook, FaFileInvoice } from 'react-icons/fa'
+import Image1 from '../img/tutor-and-multicultural-kids-playing-with-construc-M27G27Q.jpg';
 
 function CareerDetail() {
   
   return(
     <Container>
-      <Row className="justify-content-md-center">
-        <Col md='auto'>
-          <h1>Career Detail</h1>
-          <p>image goes here!</p>
-        </Col>
-      </Row>
+    <Container className="Head-Container">
+      <h1 className="Head-H1">Career Detail</h1>
+    </Container>
       <Row>
         <Col xs={5} className="CareerDetail-Column">
           <Row>
@@ -100,47 +98,65 @@ function CareerDetail() {
         <Col className="CareerDetail-Colum">
           <Row>
             <Card className="CareerDetail-Card"> 
-              <Card.Body>
+              <Card.Body className="CareerDetail-Card-Body">
                 <Row className="CareerDetial-Right-Row">
                   <Col className="CareerDetail-Right-Colum">
-                    <Card.Text>
-                      <Row>Post:</Row>
-                      <Row>Teacher</Row>
+                    <Card.Text className="CareerDetial-Right-Row-Row">
+                      <p>Post</p>
+                      <p>Teacher:</p>
                     </Card.Text>
                   </Col>
                   <Col className="CareerDetail-Right-Colum">
                     <Card.Text>
-                      <Row>Time:</Row>
-                      <Row>Full Time</Row>
+                      <p>Time:</p>
+                      <p>Full Time</p>
                     </Card.Text>
                   </Col>
                   <Col className="CareerDetail-Right-Colum">
                     <Card.Text>
-                      <Row>Salary:</Row>
-                      <Row>Negotiable</Row>
+                      <p>Salary:</p>
+                      <p>Negotiable</p>
                     </Card.Text>
                   </Col>
                   <Col className="CareerDetail-Right-Colum">
                     <Card.Text>
-                      <Row>No. of Vacancy:</Row>
-                      <Row>8</Row>
+                      <p>No. of Vacancy:</p>
+                      <p>8</p>
                     </Card.Text>
                   </Col>
                 </Row>
-                <Card.Img src="https://images.unsplash.com/photo-1587323655395-b1c77a12c89a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx"></Card.Img>
               </Card.Body>
+              <Row><Card.Img src={Image1}></Card.Img> </Row>
             </Card>
           </Row>
           <Row>
             <Tabs>
               <Tab eventKey="description" title="Job Description">
-                Description goes here
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+                      est laborum.
               </Tab>
               <Tab eventKey="experience" title="Experience & Overview">
-                Experience goes here
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+                      est laborum.
               </Tab>
               <Tab eventKey="requirement" title="Requirement">
-                Requirements go here
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+                      est laborum.
               </Tab>
             </Tabs>
           </Row>
