@@ -62,10 +62,10 @@ body {
 }
 
 .fa {
-  width: 10px;
-  padding: 15px;
-  padding-top: 10px;
-  font-size: 25px;
+  width: 100%;
+  padding: 10px;
+  padding-top: 5px;
+  font-size: 20px;
   text-align: center;
   text-decoration: none;
   margin: 5px;
@@ -685,6 +685,13 @@ body {
   text-decoration: none !important;
 }
 
+.ev-header {
+  width: 100%;
+  height: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 /* FACILITIES CSS */
 
 /* FOOTER CSS */
@@ -827,6 +834,15 @@ body {
   color: white;
 }
 
+.Home-Head-H1 {
+  width: 70%;
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  font-size: 70px;
+  font-weight: 900;
+}
+
 .Home-Bottom-Container {
   background-image: url("./img/boys-and-girls-dancing-PZNK4D9.jpg");
   height: 500px;
@@ -845,6 +861,7 @@ body {
   border-bottom: 3px solid rgb(199, 85, 47);
   font-weight: 700;
   margin: 10px;
+  margin-top: 30px;
 }
 
 .Home-Button-b {
@@ -857,32 +874,42 @@ body {
   font-weight: 700;
   margin: 10px;
 }
+
 .Home-Title-Body-a {
   display: flex;
   text-align: center;
   border: none;
 }
+
 .Home-Title {
   font-size: 45px;
   font-weight: 700;
   color: #2e224c;
   margin-bottom: 20px;
 }
+
 .Home-Card {
   border: none;
 }
+
 .Home-Card-Col {
   display: flex;
   justify-content: center;
 }
+
 .Home-List-Group-Item {
   border: none;
+  padding: 0px;
 }
 
 .Home-Cards {
   display: flex;
   justify-content: center;
   text-align: center;
+  width: 25%;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 30px;
 }
 
 .Home-Cards-a {
@@ -900,6 +927,51 @@ body {
   background-color: rgb(234, 170, 20) !important;
   border-color: rgb(187, 140, 29);
   border-bottom: 3px solid rgb(187, 140, 29);
+}
+
+.Home-Card-Icon {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.Home-Image-Card {
+  border: none;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+.Home-Image {
+  width: 300px;
+  border: 12px solid pink;
+  border-radius: 15%;
+}
+
+.Home-Image-a {
+  position: absolute;
+  margin-left: 30px;
+}
+
+.Home-Image-b {
+  margin-left: 200px;
+  margin-top: 150px;
+}
+
+.Home-Facilities-Card {
+  border: none;
+  margin: auto;
+  /* padding: 10px; */
+}
+
+.Home-Facilities-Icon-Wrapper {
+  background-color: rgb(250, 100, 46);
+  margin-left: 10px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.Home-Facilities-Card-Icon {
+  margin-top: 0px;
+  font-size: 44px;
 }
 
 /* .Classes-List-Group-Item {

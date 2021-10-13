@@ -29,8 +29,8 @@ const Events = () => {
             <Row className="justify-content-md-center">
                 <Col xs lg="4"></Col>
                 <Col md="auto">
-                    <Card className="card text-orange border-warning" >
-                        <CardHeader>
+                    <Card className="card text-orange border-warning text-center" >
+                        <CardHeader className="ev-header">
                             Games & Events
                         </CardHeader>
                     </Card>
@@ -41,8 +41,8 @@ const Events = () => {
 
             <Row className="justify-content-md-center">
                 <Col xs lg="4"></Col>
-                <Col md="auto">
-                    <h3>Our Recent Activities</h3>
+                <Col md="auto" className="text-center">
+                    <h2>Our Recent Activities</h2>
                 </Col>
                 <Col xs lg="4"></Col>
             </Row>
@@ -50,7 +50,7 @@ const Events = () => {
             
             <Row className="justify-content-md-center">
                 <Col xs lg="4"></Col>
-                <Col md="auto">
+                <Col md="auto" className="text-center">
                     <p>
                     Dave found joy in the daily routine of life. He awoke at the same time, ate the same breakfast and drove the same commute. He worked at a job that never seemed to change and he got home at 6 pm sharp every night. It was who he had been for the last ten years and he had no idea that was all about to change.
                     </p>
@@ -61,7 +61,7 @@ const Events = () => {
             
             <Row className="justify-content-md-center">
                 <Col xs lg="2"></Col>
-                <Col md="auto">
+                <Col md="auto" className="text-center">
                     <p>
                     <Button className="btn btn-link nounderline" data-toggle="collapse" href="#" aria-expanded="false" aria-controls="collapseExample">
                         All
@@ -97,6 +97,12 @@ const Events = () => {
                     />
 
                     <img
+                    src={Image9}
+                    className="w-100 shadow-1-strong rounded mb-4"
+                    alt="outdoor"
+                    />
+
+                    <img
                     src={Image3}
                     className="w-100 shadow-1-strong rounded mb-4"
                     alt="painting"
@@ -113,13 +119,19 @@ const Events = () => {
                     />
 
                     <img
-                    src={Image5}
+                    src={Image6}
                     className="w-100 shadow-1-strong rounded mb-4"
                     alt="outdoor"
                     />
 
                     <img
-                    src={Image6}
+                    src={Image10}
+                    className="w-100 shadow-1-strong rounded mb-4"
+                    alt="indoor"
+                    />
+
+                    <img
+                    src={Image5}
                     className="w-100 shadow-1-strong rounded mb-4"
                     alt="indoor"
                     />
@@ -128,6 +140,12 @@ const Events = () => {
                 <Col className="lg-4 mb-4 mb-lg-0">
                     <img
                     src={Image7}
+                    className="w-100 shadow-1-strong rounded mb-4"
+                    alt="outdoor"
+                    />
+
+                    <img
+                    src={Image5}
                     className="w-100 shadow-1-strong rounded mb-4"
                     alt="outdoor"
                     />
@@ -160,6 +178,12 @@ const Events = () => {
                     src={Image12}
                     className="w-100 shadow-1-strong rounded mb-4"
                     alt="indoor"
+                    />
+
+                    <img
+                    src={Image3}
+                    className="w-100 shadow-1-strong rounded mb-4"
+                    alt="painting"
                     />
                 </Col>
 

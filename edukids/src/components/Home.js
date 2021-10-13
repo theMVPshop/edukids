@@ -1,8 +1,9 @@
 import React, { Component } from 'react'
 import { Button, Card, Container, Col, ListGroup, Row, Form } from 'react-bootstrap';
-import { FaBook, FaBuilding, FaRegClock, FaPhone, FaCheckCircle, FaLightbulb, FaRegLightbulb } from 'react-icons/fa'
+import { FaBook, FaBuilding, FaRegClock, FaPhone, FaCheckCircle, FaLightbulb, FaRegLightbulb, FaHamburger, FaSchool } from 'react-icons/fa'
 import { BsGear } from 'react-icons/bs'
-
+import Image1 from "../img/painting-together-P9VHLJH.jpg"
+import Image2 from '../img/emotion-emoticons-used-by-a-psychologist-during-a--D2BFM6T.jpg'
 
 class Home extends Component {
 
@@ -11,7 +12,7 @@ render() {
         <Container>
             <Container className="Home-Head-Container">
                 <Row>
-                    <h1 className="Head-H1"> Let the Children Change the World Today!</h1>
+                    <h1 className="Home-Head-H1"> Let the Children Change the World Today!</h1>
                 </Row>
                 <Row>
                     <Col>
@@ -70,12 +71,17 @@ render() {
             </Row>
             <Row>
                 <Col>
-                    **Two Overlapping Image Goes Here...Below**
+                    <Card className="Home-Image-Card">
+                        <Card.Body>
+                            <Card.Img src={Image1} className="Home-Image Home-Image-a"></Card.Img>
+                            <Card.Img src={Image2} className="Home-Image Home-Image-b"></Card.Img>
+                        </Card.Body>
+                    </Card>
                 </Col>
                 <Col>
                     <Card className="Home-Card">
                         <Card.Body>
-                            <Card.Title className="Home-Title">
+                            <Card.Title className="Home-Title" style={{width: "60%"}}>
                             Friendly School having proud of their Students
                             </Card.Title>
                             <Card.Text>
@@ -84,16 +90,16 @@ render() {
                         </Card.Body>
                     <ListGroup>
                         <ListGroup.Item className="Home-List-Group-Item">
-                            <span style={{ margin: "10px", color: "#fe5d37" }}><FaCheckCircle /></span>Lorem Ipsum
+                            <span style={{ margin: "10px", color: "#fe5d37" }}><FaCheckCircle /></span>Supporting child's Personality
                         </ListGroup.Item >
                         <ListGroup.Item className="Home-List-Group-Item">
-                            <span style={{ margin: "10px", color: "#fe5d37" }}><FaCheckCircle /></span>Lorem Ipsum
+                            <span style={{ margin: "10px", color: "#fe5d37" }}><FaCheckCircle /></span>Indoor/Outdoor Games for Little Kids
                         </ListGroup.Item>
                         <ListGroup.Item className="Home-List-Group-Item">
-                            <span style={{ margin: "10px", color: "#fe5d37" }}><FaCheckCircle /></span>Lorem Ipsum
+                            <span style={{ margin: "10px", color: "#fe5d37" }}><FaCheckCircle /></span>Professional & Qualified Teachers
                         </ListGroup.Item>
                         <ListGroup.Item className="Home-List-Group-Item">
-                            <span style={{ margin: "10px", color: "#fe5d37" }}><FaCheckCircle /></span>Lorem Ipsum
+                            <span style={{ margin: "10px", color: "#fe5d37" }}><FaCheckCircle /></span>Best Learning School for Kids
                         </ListGroup.Item>
                     </ListGroup>
                     <Button className="Home-Button-a" variant="primary" type="button">
@@ -104,9 +110,45 @@ render() {
                 </Col>
             </Row>
 
-            <Row>
-                <h4>School Facilities We Offer</h4>
-            </Row>
+            <Container>
+                <Row>
+                    <h4 style={{textAlign: "center"}}>School Facilities We Offer</h4>
+                </Row>
+                <Row>
+                    <Col>
+                        <Card className="Home-Facilities-Card">
+                            <Card.Body>
+                                <Row>
+                                    <Col xs={3}>
+                                        <div className="Home-Facilities-Icon-Wrapper">
+                                            <FaHamburger className="Home-Facilities-Card-Icon"/>
+                                        </div>
+                                    </Col>
+                                    <Col>
+                                        <Card.Title>Meals Provided</Card.Title>
+                                        <Card.Text>Some quick example text to build on the card title and make up the bulk of the card's content.</Card.Text>
+                                    </Col>
+                                </Row>
+                            </Card.Body>
+                        </Card>
+                        <Card className="Career-card-c">
+                            <Card.Body>
+                            <Row>
+                                <Col xs={3} className="Career-icon-background">
+                                    <FaSchool className="Career-icons"/>
+                                </Col>
+                                <Col>
+                                <Card.Title className="Career-card-title-c">Best Environment</Card.Title>
+                                <Card.Text className="Career-card-text">orem ipsum dolor sit amet, consectetur adipiscing elit.</Card.Text>
+                                </Col>
+                            </Row>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                    <Col></Col>
+                    <Col></Col>
+                </Row>
+            </Container>
             {/**Don't know how to build this out...will keep working on it */}
 
             <Container className="Home-Bottom-Container">
