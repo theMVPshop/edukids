@@ -37,7 +37,7 @@ const Header = () => {
                 </Nav>
                 </Container>
             </Container>
-            <InputGroup className="d-flex">
+            {/* <InputGroup className="d-flex">
                 <InputGroup.Text className="Header-searchButton" id="basic-addon1"> <BsSearch /> </InputGroup.Text>
                 <FormControl
                     className="Header-searchBar"
@@ -46,8 +46,8 @@ const Header = () => {
                     className="mr-2"
                     aria-label="Search"
                 />
-            </InputGroup>
-            <Button className="Contact-formBtn d-flex" variant="secondary" type="submit" bg="Contact-button">Book A Visit</Button>
+            </InputGroup> */}
+            <Button className="Header-formBtn d-flex" variant="secondary" type="submit" bg="Contact-button">Book a Visit</Button>
             </Navbar.Collapse>
         </Navbar>
     );

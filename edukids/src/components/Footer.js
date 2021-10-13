@@ -14,16 +14,16 @@ const Footer = () => {
                     <Col>
                     <EdukidsLogo className="svg svg-footer"/>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                    <a href="https://www.facebook.com/" className="fa fa-facebook">
+                    <a href="https://www.facebook.com/" className="footer-icon fa fa-facebook">
                         <FaFacebook />
                     </a>
-		            <a href="https://twitter.com/" className="fa fa-twitter">
+		            <a href="https://twitter.com/" className="footer-icon fa fa-twitter">
                         <FaTwitter />
                     </a>
-                    <a href="https://www.instagram.com/" className="fa fa-instagram">
+                    <a href="https://www.instagram.com/" className="footer-icon fa fa-instagram">
                         <FaInstagram />
                     </a>
-                    <a href="https://www.youtube.com/" className="fa fa-youtube">
+                    <a href="https://www.youtube.com/" className="footer-icon fa fa-youtube">
                         <FaYoutube />
                     </a>
                     </Col>
