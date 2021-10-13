@@ -809,6 +809,7 @@ body {
   border-bottom: 3px solid rgb(199, 85, 47);
   font-weight: 700;
   margin: 10px;
+  margin-top: 30px;
 }
 
 .Home-Button-b {
@@ -821,26 +822,32 @@ body {
   font-weight: 700;
   margin: 10px;
 }
+
 .Home-Title-Body-a {
   display: flex;
   text-align: center;
   border: none;
 }
+
 .Home-Title {
   font-size: 45px;
   font-weight: 700;
   color: #2e224c;
   margin-bottom: 20px;
 }
+
 .Home-Card {
   border: none;
 }
+
 .Home-Card-Col {
   display: flex;
   justify-content: center;
 }
+
 .Home-List-Group-Item {
   border: none;
+  padding: 0px;
 }
 
 .Home-Cards {
@@ -879,6 +886,7 @@ body {
 .Home-Image-Card {
   border: none;
   margin-left: 40px;
+  margin-top: 20px;
 }
 
 .Home-Image {
@@ -887,13 +895,32 @@ body {
   border-radius: 15%;
 }
 
-.Home-image-a {
-  margin-top: -100px;
+.Home-Image-a {
+  position: absolute;
+  margin-left: 30px;
 }
 
 .Home-Image-b {
-  margin-left: -40px;
-  margin-top: 200px;
+  margin-left: 200px;
+  margin-top: 150px;
+}
+
+.Home-Facilities-Card {
+  border: none;
+  margin: auto;
+  /* padding: 10px; */
+}
+
+.Home-Facilities-Icon-Wrapper {
+  background-color: rgb(250, 100, 46);
+  margin-left: 10px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.Home-Facilities-Card-Icon {
+  margin-top: 0px;
+  font-size: 44px;
 }
 
 /* .Classes-List-Group-Item {
