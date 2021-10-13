@@ -1,11 +1,12 @@
 import React from 'react';
-import { Container, Nav, Navbar, NavDropdown, Form, FormControl, Button } from 'react-bootstrap';
+import { Container, Nav, Navbar, NavDropdown, Form, FormControl, Button, InputGroup } from 'react-bootstrap';
+import { BsSearch } from 'react-icons/bs'
 import {ReactComponent as EdukidsLogo} from '../img/edukids_logo.svg';
 
 const Header = () => {
 
     return (
-        <Navbar bg="dark" variant="myblue"
+        <Navbar bg="light" variant="light"
             sticky="top" expand="lg">
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -15,7 +16,7 @@ const Header = () => {
             <Container>
                 <Container variant="myblue">
                 <Nav className="justify-content-center">
-                        <Nav.Link href="home">Home</Nav.Link>
+                        <Nav.Link href="/">Home</Nav.Link>
                         <Nav.Link href="about">About</Nav.Link>
                         <NavDropdown title="Class">
                             <NavDropdown.Item href="classes">Classes</NavDropdown.Item>
@@ -30,20 +31,23 @@ const Header = () => {
                             <NavDropdown.Item href="faq">FAQ</NavDropdown.Item>
                             <NavDropdown.Item href="team">Team</NavDropdown.Item>
                             <NavDropdown.Item href="career">Career</NavDropdown.Item>
-                            <NavDropdown.Item href="careerdetails">Career Detail</NavDropdown.Item>
+                            <NavDropdown.Item href="careerdetails">Career Details</NavDropdown.Item>
+                            <NavDropdown.Item href="facilities">Facilities</NavDropdown.Item>
                         </NavDropdown>
                 </Nav>
                 </Container>
             </Container>
-            <Form className="d-flex">
+            <InputGroup className="d-flex">
+                <InputGroup.Text className="Header-searchButton" id="basic-addon1"> <BsSearch /> </InputGroup.Text>
                 <FormControl
+                    className="Header-searchBar"
                     type="search"
                     placeholder= ""
                     className="mr-2"
                     aria-label="Search"
                 />
-            </Form>
-            <Button> Book a Visit </Button>
+            </InputGroup>
+            <Button className="Contact-formBtn d-flex" variant="secondary" type="submit" bg="Contact-button">Book A Visit</Button>
             </Navbar.Collapse>
         </Navbar>
     );
