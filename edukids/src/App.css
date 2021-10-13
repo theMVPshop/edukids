@@ -771,6 +771,19 @@ body {
   position: fixed;
 }
 
+.Header-searchButton{
+  background-color: var(--green);
+  color: white;
+}
+
+.Header-searchBar{
+  width: 20px;
+}
+
+.Header-visitButton {
+  
+}
+
 /* HOME CSS */
 
 .Home-Head-Container {
