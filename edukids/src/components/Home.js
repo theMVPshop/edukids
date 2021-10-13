@@ -2,7 +2,8 @@ import React, { Component } from 'react'
 import { Button, Card, Container, Col, ListGroup, Row, Form } from 'react-bootstrap';
 import { FaBook, FaBuilding, FaRegClock, FaPhone, FaCheckCircle, FaLightbulb, FaRegLightbulb } from 'react-icons/fa'
 import { BsGear } from 'react-icons/bs'
-
+import Image1 from "../img/painting-together-P9VHLJH.jpg"
+import Image2 from '../img/emotion-emoticons-used-by-a-psychologist-during-a--D2BFM6T.jpg'
 
 class Home extends Component {
 
@@ -11,7 +12,7 @@ render() {
         <Container>
             <Container className="Home-Head-Container">
                 <Row>
-                    <h1 className="Head-H1"> Let the Children Change the World Today!</h1>
+                    <h1 className="Home-Head-H1"> Let the Children Change the World Today!</h1>
                 </Row>
                 <Row>
                     <Col>
@@ -70,7 +71,12 @@ render() {
             </Row>
             <Row>
                 <Col>
-                    **Two Overlapping Image Goes Here...Below**
+                    <Card className="Home-Image-Card">
+                        <Card.Body>
+                            <Card.Img src={Image1} className="Home-Image Home-Image-a"></Card.Img>
+                            <Card.Img src={Image2} className="Home-Image Home-Image-b"></Card.Img>
+                        </Card.Body>
+                    </Card>
                 </Col>
                 <Col>
                     <Card className="Home-Card">

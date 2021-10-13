@@ -775,6 +775,15 @@ body {
   color: white;
 }
 
+.Home-Head-H1 {
+  width: 70%;
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  font-size: 70px;
+  font-weight: 900;
+}
+
 .Home-Bottom-Container {
   background-image: url("./img/boys-and-girls-dancing-PZNK4D9.jpg");
   height: 500px;
@@ -831,6 +840,10 @@ body {
   display:flex;
   justify-content: center;
   text-align: center;
+  width: 25%;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 30px;
 }
 
 .Home-Cards-a {
@@ -849,6 +862,31 @@ body {
   background-color: rgb(234,170,20) !important;
   border-color: rgb(187, 140, 29);
   border-bottom: 3px solid rgb(187, 140, 29);
+}
+
+.Home-Card-Icon {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.Home-Image-Card {
+  border: none;
+  margin-left: 40px;
+}
+
+.Home-Image {
+  width: 300px;
+  border: 12px solid pink;
+  border-radius: 15%;
+}
+
+.Home-image-a {
+  margin-top: -100px;
+}
+
+.Home-Image-b {
+  margin-left: -40px;
+  margin-top: 200px;
 }
 
 /* .Classes-List-Group-Item {
