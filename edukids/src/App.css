@@ -828,7 +828,7 @@ body {
 }
 
 .Home-Cards {
-  display:flex;
+  display: flex;
   justify-content: center;
   text-align: center;
 }
@@ -839,14 +839,13 @@ body {
   border-bottom: 3px solid rgb(32, 126, 106);
 }
 
-.Home-Cards-b{
-  background-color: rgb(254,93,55) !important;
-  border-color:rgb(210, 78, 49) ;
-  border-bottom: 3px solid rgb(210, 78, 49)  ;
-
+.Home-Cards-b {
+  background-color: rgb(254, 93, 55) !important;
+  border-color: rgb(210, 78, 49);
+  border-bottom: 3px solid rgb(210, 78, 49);
 }
-.Home-Cards-c{
-  background-color: rgb(234,170,20) !important;
+.Home-Cards-c {
+  background-color: rgb(234, 170, 20) !important;
   border-color: rgb(187, 140, 29);
   border-bottom: 3px solid rgb(187, 140, 29);
 }
