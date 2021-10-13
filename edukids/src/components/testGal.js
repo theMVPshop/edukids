@@ -8,7 +8,7 @@ export default class testGal extends Component {
     render() {
 
         const images = GalImages.map(image => {
-            return <img key={image} src={require(`./icons/${image}.jpeg`)} className="img-responsive" />
+            return <img key={image} src={require(`${image}`)} className="img-responsive" />
         });
 
         return (

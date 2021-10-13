@@ -95,23 +95,23 @@ const Events = () => {
                     className="w-100 shadow-1-strong rounded mb-4"
                     alt="outdoor"
                     />
-                </Col>
 
-                <Col className="lg-4 mb-4 mb-lg-0">
                     <img
                     src={Image3}
                     className="w-100 shadow-1-strong rounded mb-4"
                     alt="painting"
                     />
+                </Col>
+
+                <Col className="lg-4 mb-4 mb-lg-0">
+                    
 
                     <img
                     src={Image4}
                     className="w-100 shadow-1-strong rounded mb-4"
                     alt="painting"
                     />
-                </Col>
 
-                <Col className="lg-4 mb-4 mb-lg-0">
                     <img
                     src={Image5}
                     className="w-100 shadow-1-strong rounded mb-4"
@@ -137,23 +137,19 @@ const Events = () => {
                     className="w-100 shadow-1-strong rounded mb-4"
                     alt="indoor"
                     />
-                </Col>
-
-                <Col className="lg-4 mb-4 mb-lg-0">
                     <img
                     src={Image9}
                     className="w-100 shadow-1-strong rounded mb-4"
                     alt="outdoor"
                     />
+                </Col>
 
+                <Col className="lg-4 mb-4 mb-lg-0">
                     <img
                     src={Image10}
                     className="w-100 shadow-1-strong rounded mb-4"
                     alt="indoor"
                     />
-                </Col>
-
-                <Col className="lg-4 mb-4 mb-lg-0">
                     <img
                     src={Image11}
                     className="w-100 shadow-1-strong rounded mb-4"
@@ -166,6 +162,8 @@ const Events = () => {
                     alt="indoor"
                     />
                 </Col>
+
+    
             </Row>
             {/* Gallery */}
         </Container>

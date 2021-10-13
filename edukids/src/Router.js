@@ -11,6 +11,7 @@ import Team from "./components/Team";
 import CareerDetail from './components/CareerDetail';
 import FAQ from './components/FrequentQuestions';
 import Facilities from "./components/Facilities";
+import testGal from "./components/testGal";
 
 
 const Router = () => {
@@ -27,6 +28,7 @@ const Router = () => {
         <Route exact path="/CareerDetail" component={CareerDetail} />
         <Route exact path="/FAQ" component={FAQ} />
         <Route exact path="/Facilities" component={Facilities} />
+        <Route exact path="/testGal" component={testGal} />
         </Switch>
     )
 }
