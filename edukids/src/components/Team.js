@@ -21,7 +21,7 @@ class Team extends Component {
     </Container>
 <Row className="justify-content-md-center" >
 <CardGroup >
-    
+    <Col xs={12} md={4}>
   <Card className="Team-Card" >
     <Card.Img className="Team-Card-Image" src={Image1}/>
     <Card.Body className="Team-Card-Body1">
@@ -46,6 +46,8 @@ class Team extends Component {
     <Card.Footer>
     </Card.Footer>
   </Card>
+  </Col>
+  <Col xs={12} md={4}>
   <Card className="Team-Card" >
     <Card.Img className="Team-Card-Image" src={Image2}/>
     <Card.Body className="Team-Card-Body2">
@@ -70,6 +72,8 @@ class Team extends Component {
     <Card.Footer>
     </Card.Footer>
   </Card>
+  </Col>
+  <Col xs={12} md={4}>
   <Card className="Team-Card" >
     <Card.Img className="Team-Card-Image" src={Image3}/>
     <Card.Body className="Team-Card-Body3">
@@ -94,10 +98,12 @@ class Team extends Component {
     <Card.Footer>
     </Card.Footer>
   </Card>
+  </Col>
 </CardGroup>
 </Row>
 <Row className="justify-content-md-center">
 <CardGroup>
+<Col xs={12} md={4}>
 <Card className="Team-Card" >
     <Card.Img className="Team-Card-Image" src={Image4}/>
     <Card.Body className="Team-Card-Body3">
@@ -122,6 +128,8 @@ class Team extends Component {
     <Card.Footer>
     </Card.Footer>
   </Card>
+  </Col>
+  <Col xs={12} md={4}>
   <Card className="Team-Card" >
     <Card.Img className="Team-Card-Image" src={Image5}/>
     <Card.Body className="Team-Card-Body1">
@@ -146,6 +154,8 @@ class Team extends Component {
     <Card.Footer>
     </Card.Footer>
   </Card>
+  </Col>
+  <Col xs={12} md={4}>
   <Card className="Team-Card" >
     <Card.Img className="Team-Card-Image" src={Image6}/>
     <Card.Body className="Team-Card-Body2">
@@ -170,6 +180,7 @@ class Team extends Component {
     <Card.Footer>
     </Card.Footer>
   </Card>
+  </Col>
 </CardGroup>
 </Row>
             </Container>

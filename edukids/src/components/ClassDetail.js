@@ -18,9 +18,9 @@ function ClassDetail() {
       <Container className="Head-Container">
         <h1 className="Head-H1">Class Detail</h1>
       </Container>
-      <Container className="ClassDetail-container">
+      <Container fluid className="ClassDetail-container">
         <Row className="justify-content-md-center">
-          <Col>
+          <Col xs={12} md={8}>
             <h2 className="ClassDetail-h2">Class Description</h2>
             <p className="ClassDetail-p">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -29,7 +29,37 @@ function ClassDetail() {
             </p>
 
             <Image className="classDetail-Description-image" />
+          </Col>
+          <Col md="auto">
+            {/* ***information card*** */}
 
+            <Card className="ClassDetail-information-card-area">
+              <Card.Body className="ClassDetail-information-card">
+                <button className="classDetail-information-button">
+                  Information
+                </button>
+                <br />
+                <p className="classDetail-information-paragraph">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Doloremque ab et ex repellendus,
+                </p>
+                <br />
+                <p className="classDetail-information-title">Category:</p>
+                <p className="classDetail-information-item">Creative Class</p>
+                <p className="classDetail-information-title">Age Group:</p>
+                <p className="classDetail-information-item">2 - 5 Years Old</p>
+                <p className="classDetail-information-title">Class size:</p>
+                <p className="classDetail-information-item">
+                  20 kids in one class
+                </p>
+                <p className="classDetail-information-title">Fees Cost:</p>
+                <p className="classDetail-information-item">$25/Mon</p>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
+        <Row className="justify-content-md-center">
+          <Col xs={12} md={8}>
             <h4 className="ClassDetail-h4">Class Curriculum</h4>
             <p className="ClassDetail-p">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti
@@ -97,34 +127,7 @@ function ClassDetail() {
               </Card>
             </CardGroup>
           </Col>
-
           <Col md="auto">
-            {/* ***information card*** */}
-
-            <Card className="ClassDetail-information-card-area">
-              <Card.Body className="ClassDetail-information-card">
-                <button className="classDetail-information-button">
-                  Information
-                </button>
-                <br />
-                <p className="classDetail-information-paragraph">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Doloremque ab et ex repellendus,
-                </p>
-                <br />
-                <p className="classDetail-information-title">Category:</p>
-                <p className="classDetail-information-item">Creative Class</p>
-                <p className="classDetail-information-title">Age Group:</p>
-                <p className="classDetail-information-item">2 - 5 Years Old</p>
-                <p className="classDetail-information-title">Class size:</p>
-                <p className="classDetail-information-item">
-                  20 kids in one class
-                </p>
-                <p className="classDetail-information-title">Fees Cost:</p>
-                <p className="classDetail-information-item">$25/Mon</p>
-              </Card.Body>
-            </Card>
-
             {/* ***Teacher card *** */}
 
             <Card className="ClassDetail-teacher-card-area">
