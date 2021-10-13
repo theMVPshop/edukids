@@ -1,5 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
+:root{
+  --orange: rgb(250, 100, 46);
+  --purple: #2e1b5c;
+  --gold: #ebaa0f;
+  --green: #05b992;
+}
+
 body {
   font-family: "Amaranth", sans-serif;
 }
@@ -621,7 +628,7 @@ body {
 }
 
 .Contact-contactHeader span {
-  color: #2d1f4c;
+  color: var(--purple);
 }
 
 .Contact-locationBadge {
@@ -794,6 +801,19 @@ body {
 
 .header {
   position: fixed;
+}
+
+.Header-searchButton{
+  background-color: var(--green);
+  color: white;
+}
+
+.Header-searchBar{
+  width: 20px;
+}
+
+.Header-visitButton {
+  
 }
 
 /* HOME CSS */
