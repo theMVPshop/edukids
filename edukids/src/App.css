@@ -62,10 +62,10 @@ body {
 }
 
 .fa {
-  width: 10px;
-  padding: 15px;
-  padding-top: 10px;
-  font-size: 25px;
+  width: 100%;
+  padding: 10px;
+  padding-top: 5px;
+  font-size: 20px;
   text-align: center;
   text-decoration: none;
   margin: 5px;
@@ -685,6 +685,13 @@ body {
   text-decoration: none !important;
 }
 
+.ev-header {
+  width: 100%;
+  height: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 /* FACILITIES CSS */
 
 /* FOOTER CSS */
@@ -885,6 +892,7 @@ body {
   font-weight: 700;
   color: #2e224c;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .Home-Card {
@@ -909,6 +917,8 @@ body {
   margin-left: 10px;
   margin-right: 10px;
   padding: 30px;
+  color: white;
+  border-radius: 10%;
 }
 
 .Home-Cards-a {
@@ -958,18 +968,20 @@ body {
 .Home-Facilities-Card {
   border: none;
   margin: auto;
+  width: 85%;
   /* padding: 10px; */
 }
 
 .Home-Facilities-Icon-Wrapper {
-  background-color: rgb(250, 100, 46);
+  height: 70px;
+  width: 70px;
   margin-left: 10px;
   text-align: center;
   border-radius: 50%;
 }
 
 .Home-Facilities-Card-Icon {
-  margin-top: 0px;
+  margin-top: 12px;
   font-size: 44px;
 }
 
