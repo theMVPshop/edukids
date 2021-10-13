@@ -1,9 +1,10 @@
 import React, { Component } from 'react'
 import { Button, Card, Container, Col, ListGroup, Row, Form } from 'react-bootstrap';
-import { FaBook, FaBuilding, FaRegClock, FaPhone, FaCheckCircle, FaLightbulb, FaRegLightbulb, FaHamburger, FaSchool } from 'react-icons/fa'
+import { FaBook, FaBuilding, FaRegClock, FaPhone, FaCheckCircle, FaLightbulb, FaRegLightbulb, FaHamburger, FaSchool, FaBus, FaRegSun, FaTrophy, FaCircle } from 'react-icons/fa'
 import { BsGear } from 'react-icons/bs'
 import Image1 from "../img/painting-together-P9VHLJH.jpg"
 import Image2 from '../img/emotion-emoticons-used-by-a-psychologist-during-a--D2BFM6T.jpg'
+import Image3 from '../img/happy-kids-are-painting-at-home-FSC2Q9C.jpg'
 
 class Home extends Component {
 
@@ -28,11 +29,12 @@ render() {
             </Container>
             <Row>
                 <Card className="Home-Title-Body-a">
-                    <Card.Body>
+                    <Card.Body style={{marginBottom: '-20px'}}>
                         <Card.Title className="Home-Title">Discover School Activities</Card.Title>
                     </Card.Body>
                 </Card>
             </Row>
+            <Row className="About-Head-Row" style={{marginBottom: "20px"}}><Col xs lg="5"></Col><Col><hr /></Col><Col xs lg="1" className="About-Head-Col"><FaCircle /><FaCircle /><FaCircle /></Col><Col ><hr /></Col><Col Col xs lg="5"></Col></Row>
             <Row style={{justifyContent: "center", marginBottom: "100px"}}>
                 
                     <Card className="Home-Cards Home-Cards-a">
@@ -112,41 +114,95 @@ render() {
 
             <Container>
                 <Row>
-                    <h4 style={{textAlign: "center"}}>School Facilities We Offer</h4>
+                    <h4 className="Home-Title" style={{marginTop: "100px", marginBottom: "20px"}}>School Facilities We Offer</h4>
                 </Row>
+                <Row className="About-Head-Row" style={{marginBottom: "20px"}}><Col xs lg="5"></Col><Col><hr /></Col><Col xs lg="1" className="About-Head-Col"><FaCircle /><FaCircle /><FaCircle /></Col><Col ><hr /></Col><Col Col xs lg="5"></Col></Row>
                 <Row>
                     <Col>
                         <Card className="Home-Facilities-Card">
                             <Card.Body>
                                 <Row>
-                                    <Col xs={3}>
-                                        <div className="Home-Facilities-Icon-Wrapper">
-                                            <FaHamburger className="Home-Facilities-Card-Icon"/>
-                                        </div>
+                                    <Col xs={3} className="Home-Facilities-Icon-Wrapper" style={{backgroundColor: "var(--green)"}}>
+                                        <FaHamburger className="Home-Facilities-Card-Icon"/>
                                     </Col>
                                     <Col>
-                                        <Card.Title>Meals Provided</Card.Title>
+                                        <Card.Title className="Home-Facilities-Card-Title" style={{color: "var(--green)", fontWeight: "700"}}>Meals Provided</Card.Title>
                                         <Card.Text>Some quick example text to build on the card title and make up the bulk of the card's content.</Card.Text>
                                     </Col>
                                 </Row>
                             </Card.Body>
                         </Card>
-                        <Card className="Career-card-c">
+                        <Card className="Home-Facilities-Card">
                             <Card.Body>
-                            <Row>
-                                <Col xs={3} className="Career-icon-background">
-                                    <FaSchool className="Career-icons"/>
-                                </Col>
-                                <Col>
-                                <Card.Title className="Career-card-title-c">Best Environment</Card.Title>
-                                <Card.Text className="Career-card-text">orem ipsum dolor sit amet, consectetur adipiscing elit.</Card.Text>
-                                </Col>
-                            </Row>
+                                <Row>
+                                    <Col xs={3} className="Home-Facilities-Icon-Wrapper" style={{backgroundColor: "var(--orange)"}}>
+                                        <FaBus className="Home-Facilities-Card-Icon"/>
+                                    </Col>
+                                    <Col>
+                                        <Card.Title className="Home-Facilities-Card-Title" style={{color: "var(--orange)", fontWeight: "700"}}>Transportation</Card.Title>
+                                        <Card.Text>Some quick example text to build on the card title and make up the bulk of the card's content.</Card.Text>
+                                    </Col>
+                                </Row>
+                            </Card.Body>
+                        </Card>
+                        <Card className="Home-Facilities-Card">
+                            <Card.Body>
+                                <Row>
+                                    <Col xs={3} className="Home-Facilities-Icon-Wrapper" style={{backgroundColor: "var(--gold)"}}>
+                                        <FaRegSun className="Home-Facilities-Card-Icon"/>
+                                    </Col>
+                                    <Col>
+                                        <Card.Title className="Home-Facilities-Card-Title" style={{color: "var(--gold)", fontWeight: "700"}}>Full Day Session</Card.Title>
+                                        <Card.Text>Some quick example text to build on the card title and make up the bulk of the card's content.</Card.Text>
+                                    </Col>
+                                </Row>
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col></Col>
-                    <Col></Col>
+                    <Col>
+                        <img src={Image3} style={{width: "500px", marginTop: "50px"}}></img>
+                    </Col>
+                    <Col>
+                        <Card className="Home-Facilities-Card">
+                            <Card.Body>
+                                <Row>
+                                    <Col style={{textAlign: "right"}}>
+                                        <Card.Title className="Home-Facilities-Card-Title" style={{color: "var(--orange)", fontWeight: "700"}}>Language Lesson</Card.Title>
+                                        <Card.Text>Some quick example text to build on the card title and make up the bulk of the card's content.</Card.Text>
+                                    </Col>
+                                    <Col xs={3} className="Home-Facilities-Icon-Wrapper" style={{backgroundColor: "var(--orange)"}}>
+                                        <FaBook className="Home-Facilities-Card-Icon"/>
+                                    </Col>
+                                </Row>
+                            </Card.Body>
+                        </Card>
+                        <Card className="Home-Facilities-Card">
+                            <Card.Body>
+                                <Row>
+                                    <Col style={{textAlign: "right"}}>
+                                        <Card.Title className="Home-Facilities-Card-Title" style={{color: "var(--gold)", fontWeight: "700"}}>Qualified Teachers</Card.Title>
+                                        <Card.Text>Some quick example text to build on the card title and make up the bulk of the card's content.</Card.Text>
+                                    </Col>
+                                    <Col xs={3} className="Home-Facilities-Icon-Wrapper" style={{backgroundColor: "var(--gold)"}}>
+                                        <FaTrophy className="Home-Facilities-Card-Icon"/>
+                                    </Col>
+                                </Row>
+                            </Card.Body>
+                        </Card>
+                        <Card className="Home-Facilities-Card">
+                            <Card.Body>
+                                <Row>
+                                    <Col style={{textAlign: "right"}}>
+                                        <Card.Title className="Home-Facilities-Card-Title" style={{color: "var(--green)", fontWeight: "700"}}>Special Education</Card.Title>
+                                        <Card.Text>Some quick example text to build on the card title and make up the bulk of the card's content.</Card.Text>
+                                    </Col>
+                                    <Col xs={3} className="Home-Facilities-Icon-Wrapper" style={{backgroundColor: "var(--green)"}}>
+                                        <FaLightbulb className="Home-Facilities-Card-Icon"/>
+                                    </Col>
+                                </Row>
+                            </Card.Body>
+                        </Card>
+                    </Col>
                 </Row>
             </Container>
             {/**Don't know how to build this out...will keep working on it */}
