@@ -405,25 +405,37 @@ body {
 
 .ClassDetail-h2 {
   color: #220d38;
+  font-size: 48px;
+  padding-bottom: 10px;
 }
 
-.ClassDetail-h3 {
+.ClassDetail-h4 {
   color: #220d38;
+  padding: 25px 0;
+}
+.ClassDetail-p {
+  color: #220d38;
+  font-weight: 100;
+  padding-bottom: 10px;
 }
 .ClassDetail-container {
-  max-width: 80vw;
-  min-width: auto;
+  max-width: 90vw;
   margin-top: -40px;
   padding-bottom: 150px;
 }
 .ClassDetail-list-style {
   list-style: none;
+  padding-left: 0px;
+}
+.ClassDetail-bottom-right-col {
+  display: flex;
+  justify-content: flex-end;
 }
 .ClassDetail-teacher-card-area {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 300px;
+  min-height: 350px;
   width: 250px;
   background-color: #03b991;
   color: whitesmoke;
@@ -435,16 +447,20 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  box-sizing: border-box;
 }
 .ClassDetail-teacher-img {
   height: 90px;
   width: 90px;
   border-radius: 50%;
-  margin-top: -35px;
+  margin-top: -15px;
 }
 .ClassDetail-teacher-card-text {
   text-align: center;
   margin-top: 25px;
+}
+.ClassDetail-teacher-small-text {
+  font-size: 10px;
 }
 .ClassDetail-information-card-area {
   display: flex;
@@ -464,6 +480,7 @@ body {
   border-radius: 25px;
   font-weight: 700;
   margin-bottom: 15px;
+  margin-left: 12px;
 }
 .classDetail-information-paragraph {
   font-size: 10px;
@@ -493,6 +510,21 @@ body {
   width: auto;
   border-radius: 20px;
   margin-right: 6px;
+}
+.ClassDetail-social-container {
+  max-width: 70%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+}
+.ClassDetail-social {
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 0 4px;
+  color: whitesmoke;
+  margin: 2px;
+  margin-top: 4px;
 }
 
 /* CLASSES CSS */
@@ -828,7 +860,7 @@ body {
 }
 
 .Home-Cards {
-  display:flex;
+  display: flex;
   justify-content: center;
   text-align: center;
 }
@@ -839,14 +871,13 @@ body {
   border-bottom: 3px solid rgb(32, 126, 106);
 }
 
-.Home-Cards-b{
-  background-color: rgb(254,93,55) !important;
-  border-color:rgb(210, 78, 49) ;
-  border-bottom: 3px solid rgb(210, 78, 49)  ;
-
+.Home-Cards-b {
+  background-color: rgb(254, 93, 55) !important;
+  border-color: rgb(210, 78, 49);
+  border-bottom: 3px solid rgb(210, 78, 49);
 }
-.Home-Cards-c{
-  background-color: rgb(234,170,20) !important;
+.Home-Cards-c {
+  background-color: rgb(234, 170, 20) !important;
   border-color: rgb(187, 140, 29);
   border-bottom: 3px solid rgb(187, 140, 29);
 }
