@@ -391,6 +391,39 @@ render() {
                     </Col>
                 </Row>
             </Container>
+            <Container>
+                <Row>
+                    <Col>
+                        <Card className="Contact-contactHeader mb-3">
+                            <Card.Title className="Contact-headerTitle">Contact Us for Further Information</Card.Title>
+                            <Card.Text className="Contact-headerBody">Quam reprehenderit omnis facere! Pretium dis asperiores veritatis, impedit congue, ante commodi, uliam. </Card.Text>
+                        </Card>
+                    </Col>
+                    <Col>
+                    <Card className="Contact-formCard w-75">
+              <Form className="p-2 bg-light">
+              <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+                <Row>
+                  <Col>
+                    <Form.Control type="text" placeholder="Name" /> 
+                  </Col>
+                  <Col>
+                    <Form.Control type="email" placeholder="Email" />
+                  </Col>
+                </Row>
+                </Form.Group>
+                <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea2">
+                  <Form.Control type="text" placeholder="Subject" />
+                </Form.Group>
+                <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea3">
+                  <Form.Control as="textarea" placeholder="Message" rows={3} />
+                </Form.Group>
+                <Button className="Contact-formBtn" variant="secondary" type="submit" bg="Contact-button">Send Message</Button>
+              </Form>
+            </Card>
+                    </Col>
+                </Row>
+            </Container>
         </Container>
 
         )
