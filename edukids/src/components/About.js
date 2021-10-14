@@ -24,13 +24,7 @@ class About extends Component {
     <Col md="auto"><h1>We Are Kindergarten And Childhood Is Our Passion</h1></Col>
     
           <Row className="About-Head-Row"><Col xs lg="5"></Col><Col><hr /></Col><Col xs lg="1" className="About-Head-Col"><FaCircle /><FaCircle /><FaCircle /></Col><Col ><hr /></Col><Col Col xs lg="5"></Col></Row>
-          {/* <Row className="justify-content-md-center">
-                <Col xs lg="3"></Col>
-                <Col md="auto">
-                    <Col className="About-Head-Col"><Col><hr /></Col><FaCircle /><FaCircle /><FaCircle /></Col><Col><hr /></Col>
-                </Col>
-                <Col xs lg="3"></Col>
-            </Row> */}
+
 
   </Row>
   <Row className="justify-content-md-center">
@@ -38,17 +32,15 @@ class About extends Component {
     Tellus rutrum tellus pellentesque eu tincidunt tortor. Cras fermentum odio eu feugiat. Pellentesque massa placerat duis ultricies. 
     Ipsum dolor sit amet consectetur adipiscing elit. Nulla porttitor massa id neque aliquam. Adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus. </Col>
       </Row>
-      <Container>
-          
-      </Container>
+
       <Row className="About-Row">
-          <Col xs={6} >
+          <Col sm={12} md={6} >
               <Card className="About-Card-With-Image">
               <Card.Img classname="About-Card-Image" src={Image1}></Card.Img>
               </Card>
           
           </Col>
-          <Col  xs={6} >
+          <Col sm={12}  md={6} >
             <Card  className="About-Card"> 
                 
                 <Card.Text><h1>Our Great Vision</h1></Card.Text>
@@ -74,7 +66,7 @@ class About extends Component {
               </Col>
     </Row>
     <Row className="About-Row">
-    <Col  xs={6} >
+    <Col  sm={12} md={6} >
             <Card  className="About-Card"> 
                 
                 <Card.Text><h1>Our Great Vision</h1></Card.Text>
@@ -98,7 +90,7 @@ class About extends Component {
                 </ListGroup> 
                 </Card>
               </Col>
-              <Col xs={6} >
+              <Col sm={12} md={6} >
               <Card className="About-Card-With-Image">
               <Card.Img classname="About-Card-Image" src={Image2}></Card.Img>
               </Card>

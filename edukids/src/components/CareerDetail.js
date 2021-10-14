@@ -11,7 +11,7 @@ function CareerDetail() {
       <h1 className="Head-H1">Career Detail</h1>
     </Container>
       <Row>
-        <Col xs={5} className="CareerDetail-Column">
+        <Col sm={12} md={5} className="CareerDetail-Column">
           <Row>
             <Card className="CareerDetail-Card">
               <Card.Body>
@@ -95,15 +95,15 @@ function CareerDetail() {
             </Card>
           </Row>
         </Col>
-        <Col className="CareerDetail-Colum">
+        <Col sm={12} md={6} className="CareerDetail-Colum">
           <Row>
             <Card className="CareerDetail-Card"> 
               <Card.Body className="CareerDetail-Card-Body">
                 <Row className="CareerDetial-Right-Row">
                   <Col className="CareerDetail-Right-Colum">
                     <Card.Text className="CareerDetial-Right-Row-Row">
-                      <p>Post</p>
-                      <p>Teacher:</p>
+                      <p>Post:</p>
+                      <p>Teacher</p>
                     </Card.Text>
                   </Col>
                   <Col className="CareerDetail-Right-Colum">
