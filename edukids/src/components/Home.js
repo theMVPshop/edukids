@@ -395,14 +395,15 @@ render() {
                 <Row>
                     <Col>
                         <Card className="Contact-contactHeader mb-3">
-                            <Card.Title className="Contact-headerTitle">Contact Us for Further Information</Card.Title>
-                            <Card.Text className="Contact-headerBody">Quam reprehenderit omnis facere! Pretium dis asperiores veritatis, impedit congue, ante commodi, uliam. </Card.Text>
+                            <Card.Title className="Contact-headerTitle mt-5">Contact Us for Further Information</Card.Title>
+                                
+                            <Card.Text className="Contact-headerBody mt-3 mb-4">Quam reprehenderit omnis facere! Pretium dis asperiores veritatis, impedit congue, ante commodi, uliam. </Card.Text>
                         </Card>
                     </Col>
                     <Col>
-                        <Card className="Contact-formCard w-75">
+                        <Card className="Contact-formCard w-75 mt-5 mb-4">
                             <Form className="p-2 bg-light">
-                                <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+                                <Form.Group className="mb-3" contro4lId="exampleForm.ControlTextarea1">
                                     <Row>
                                         <Col>
                                             <Form.Control type="text" placeholder="Name" /> 

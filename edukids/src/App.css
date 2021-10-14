@@ -819,6 +819,7 @@ body {
   color: white;
   width: 40px;
   border-color: var(--green);
+  border-radius: 30px;
 }
 
 .Header-searchBar{
