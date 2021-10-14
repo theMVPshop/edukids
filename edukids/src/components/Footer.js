@@ -17,17 +17,17 @@ const Footer = () => {
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
                     <Container>
                         <Col className="text-center md-3">
-                            <Button href="https://www.facebook.com/" className="fa fa-facebook text-center">
+                            <Button href="https://www.facebook.com/" className="footer-icon fa fa-facebook text-center">
                                 <FaFacebook />
                             </Button>
 
-                            <Button href="https://twitter.com/" className="fa fa-twitter text-center">
+                            <Button href="https://twitter.com/" className="footer-icon fa fa-twitter text-center">
                                 <FaTwitter />
                             </Button>
-                            <Button href="https://www.instagram.com/" className="fa fa-instagram text-center">
+                            <Button href="https://www.instagram.com/" className="footer-icon fa fa-instagram text-center">
                                 <FaInstagram />
                             </Button>
-                            <Button href="https://www.youtube.com/" className="fa fa-youtube text-center">
+                            <Button href="https://www.youtube.com/" className="footer-icon fa fa-youtube text-center">
                                 <FaYoutube />
                             </Button>
                         </Col>

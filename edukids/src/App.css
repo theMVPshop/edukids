@@ -817,6 +817,8 @@ body {
 .Header-searchButton{
   background-color: var(--green);
   color: white;
+  width: 40px;
+  border-color: var(--green);
 }
 
 .Header-searchBar{

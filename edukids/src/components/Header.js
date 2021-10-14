@@ -37,6 +37,7 @@ const Header = () => {
                 </Nav>
                 </Container>
             </Container>
+            <Button className="Header-searchButton fa"><BsSearch /></Button>
             {/* <InputGroup className="d-flex">
                 <InputGroup.Text className="Header-searchButton" id="basic-addon1"> <BsSearch /> </InputGroup.Text>
                 <FormControl
