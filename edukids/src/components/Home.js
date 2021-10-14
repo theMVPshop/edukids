@@ -209,12 +209,12 @@ render() {
 
             <Container className="Home-Bottom-Container">
                 <Row>
-                    <h1 className="Head-H1">Choose Us For Your Child Better Future</h1>
-                    <h8>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h8>
+                    <h1 className="Head-H1" style={{marginTop: "100px", marginBottom: "40px"}}>Choose Us For Your Child Better Future</h1>
+                    <h8 style={{width: "60%", margin: "auto", marginBottom: "40px"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h8>
                 </Row>
                 <Row>
                     <Col>
-                        <Button variant="primary" type="button">
+                        <Button variant="primary" type="button" className="Home-Button-a" style={{marginBottom: "70px"}}>
                             Join Us Now
                         </Button>
                     </Col>

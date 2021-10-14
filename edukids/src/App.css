@@ -844,8 +844,8 @@ body {
 }
 
 .Home-Bottom-Container {
-  background-image: url("./img/boys-and-girls-dancing-PZNK4D9.jpg");
-  height: 500px;
+  background-image: url("./img/boys-and-girls-dancing-colored.jpg");
+  width: 100%;
   background-size: cover;
   padding: 100px;
   text-align: center;
