@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
-:root{
+:root {
   --orange: rgb(250, 100, 46);
   --purple: #2e1b5c;
   --gold: #ebaa0f;
@@ -687,6 +687,64 @@ body {
 
 /* FACILITIES CSS */
 
+.Facilities-Container {
+  margin-top: -62px;
+}
+.Facilities-form {
+  justify-content: center;
+}
+.form_btn_custom {
+  padding: 8px 16px;
+  width: 100%;
+  background-color: var(--green);
+  border: none;
+}
+.Facilities-card-icon1 {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #03b790;
+  padding: 10px;
+  /* filter: invert(100%); */
+  font-weight: 800;
+}
+.Facilities-card-icon2 {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #ff5d37;
+  padding: 10px;
+  /* filter: invert(100%); */
+  font-weight: 800;
+}
+.Facilities-card-icon3 {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #ebaa12;
+  padding: 10px;
+  /* filter: invert(100%); */
+  font-weight: 800;
+}
+.Facilities-card-text1 {
+  color: #03b790;
+  font-weight: 700;
+  font-size: 22px;
+}
+.Facilities-card-text2 {
+  color: #ff5d37;
+  font-weight: 700;
+  font-size: 22px;
+}
+.Facilities-card-text3 {
+  color: #ebaa12;
+  font-weight: 700;
+  font-size: 22px;
+}
+.Facilities-green-row {
+  margin: 4rem 0;
+}
+
 /* FOOTER CSS */
 .footer {
   margin-top: 1rem;
@@ -803,17 +861,16 @@ body {
   position: fixed;
 }
 
-.Header-searchButton{
+.Header-searchButton {
   background-color: var(--green);
   color: white;
 }
 
-.Header-searchBar{
+.Header-searchBar {
   width: 20px;
 }
 
 .Header-visitButton {
-  
 }
 
 /* HOME CSS */
