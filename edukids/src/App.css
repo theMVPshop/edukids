@@ -885,15 +885,11 @@ body {
   width: 20px;
 }
 
-<<<<<<< HEAD
-.Header-visitButton {
-=======
 .Header-formBtn {
   background-color: rgb(250, 100, 46) !important;
   font-weight: bold;
   white-space: nowrap;
   
->>>>>>> 90429c6af917ba8d1da6c448f29123b845b022c3
 }
 
 /* HOME CSS */

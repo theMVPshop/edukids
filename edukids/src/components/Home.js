@@ -19,6 +19,7 @@ import Image9 from '../img/kindergarten-age-girl-learning-about-the-planets-a-EK
 import Image10 from '../img/mother-or-nursery-teacher-teaches-her-children-to--QK27JT7.jpg';
 import Image11 from '../img/painting-together-P9VHLJH.jpg';
 import Image12 from '../img/sitting-on-a-carpet-P8BAWTX.jpg';
+import DotsWithLines from '../img/dots-with-lines.jpg'
 
 
 class Home extends Component { 
@@ -50,7 +51,9 @@ render() {
                     </Card.Body>
                 </Card>
             </Row>
-            <Row className="About-Head-Row" style={{marginBottom: "20px"}}><Col xs lg="5"></Col><Col><hr /></Col><Col xs lg="1" className="About-Head-Col"><FaCircle /><FaCircle /><FaCircle /></Col><Col ><hr /></Col><Col Col xs lg="5"></Col></Row>
+            <Row style={{justifyContent: "center"}}>
+                <img src={DotsWithLines} style={{width: "300px"}}></img>
+            </Row>
             <Row style={{justifyContent: "center", marginBottom: "100px"}}>
                 
                     <Card className="Home-Cards Home-Cards-a">
