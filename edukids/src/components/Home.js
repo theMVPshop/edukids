@@ -2,11 +2,27 @@ import React, { Component } from 'react'
 import { Button, Card, Container, Col, ListGroup, Row, Form } from 'react-bootstrap';
 import { FaBook, FaBuilding, FaRegClock, FaPhone, FaCheckCircle, FaLightbulb, FaRegLightbulb, FaHamburger, FaSchool, FaBus, FaRegSun, FaTrophy, FaCircle } from 'react-icons/fa'
 import { BsGear } from 'react-icons/bs'
+import GalImages from './GalImages'
 import Image1 from "../img/painting-together-P9VHLJH.jpg"
 import Image2 from '../img/emotion-emoticons-used-by-a-psychologist-during-a--D2BFM6T.jpg'
 import Image3 from '../img/happy-kids-are-painting-at-home-FSC2Q9C.jpg'
 
-class Home extends Component {
+import Image13 from '../img/adorable-kids-playing-with-constructor-on-floor-in-ZP6VC78.jpg';
+import Image14 from '../img/boys-and-girls-dancing-PZNK4D9.jpg';
+import Image15 from '../img/cheerful-women-in-printing-office-JQ5K4XE.jpg';
+import Image4 from '../img/cute-girl-playing-with-paint-in-art-class-85QTUD9.jpg';
+import Image5 from '../img/education-teachers-university-and-schools-concept--JA74V7F.jpg';
+import Image6 from '../img/emotion-emoticons-used-by-a-psychologist-during-a--D2BFM6T.jpg';
+import Image7 from '../img/happy-educator-hugging-adorable-kids-in-kindergart-CSSFQDV.jpg';
+import Image8 from '../img/happy-kids-are-painting-at-home-FSC2Q9C.jpg';
+import Image9 from '../img/kindergarten-age-girl-learning-about-the-planets-a-EKX3YDA.jpg';
+import Image10 from '../img/mother-or-nursery-teacher-teaches-her-children-to--QK27JT7.jpg';
+import Image11 from '../img/painting-together-P9VHLJH.jpg';
+import Image12 from '../img/sitting-on-a-carpet-P8BAWTX.jpg';
+
+
+class Home extends Component { 
+    
 
 render() {
     return (
@@ -351,9 +367,123 @@ render() {
                     </Col>
                 </Row>
             </Container>
+
+
             <Container>
                 <h1>Event Gallery</h1>
-                <p>Insert event images here</p>
+            {/* Gallery */}
+            
+            <Row>
+                    
+                    <Col className="lg-4 md-12 mb-4 mb-lg-0">
+                        <img
+                        src={Image13}
+                        className="w-100 shadow-1-strong rounded mb-4"
+                        alt="indoor"
+                        />
+    
+                        <img
+                        src={Image14}
+                        className="w-100 shadow-1-strong rounded mb-4"
+                        alt="outdoor"
+                        />
+    
+                        <img
+                        src={Image9}
+                        className="w-100 shadow-1-strong rounded mb-4"
+                        alt="outdoor"
+                        />
+    
+                        <img
+                        src={Image15}
+                        className="w-100 shadow-1-strong rounded mb-4"
+                        alt="painting"
+                        />
+                    </Col>
+    
+                    <Col className="lg-4 mb-4 mb-lg-0">
+                        
+    
+                        <img
+                        src={Image4}
+                        className="w-100 shadow-1-strong rounded mb-4"
+                        alt="painting"
+                        />
+    
+                        <img
+                        src={Image6}
+                        className="w-100 shadow-1-strong rounded mb-4"
+                        alt="outdoor"
+                        />
+    
+                        <img
+                        src={Image10}
+                        className="w-100 shadow-1-strong rounded mb-4"
+                        alt="indoor"
+                        />
+    
+                        <img
+                        src={Image5}
+                        className="w-100 shadow-1-strong rounded mb-4"
+                        alt="indoor"
+                        />
+                    </Col>
+    
+                    <Col className="lg-4 mb-4 mb-lg-0">
+                        <img
+                        src={Image7}
+                        className="w-100 shadow-1-strong rounded mb-4"
+                        alt="outdoor"
+                        />
+    
+                        <img
+                        src={Image5}
+                        className="w-100 shadow-1-strong rounded mb-4"
+                        alt="outdoor"
+                        />
+    
+                        <img
+                        src={Image8}
+                        className="w-100 shadow-1-strong rounded mb-4"
+                        alt="indoor"
+                        />
+                        <img
+                        src={Image9}
+                        className="w-100 shadow-1-strong rounded mb-4"
+                        alt="outdoor"
+                        />
+                    </Col>
+    
+                    <Col className="lg-4 mb-4 mb-lg-0">
+                        <img
+                        src={Image10}
+                        className="w-100 shadow-1-strong rounded mb-4"
+                        alt="indoor"
+                        />
+                        <img
+                        src={Image11}
+                        className="w-100 shadow-1-strong rounded mb-4"
+                        alt="outdoor"
+                        />
+    
+                        <img
+                        src={Image12}
+                        className="w-100 shadow-1-strong rounded mb-4"
+                        alt="indoor"
+                        />
+    
+                        <img
+                        src={Image15}
+                        className="w-100 shadow-1-strong rounded mb-4"
+                        alt="painting"
+                        />
+                    </Col>
+    
+        
+                </Row>
+
+            {/* Gallery */}
+               
             </Container>
             <Container>
                 <Row className="About-Green-Row">
@@ -388,6 +518,40 @@ render() {
                         <Row className="justify-content-md-center">Phone & Email</Row>
                         <Row className="justify-content-md-center">(+22)-658-258 / +259-55-9825</Row> 
                         </Row>
+                    </Col>
+                </Row>
+            </Container>
+            <Container>
+                <Row>
+                    <Col>
+                        <Card className="Contact-contactHeader mb-3">
+                            <Card.Title className="Contact-headerTitle mt-5">Contact Us for Further Information</Card.Title>
+                                
+                            <Card.Text className="Contact-headerBody mt-3 mb-4">Quam reprehenderit omnis facere! Pretium dis asperiores veritatis, impedit congue, ante commodi, uliam. </Card.Text>
+                        </Card>
+                    </Col>
+                    <Col>
+                        <Card className="Contact-formCard w-75 mt-5 mb-4">
+                            <Form className="p-2 bg-light">
+                                <Form.Group className="mb-3" contro4lId="exampleForm.ControlTextarea1">
+                                    <Row>
+                                        <Col>
+                                            <Form.Control type="text" placeholder="Name" /> 
+                                        </Col>
+                                        <Col>
+                                            <Form.Control type="email" placeholder="Email" />
+                                        </Col>
+                                    </Row>
+                                </Form.Group>
+                                <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea2">
+                                    <Form.Control type="text" placeholder="Subject" />
+                                </Form.Group>
+                                <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea3">
+                                    <Form.Control as="textarea" placeholder="Message" rows={3} />
+                                </Form.Group>
+                                <Button className="Contact-formBtn" variant="secondary" type="submit" bg="Contact-button">Send Message</Button>
+                            </Form>
+                        </Card>
                     </Col>
                 </Row>
             </Container>

@@ -705,6 +705,10 @@ body {
   width: 100%;
 }
 
+.footer-icon {
+  background-color: var(--orange);
+}
+
 /* FREQUENT QUESTIONS CSS */
 .FAQ-card {
   border: none;
@@ -813,13 +817,20 @@ body {
 .Header-searchButton{
   background-color: var(--green);
   color: white;
+  width: 40px;
+  border-color: var(--green);
+  border-radius: 30px;
+ 
 }
 
 .Header-searchBar{
   width: 20px;
 }
 
-.Header-visitButton {
+.Header-formBtn {
+  background-color: rgb(250, 100, 46) !important;
+  font-weight: bold;
+  white-space: nowrap;
   
 }
 
