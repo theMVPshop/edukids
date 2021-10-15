@@ -344,23 +344,43 @@ render() {
             <Container>
                 <Row>
                     <Col>
-                        <Card>
+                        <Card className="Home-Card-Classes-Info">
                             <Card.Body>
-                            <Card.Title>Get Online Class For Free</Card.Title>
-                            <Card.Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</Card.Text>
-                            <Card.Footer>
-                                <Card.Img></Card.Img>
-                                <Card.Img></Card.Img>
-                                <Card.Img></Card.Img>
+                            <Card.Title className="Home-Title" style={{marginBottom: "10px"}}>Get Online Class For Free</Card.Title>
+                            <Row style={{justifyContent: "center"}}>
+                                <img src={DotsWithLines} style={{width: "200px", marginBottom: "10px"}}></img>
+                            </Row>
+                            <Card.Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</Card.Text>
+                            <Card.Footer style={{backgroundColor: "white", borderTop: "none", marginTop: "30px"}}>
+                                <Row>
+                                    <Col>
+                                        <div className="Home-Classes-Info-Wrapper" style={{backgroundColor: "var(--orange)"}}>
+                                        <Card.Text className="Home-Classes-Info-Big-Text">58+</Card.Text>
+                                        <Card.Text>Teachers</Card.Text>
+                                        </div>
+                                    </Col>
+                                    <Col>
+                                        <div className="Home-Classes-Info-Wrapper" style={{backgroundColor: "var(--green)"}}>
+                                        <Card.Text className="Home-Classes-Info-Big-Text">4K+</Card.Text>
+                                        <Card.Text>Students</Card.Text>    
+                                        </div>
+                                    </Col>
+                                    <Col>
+                                        <div className="Home-Classes-Info-Wrapper" style={{backgroundColor: "var(--gold)"}}>
+                                        <Card.Text className="Home-Classes-Info-Big-Text">22+</Card.Text>
+                                        <Card.Text>Classes</Card.Text>
+                                        </div>
+                                    </Col>
+                                </Row>
                             </Card.Footer>
                             </Card.Body>
                         </Card>
                     </Col>
                     <Col>
-                        <Form className="FAQ-form">
+                        <Form className="FAQ-form" style={{borderRadius: "5%"}}>
                             <Form.Group>
-                            <Form.Label className="FAQ-form-label">Register Now</Form.Label>
-                            <Form.Label>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</Form.Label>
+                            <Form.Label className="FAQ-form-label" style={{marginBottom: "10px"}}>Register Now</Form.Label>
+                            <Form.Label style={{width: "80%", color: "white", marginBottom: "20px"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod adipiscing elit.</Form.Label>
                             <Form.Control type="text" placeholder="Your Name" className="FAQ-form-control"/>
                             <Form.Control type="email" placeholder="Your Email" className="FAQ-form-control"/>
                             <Form.Control rows={3} type="textarea" style={{height: "170px"}} placeholder="Enter Your Message" className="FAQ-form-control"/>
