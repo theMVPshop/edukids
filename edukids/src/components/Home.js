@@ -349,14 +349,34 @@ render() {
             <Container>
                 <Row>
                     <Col>
-                        <Card>
+                        <Card className="Home-Card-Classes-Info">
                             <Card.Body>
-                            <Card.Title className="Classes-Body-Title ">Get Online Class For Free</Card.Title>
-                            <Card.Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</Card.Text>
-                            <Card.Footer>
-                                <Card.Img></Card.Img>
-                                <Card.Img></Card.Img>
-                                <Card.Img></Card.Img>
+                            <Card.Title className="Home-Title" style={{marginBottom: "10px"}}>Get Online Class For Free</Card.Title>
+                            <Row style={{justifyContent: "center"}}>
+                                <img src={DotsWithLines} style={{width: "200px", marginBottom: "10px"}}></img>
+                            </Row>
+                            <Card.Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</Card.Text>
+                            <Card.Footer style={{backgroundColor: "white", borderTop: "none", marginTop: "30px"}}>
+                                <Row>
+                                    <Col>
+                                        <div className="Home-Classes-Info-Wrapper" style={{backgroundColor: "var(--orange)"}}>
+                                        <Card.Text className="Home-Classes-Info-Big-Text">58+</Card.Text>
+                                        <Card.Text>Teachers</Card.Text>
+                                        </div>
+                                    </Col>
+                                    <Col>
+                                        <div className="Home-Classes-Info-Wrapper" style={{backgroundColor: "var(--green)"}}>
+                                        <Card.Text className="Home-Classes-Info-Big-Text">4K+</Card.Text>
+                                        <Card.Text>Students</Card.Text>    
+                                        </div>
+                                    </Col>
+                                    <Col>
+                                        <div className="Home-Classes-Info-Wrapper" style={{backgroundColor: "var(--gold)"}}>
+                                        <Card.Text className="Home-Classes-Info-Big-Text">22+</Card.Text>
+                                        <Card.Text>Classes</Card.Text>
+                                        </div>
+                                    </Col>
+                                </Row>
                             </Card.Footer>
                             </Card.Body>
                         </Card>
@@ -539,7 +559,7 @@ render() {
                     <Col>
                         <Card className="Contact-contactHeader mb-3">
                             <Card.Title className="Contact-headerTitle mt-5">Contact Us for Further Information</Card.Title>
-                                
+                            <img src={DotsWithLines} style={{width: "300px"}}></img>
                             <Card.Text className="Contact-headerBody mt-3 mb-4">Quam reprehenderit omnis facere! Pretium dis asperiores veritatis, impedit congue, ante commodi, uliam. </Card.Text>
                         </Card>
                     </Col>
