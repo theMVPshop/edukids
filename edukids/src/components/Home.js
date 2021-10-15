@@ -549,7 +549,7 @@ render() {
                     <Col>
                         <Card className="Contact-contactHeader mb-3">
                             <Card.Title className="Contact-headerTitle mt-5">Contact Us for Further Information</Card.Title>
-                                
+                            <img src={DotsWithLines} style={{width: "300px"}}></img>
                             <Card.Text className="Contact-headerBody mt-3 mb-4">Quam reprehenderit omnis facere! Pretium dis asperiores veritatis, impedit congue, ante commodi, uliam. </Card.Text>
                         </Card>
                     </Col>
