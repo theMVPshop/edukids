@@ -733,6 +733,7 @@ body {
   /* filter: invert(100%); */
   font-weight: 800;
 }
+
 .Facilities-card-text1 {
   color: #03b790;
   font-weight: 700;
@@ -749,7 +750,8 @@ body {
   font-size: 22px;
 }
 .Facilities-green-row {
-  margin: 4rem 0;
+  margin: 4rem 0 6rem 0;
+  background-color: var(--green);
 }
 
 /* FOOTER CSS */
@@ -878,22 +880,16 @@ body {
   width: 40px;
   border-color: var(--green);
   border-radius: 30px;
- 
 }
 
 .Header-searchBar {
   width: 20px;
 }
 
-<<<<<<< HEAD
-.Header-visitButton {
-=======
 .Header-formBtn {
   background-color: rgb(250, 100, 46) !important;
   font-weight: bold;
   white-space: nowrap;
-  
->>>>>>> 90429c6af917ba8d1da6c448f29123b845b022c3
 }
 
 /* HOME CSS */
