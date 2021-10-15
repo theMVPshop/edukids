@@ -5,7 +5,7 @@ import { BsGear } from 'react-icons/bs'
 import GalImages from './GalImages'
 import Image1 from "../img/painting-together-P9VHLJH.jpg"
 import Image2 from '../img/emotion-emoticons-used-by-a-psychologist-during-a--D2BFM6T.jpg'
-import Image3 from '../img/happy-kids-are-painting-at-home-FSC2Q9C.jpg'
+import Image3 from '../img/funny-kids.png'
 
 import Image13 from '../img/adorable-kids-playing-with-constructor-on-floor-in-ZP6VC78.jpg';
 import Image14 from '../img/boys-and-girls-dancing-PZNK4D9.jpg';
@@ -178,8 +178,8 @@ render() {
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col>
-                        <img src={Image3} style={{width: "500px", marginTop: "50px"}}></img>
+                    <Col style={{display: "flex", justifyContent: "center"}}>
+                        <img src={Image3} style={{height: "400px", margin: "auto", borderRadius: "15%"}}></img>
                     </Col>
                     <Col>
                         <Card className="Home-Facilities-Card">
