@@ -567,16 +567,15 @@ body {
   border-right: 1px solid rgba(255, 255, 255, 0.42);
 }
 
+
+
 .Classes-Body-Title {
   color: #2e1b5c !important;
-  font-size: 3.25vw;
-  font-weight: bold;
+  font-size: 45px;
+  font-weight: 700;
 }
 
-.Classes-Body-Text {
-  display: flex;
-  text-align: center;
-}
+
 .Classes-Col-Form {
   display: flex;
   justify-content: center;
@@ -942,8 +941,15 @@ body {
   border-bottom: 3px solid #029373;
   font-weight: 700;
   margin: 10px;
+  margin-top: 30px;
 }
 
+.Home-button-container{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+  margin-top: 30px;
+}
 .Home-Title-Body-a {
   display: flex;
   text-align: center;
