@@ -224,7 +224,7 @@ render() {
                     </Col>
                 </Row>
             </Container>
-            {/**Don't know how to build this out...will keep working on it */}
+
 
             <Container className="Home-Bottom-Container">
                 <Row>
@@ -241,9 +241,12 @@ render() {
             </Container>
 
             <Container>
-                <Row>
-                    <h1>Creative Classes</h1>
+            <Row>
+                    <h4 className="Home-Title" style={{marginTop: "100px", marginBottom: "20px"}}>Creative Classes</h4>
                 </Row>
+                <Row style={{justifyContent: "center"}}>
+                <img src={DotsWithLines} style={{width: "300px"}}></img>
+            </Row>
                 <Row className="Classes-Row-1">
                     <Col className="Classes-Col">
                         <Card className="Classes-Card" style={{ backgroundColor: "rgb(254,93,55)" }} >
@@ -339,7 +342,9 @@ render() {
                         </Card>
                     </Col>
                 </Row>
-                <Button>Discover More</Button>
+                <Container className="Home-button-container">
+                <Button variant="primary" type="button" className="Home-Button-a" >Discover More</Button>
+                </Container>
             </Container>
             <Container>
                 <Row>
@@ -376,18 +381,24 @@ render() {
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col>
-                        <Form className="FAQ-form" style={{borderRadius: "5%"}}>
-                            <Form.Group>
-                            <Form.Label className="FAQ-form-label" style={{marginBottom: "10px"}}>Register Now</Form.Label>
-                            <Form.Label style={{width: "80%", color: "white", marginBottom: "20px"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod adipiscing elit.</Form.Label>
-                            <Form.Control type="text" placeholder="Your Name" className="FAQ-form-control"/>
-                            <Form.Control type="email" placeholder="Your Email" className="FAQ-form-control"/>
-                            <Form.Control rows={3} type="textarea" style={{height: "170px"}} placeholder="Enter Your Message" className="FAQ-form-control"/>
-                            <Button type="submit" className="FAQ-form-button">Submit Now</Button>
-                            </Form.Group>
-                        </Form>
-                    </Col>
+                    <Col className="Classes-Col-Form">
+            <Form className="Classes-Form">
+              <h4> Register Now</h4>
+              <h8>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h8>
+              <Form.Group className="mb-3" controlId="formBasicName">
+                <Form.Control type="name" placeholder="Name" />
+              </Form.Group>
+              <Form.Group className="mb-3" controlId="formBasicEmail">
+                <Form.Control type="email" placeholder="Enter email" />
+              </Form.Group>
+              <Form.Group className="mb-3" controlId="formBasicMsg" >
+                <Form.Control as="textarea" rows={4} type="msg" placeholder="Message" />
+              </Form.Group>
+              <Button className="Classes-Form-Button" variant="primary" type="submit">
+                Submit Now
+              </Button>
+            </Form>
+          </Col>
                 </Row>
             </Container>
 
@@ -397,7 +408,6 @@ render() {
             {/* Gallery */}
             
             <Row>
-                    
                     <Col className="lg-4 md-12 mb-4 mb-lg-0">
                         <img
                         src={Image13}
@@ -549,7 +559,7 @@ render() {
                     <Col>
                         <Card className="Contact-contactHeader mb-3">
                             <Card.Title className="Contact-headerTitle mt-5">Contact Us for Further Information</Card.Title>
-                                
+                            <img src={DotsWithLines} style={{width: "300px"}}></img>
                             <Card.Text className="Contact-headerBody mt-3 mb-4">Quam reprehenderit omnis facere! Pretium dis asperiores veritatis, impedit congue, ante commodi, uliam. </Card.Text>
                         </Card>
                     </Col>
