@@ -633,6 +633,7 @@ body {
   padding-left: 0;
 }
 
+
 .Contact-contactHeader span {
   color: var(--purple);
 }
@@ -645,14 +646,15 @@ body {
   background-color: rgb(250, 100, 46) !important;
 }
 
+
 .Contact-headerTitle {
   color: #2e1b5c !important;
-  font-size: 3.25vw;
+  font-size: 45px;
   font-weight: bold;
 }
 
 .Contact-headerBody {
-  font-size: 1vw;
+  font-size: 14;
 }
 
 .Contact-addressBadge {
@@ -914,7 +916,7 @@ body {
 
 .Home-Head-Container {
   background-image: url("./img/home-page-girl-with-paint.jpg");
-  height: 800px;
+  height: 1000px;
   background-size: cover;
   padding: 100px;
   text-align: center;
@@ -1146,7 +1148,7 @@ body {
 /* HEAD CSS */
 .Head-Container {
   background-image: url("./img/head-image-with-clouds.png");
-  height: 500px;
+  height: 600px;
   background-size: cover;
   padding: 150px;
   text-align: center;
