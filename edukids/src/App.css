@@ -892,7 +892,7 @@ body {
 
 .Home-Head-Container {
   background-image: url("./img/home-page-girl-with-paint.jpg");
-  height: 800px;
+  height: 1000px;
   background-size: cover;
   padding: 100px;
   text-align: center;
@@ -1124,7 +1124,7 @@ body {
 /* HEAD CSS */
 .Head-Container {
   background-image: url("./img/head-image-with-clouds.png");
-  height: 500px;
+  height: 600px;
   background-size: cover;
   padding: 150px;
   text-align: center;
