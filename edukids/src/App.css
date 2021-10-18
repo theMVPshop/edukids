@@ -569,14 +569,10 @@ body {
 
 .Classes-Body-Title {
   color: #2e1b5c !important;
-  font-size: 3.25vw;
-  font-weight: bold;
+  font-size: 45px;
+  font-weight: 700;
 }
 
-.Classes-Body-Text {
-  display: flex;
-  text-align: center;
-}
 .Classes-Col-Form {
   display: flex;
   justify-content: center;
@@ -733,6 +729,7 @@ body {
   /* filter: invert(100%); */
   font-weight: 800;
 }
+
 .Facilities-card-text1 {
   color: #03b790;
   font-weight: 700;
@@ -749,7 +746,8 @@ body {
   font-size: 22px;
 }
 .Facilities-green-row {
-  margin: 4rem 0;
+  margin: 4rem 0 6rem 0;
+  background-color: var(--green);
 }
 
 /* FOOTER CSS */
@@ -878,7 +876,6 @@ body {
   width: 40px;
   border-color: var(--green);
   border-radius: 30px;
- 
 }
 
 .Header-searchBar {
@@ -889,7 +886,6 @@ body {
   background-color: rgb(250, 100, 46) !important;
   font-weight: bold;
   white-space: nowrap;
-  
 }
 
 /* HOME CSS */
@@ -942,8 +938,15 @@ body {
   border-bottom: 3px solid #029373;
   font-weight: 700;
   margin: 10px;
+  margin-top: 30px;
 }
 
+.Home-button-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+  margin-top: 30px;
+}
 .Home-Title-Body-a {
   display: flex;
   text-align: center;
@@ -1046,6 +1049,26 @@ body {
 .Home-Facilities-Card-Icon {
   margin-top: 12px;
   font-size: 44px;
+}
+
+.Home-Card-Classes-Info {
+  border: none;
+  text-align: center;
+}
+
+.Home-Classes-Info-Big-Text {
+  font-size: 45px;
+  margin-bottom: -10px;
+  padding-top: 25px;
+}
+
+.Home-Classes-Info-Wrapper {
+  height: 150px;
+  width: 150px;
+  text-align: center;
+  border-radius: 50%;
+  margin: auto;
+  box-shadow: 0 0 10px rgb(105, 105, 105);
 }
 
 /* .Classes-List-Group-Item {

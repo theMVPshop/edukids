@@ -15,9 +15,9 @@ import ClassDetailImage4 from "../img/painting-together-P9VHLJH.jpg";
 function ClassDetail() {
   return (
     <div>
-      <Container className="Head-Container">
+      <div className="Head-Container">
         <h1 className="Head-H1">Class Detail</h1>
-      </Container>
+      </div>
       <Container fluid className="ClassDetail-container">
         <Row className="justify-content-md-center">
           <Col xs={12} md={8}>

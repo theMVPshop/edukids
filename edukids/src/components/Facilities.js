@@ -21,9 +21,9 @@ import { FaBook, FaBuilding, FaRegClock, FaPhone } from "react-icons/fa";
 export default function Facilities() {
   return (
     <div>
-      <Container className="Head-Container">
+      <div className="Head-Container">
         <h1 className="Head-H1">Facilities</h1>
-      </Container>
+      </div>
       <Container className="Facilities-Container">
         <Row>
           {/* *** list column ***       */}
@@ -188,7 +188,7 @@ export default function Facilities() {
           </Col>
 
           {/* *** card column *** */}
-          <Col>
+          <Col md="auto" className="justify-content-md-center">
             <Card
               className="Facilities-form text-center"
               style={{
