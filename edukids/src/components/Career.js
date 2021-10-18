@@ -19,7 +19,7 @@ function Career(props) {
         </Card>
       </Row>
       <Row>
-        <Col className="Career-card-column">
+        <Col className="Career-card-column" md={12} lg={3}>
           <Row>
             <Card className="Career-card-b">
               <Card.Body>
@@ -41,7 +41,7 @@ function Career(props) {
             </Card>
           </Row>
         </Col>
-        <Col className="Career-card-column">
+        <Col className="Career-card-column" md={12} lg={3}>
           <Row>
             <Card className="Career-card-b">
               <Card.Body>
@@ -63,7 +63,7 @@ function Career(props) {
             </Card>
           </Row>
         </Col>
-        <Col xs={5}>
+        <Col md={12} lg={5}>
           <Form className="Career-form">
             <Form.Group>
               <Form.Label className="Career-form-label">Join Our Team</Form.Label>

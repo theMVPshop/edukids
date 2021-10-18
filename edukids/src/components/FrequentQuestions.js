@@ -12,7 +12,7 @@ function FrequentQuestions() {
         <h1 className="Head-H1">FAQ</h1>
       </Container>
       <Row style={{marginBottom: '70px'}}>
-        <Col xs={7}>
+        <Col sm={12} md={6} >
           <Card className="FAQ-card">
             <Card.Body>
               <Card.Header className="FAQ-card-header">Questions/Answers</Card.Header>
@@ -118,7 +118,7 @@ function FrequentQuestions() {
             </Card.Body>
           </Card>
         </Col>
-        <Col xs={6}>
+        <Col sm={12} md={6} >
           <Card className="FAQ-card">
             <Card.Body>
               <Card.Header className="FAQ-card-header">Questions/Answers</Card.Header>

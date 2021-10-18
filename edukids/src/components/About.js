@@ -4,6 +4,7 @@ import { Button, Card, Col, Container, ListGroup, Row, Tabs, Tab, Accordion } fr
 import { FaBook, FaBuilding, FaRegClock, FaPhone, FaCheckCircle, FaCircle} from 'react-icons/fa'
 import Image1 from '../img/emotion-emoticons-used-by-a-psychologist-during-a--D2BFM6T.jpg';
 import Image2 from '../img/painting-together-P9VHLJH.jpg';
+import DotsWithLines from '../img/dots-with-lines.jpg'
 
 class About extends Component {
 
@@ -23,8 +24,9 @@ class About extends Component {
                 <Row className="justify-content-md-center">
     <Col md="auto"><h1>We Are Kindergarten And Childhood Is Our Passion</h1></Col>
     
-          <Row className="About-Head-Row"><Col xs lg="5"></Col><Col><hr /></Col><Col xs lg="1" className="About-Head-Col"><FaCircle /><FaCircle /><FaCircle /></Col><Col ><hr /></Col><Col Col xs lg="5"></Col></Row>
-
+    <Row style={{justifyContent: "center"}}>
+                <img src={DotsWithLines} style={{width: "300px"}}></img>
+            </Row>
 
   </Row>
   <Row className="justify-content-md-center">
