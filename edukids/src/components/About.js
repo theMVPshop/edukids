@@ -31,8 +31,8 @@ class About extends Component {
         </div>
         <Container>
           <Row className="justify-content-md-center">
-            <Col md="auto">
-              <h1>We Are Kindergarten And Childhood Is Our Passion</h1>
+            <Col md="auto" className="About-Title">
+              We Are Kindergarten And Childhood Is Our Passion
             </Col>
 
             <Row className="About-Head-Row">
@@ -71,8 +71,8 @@ class About extends Component {
             </Col>
             <Col sm={12} md={6}>
               <Card className="About-Card">
-                <Card.Text>
-                  <h1>Our Great Vision</h1>
+                <Card.Text className="About-Title">
+                  Our Great Vision
                 </Card.Text>
                 <Card.Text>
                   <p>
@@ -118,8 +118,8 @@ class About extends Component {
           <Row className="About-Row">
             <Col sm={12} md={6}>
               <Card className="About-Card">
-                <Card.Text>
-                  <h1>Our Great Vision</h1>
+                <Card.Text className="About-Title">
+                  Our Great Vision
                 </Card.Text>
                 <Card.Text>
                   <p>
