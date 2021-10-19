@@ -682,6 +682,8 @@ body {
 
 .Contact-formBtn {
   background-color: rgb(250, 100, 46) !important;
+  border-color: var(--orange);
+  border-bottom: 2px solid rgb(191, 75, 33);
 }
 /* EVENTS CSS */
 
