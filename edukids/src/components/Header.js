@@ -24,7 +24,6 @@ const Header = () => {
                         </NavDropdown>
                         <NavDropdown title="Event">
                             <NavDropdown.Item href="events">Events</NavDropdown.Item>
-                            <NavDropdown.Item href="eventdetail">Event Detail</NavDropdown.Item>
                         </NavDropdown>
                         <NavDropdown title="Other">
                             <NavDropdown.Item href="contact">Contact Us</NavDropdown.Item>
