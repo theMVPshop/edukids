@@ -77,7 +77,7 @@ const Events = () => {
             />
 
             <img
-              src={Image3}
+              src={Image11}
               className="w-100 shadow-1-strong rounded mb-4"
               alt="painting"
             />
@@ -103,7 +103,7 @@ const Events = () => {
             />
 
             <img
-              src={Image5}
+              src={Image3}
               className="w-100 shadow-1-strong rounded mb-4"
               alt="indoor"
             />
@@ -153,7 +153,7 @@ const Events = () => {
             />
 
             <img
-              src={Image3}
+              src={Image2}
               className="w-100 shadow-1-strong rounded mb-4"
               alt="painting"
             />
