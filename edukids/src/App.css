@@ -1111,7 +1111,7 @@ body {
   margin-top: 10px;
 }
 .Classes-Card-Img {
-  min-width: 310px;
+  max-width: 99%;
   height: 280px;
   border-radius: 8%;
   border: 3px solid white;
