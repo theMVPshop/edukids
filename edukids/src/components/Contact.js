@@ -10,7 +10,7 @@ function Classes(props) {
       </div>
       <Container className="Contact-mainContainer">
         <Row>
-          <Col className="Contact-cardCol">
+          <Col xs={12} md={8} className="Contact-cardCol">
             <Row>
               <Card className="Contact-contactHeader mb-3">
                 <Card.Title className="Contact-headerTitle">
@@ -74,8 +74,8 @@ function Classes(props) {
               </Card>
             </Row>
           </Col>
-          <Col>
-            <Card className="Contact-formCard w-75">
+          <Col s={12} md={4}>
+            <Card className="Contact-formCard">
               <Form className="p-2 bg-light">
                 <Form.Group
                   className="mb-3"
