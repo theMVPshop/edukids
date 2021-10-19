@@ -21,6 +21,7 @@ import {
 } from "react-icons/fa";
 import Image1 from "../img/emotion-emoticons-used-by-a-psychologist-during-a--D2BFM6T.jpg";
 import Image2 from "../img/painting-together-P9VHLJH.jpg";
+import DotsWithLines from '../img/dots-with-lines.jpg'
 
 class About extends Component {
   render() {
@@ -35,22 +36,11 @@ class About extends Component {
               We Are Kindergarten And Childhood Is Our Passion
             </Col>
 
-            <Row className="About-Head-Row">
-              <Col xs lg="5"></Col>
-              <Col>
-                <hr />
-              </Col>
-              <Col xs lg="1" className="About-Head-Col">
-                <FaCircle />
-                <FaCircle />
-                <FaCircle />
-              </Col>
-              <Col>
-                <hr />
-              </Col>
-              <Col Col xs lg="5"></Col>
+            
+            <Row style={{justifyContent: "center"}}>
+              <img src={DotsWithLines} style={{width: "300px"}}></img>
+              </Row>
             </Row>
-          </Row>
           <Row className="justify-content-md-center">
             <Col md="auto">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -88,25 +78,25 @@ class About extends Component {
                 </Card.Text>
                 <ListGroup>
                   <ListGroup.Item className="About-list-group-item">
-                    <span style={{ margin: "10px", color: "orange" }}>
+                    <span style={{ margin: "10px", color: "rgb(254,93,55)" }}>
                       <FaCheckCircle />
                     </span>
                     Supporting child's Personality
                   </ListGroup.Item>
                   <ListGroup.Item className="About-list-group-item">
-                    <span style={{ margin: "10px", color: "orange" }}>
+                    <span style={{ margin: "10px", color: "rgb(254,93,55)" }}>
                       <FaCheckCircle />
                     </span>
                     Indoor/Outdoor Games for Little Kids
                   </ListGroup.Item>
                   <ListGroup.Item className="About-list-group-item">
-                    <span style={{ margin: "10px", color: "orange" }}>
+                    <span style={{ margin: "10px", color: "rgb(254,93,55)" }}>
                       <FaCheckCircle />
                     </span>
                     Professional & Qualified Teachers
                   </ListGroup.Item>
                   <ListGroup.Item className="About-list-group-item">
-                    <span style={{ margin: "10px", color: "orange" }}>
+                    <span style={{ margin: "10px", color: "rgb(254,93,55)" }}>
                       <FaCheckCircle />
                     </span>
                     Best Learning School for kids
@@ -135,25 +125,25 @@ class About extends Component {
                 </Card.Text>
                 <ListGroup>
                   <ListGroup.Item className="About-list-group-item">
-                    <span style={{ margin: "10px", color: "orange" }}>
+                    <span style={{ margin: "10px", color: "rgb(254,93,55)" }}>
                       <FaCheckCircle />
                     </span>
                     Supporting child's Personality
                   </ListGroup.Item>
                   <ListGroup.Item className="About-list-group-item">
-                    <span style={{ margin: "10px", color: "orange" }}>
+                    <span style={{ margin: "10px", color: "rgb(254,93,55)" }}>
                       <FaCheckCircle />
                     </span>
                     Indoor/Outdoor Games for Little Kids
                   </ListGroup.Item>
                   <ListGroup.Item className="About-list-group-item">
-                    <span style={{ margin: "10px", color: "orange" }}>
+                    <span style={{ margin: "10px", color: "rgb(254,93,55)" }}>
                       <FaCheckCircle />
                     </span>
                     Professional & Qualified Teachers
                   </ListGroup.Item>
                   <ListGroup.Item className="About-list-group-item">
-                    <span style={{ margin: "10px", color: "orange" }}>
+                    <span style={{ margin: "10px", color: "rgb(254,93,55)" }}>
                       <FaCheckCircle />
                     </span>
                     Best Learning School for kids
