@@ -406,7 +406,9 @@ class Home extends Component {
     
     
                 <Container>
-                    <h1>Event Gallery</h1>
+                    <Col className="Home-Title">
+                    Event Gallery
+                    </Col>
                 {/* Gallery */}
                 
                 <Row>
