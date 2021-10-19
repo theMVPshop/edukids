@@ -1102,8 +1102,19 @@ body {
   box-shadow: 0 0 10px rgb(105, 105, 105);
 }
 
+.Home-Bottom-Container {
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
 .Classes-Card{
   margin-top: 10px;
+}
+.Classes-Card-Img {
+  min-width: 310px;
+  height: 280px;
+  border-radius: 8%;
+  border: 3px solid white;
 }
 
 /* .Classes-List-Group-Item {
