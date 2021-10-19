@@ -1106,6 +1106,10 @@ body {
   box-shadow: 0 0 10px rgb(105, 105, 105);
 }
 
+.Classes-Card{
+  margin-top: 10px;
+}
+
 /* .Classes-List-Group-Item {
   border: none;
 } */
