@@ -25,7 +25,7 @@ const Events = () => {
         <Row className="justify-content-md-center">
           <Col xs lg="4"></Col>
           <Col md="auto">
-            <Card className="card text-orange border-warning text-center">
+            <Card className="card text-orange text-center">
               <CardHeader className="ev-header">Games & Events</CardHeader>
             </Card>
           </Col>
@@ -34,8 +34,8 @@ const Events = () => {
 
         <Row className="justify-content-md-center">
           <Col xs lg="4"></Col>
-          <Col md="auto" className="text-center">
-            <h2>Our Recent Activities</h2>
+          <Col md="auto" className="ev-text-center">
+            Our Recent Activities
           </Col>
           <Col xs lg="4"></Col>
         </Row>

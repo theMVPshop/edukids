@@ -105,6 +105,14 @@ body {
   text-align: center;
 }
 
+.About-Title{
+  margin-top:25px;
+  margin-bottom: 20px;
+  color: #2e1b5c !important;
+  font-size: 45px;
+  font-weight: 700;
+}
+
 .About-Col {
   margin-left: auto;
   margin-right: auto;
@@ -411,14 +419,16 @@ body {
 /* CLASS DETAIL CSS */
 
 .ClassDetail-h2 {
-  color: #220d38;
-  font-size: 48px;
-  padding-bottom: 10px;
+  margin-top:25px;
+  color: #2e1b5c !important;
+  font-size: 45px;
+  font-weight: 700;
 }
 
 .ClassDetail-h4 {
-  color: #220d38;
+  color: #2e1b5c !important;
   padding: 25px 0;
+  font-weight: 600;
 }
 .ClassDetail-p {
   color: #220d38;
@@ -623,6 +633,7 @@ body {
   padding-left: 0;
 }
 
+
 .Contact-contactHeader span {
   color: var(--purple);
 }
@@ -635,14 +646,15 @@ body {
   background-color: rgb(250, 100, 46) !important;
 }
 
+
 .Contact-headerTitle {
   color: #2e1b5c !important;
-  font-size: 3.25vw;
+  font-size: 45px;
   font-weight: bold;
 }
 
 .Contact-headerBody {
-  font-size: 1vw;
+  font-size: 14;
 }
 
 .Contact-addressBadge {
@@ -686,6 +698,18 @@ body {
   height: auto;
   padding-left: 20px;
   padding-right: 20px;
+  background-color: white;
+  color: rgb(250, 100, 46);
+  font-weight: 700;
+  border: 2px solid rgb(250, 100, 46);
+}
+
+.ev-text-center{
+  margin-top:25px;
+  margin-bottom: 20px;
+  color: #2e1b5c !important;
+  font-size: 45px;
+  font-weight: 700;
 }
 
 /* FACILITIES CSS */
@@ -892,7 +916,7 @@ body {
 
 .Home-Head-Container {
   background-image: url("./img/home-page-girl-with-paint.jpg");
-  height: 800px;
+  height: 1000px;
   background-size: cover;
   padding: 100px;
   text-align: center;
@@ -979,9 +1003,9 @@ body {
   display: flex;
   justify-content: center;
   text-align: center;
-  width: 25%;
-  margin-left: 10px;
-  margin-right: 10px;
+  width: 95%;
+  margin: auto;
+  margin-top: 10px;
   padding: 30px;
   color: white;
   border-radius: 10%;
@@ -1029,6 +1053,17 @@ body {
 .Home-Image-b {
   margin-left: 200px;
   margin-top: 150px;
+}
+
+@media (max-width: 600px) {
+  .Home-Image-b {
+    margin-left: 40px;
+    margin-top: 210px;
+  }
+
+  .Home-Head-H1 {
+    font-size: 45px;
+  }
 }
 
 .Home-Facilities-Card {
@@ -1090,21 +1125,21 @@ body {
 }
 
 .Team-Card-Body1 {
-  background-color: orange;
+  background-color:rgb(254,93,55);
   border-radius: 15px;
   color: white;
   text-align: center;
 }
 
 .Team-Card-Body2 {
-  background-color: rgb(75, 193, 118);
+  background-color:rgb(4,185,146);
   border-radius: 15px;
   color: white;
   text-align: center;
 }
 
 .Team-Card-Body3 {
-  background-color: yellow;
+  background-color: rgb(234,170,20);
   border-radius: 15px;
   color: white;
   text-align: center;
@@ -1124,7 +1159,7 @@ body {
 /* HEAD CSS */
 .Head-Container {
   background-image: url("./img/head-image-with-clouds.png");
-  height: 500px;
+  height: 600px;
   background-size: cover;
   padding: 150px;
   text-align: center;

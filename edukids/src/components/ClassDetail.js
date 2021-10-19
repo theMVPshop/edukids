@@ -20,7 +20,7 @@ function ClassDetail() {
       </div>
       <Container fluid className="ClassDetail-container">
         <Row className="justify-content-md-center">
-          <Col xs={12} md={8}>
+          <Col xs={12} md={8} >
             <h2 className="ClassDetail-h2">Class Description</h2>
             <p className="ClassDetail-p">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
