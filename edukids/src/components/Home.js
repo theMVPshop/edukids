@@ -641,112 +641,110 @@ class Home extends Component {
           <Container>
             <h1>Event Gallery</h1>
             {/* Gallery */}
+        <Row>
+        <Col className="lg-4 md-12 mb-4 mb-lg-0">
+          <img
+            src={Image1}
+            className="w-100 shadow-1-strong rounded mb-4"
+            alt="indoor"
+          />
 
-            <Row>
-              <Col className="lg-4 md-12 mb-4 mb-lg-0">
-                <img
-                  src={Image13}
-                  className="w-100 shadow-1-strong rounded mb-4"
-                  alt="indoor"
-                />
+          <img
+            src={Image2}
+            className="w-100 shadow-1-strong rounded mb-4"
+            alt="outdoor"
+          />
 
-                <img
-                  src={Image14}
-                  className="w-100 shadow-1-strong rounded mb-4"
-                  alt="outdoor"
-                />
+          <img
+            src={Image9}
+            className="w-100 shadow-1-strong rounded mb-4"
+            alt="outdoor"
+          />
 
-                <img
-                  src={Image9}
-                  className="w-100 shadow-1-strong rounded mb-4"
-                  alt="outdoor"
-                />
+          <img
+            src={Image11}
+            className="w-100 shadow-1-strong rounded mb-4"
+            alt="painting"
+          />
+        </Col>
 
-                <img
-                  src={Image15}
-                  className="w-100 shadow-1-strong rounded mb-4"
-                  alt="painting"
-                />
-              </Col>
+        <Col className="lg-4 mb-4 mb-lg-0">
+          <img
+            src={Image4}
+            className="w-100 shadow-1-strong rounded mb-4"
+            alt="painting"
+          />
 
-              <Col className="lg-4 mb-4 mb-lg-0">
-                <img
-                  src={Image4}
-                  className="w-100 shadow-1-strong rounded mb-4"
-                  alt="painting"
-                />
+          <img
+            src={Image6}
+            className="w-100 shadow-1-strong rounded mb-4"
+            alt="outdoor"
+          />
 
-                <img
-                  src={Image6}
-                  className="w-100 shadow-1-strong rounded mb-4"
-                  alt="outdoor"
-                />
+          <img
+            src={Image10}
+            className="w-100 shadow-1-strong rounded mb-4"
+            alt="indoor"
+          />
 
-                <img
-                  src={Image10}
-                  className="w-100 shadow-1-strong rounded mb-4"
-                  alt="indoor"
-                />
+          <img
+            src={Image3}
+            className="w-100 shadow-1-strong rounded mb-4"
+            alt="indoor"
+          />
+        </Col>
 
-                <img
-                  src={Image5}
-                  className="w-100 shadow-1-strong rounded mb-4"
-                  alt="indoor"
-                />
-              </Col>
+        <Col className="lg-4 mb-4 mb-lg-0">
+          <img
+            src={Image7}
+            className="w-100 shadow-1-strong rounded mb-4"
+            alt="outdoor"
+          />
 
-              <Col className="lg-4 mb-4 mb-lg-0">
-                <img
-                  src={Image7}
-                  className="w-100 shadow-1-strong rounded mb-4"
-                  alt="outdoor"
-                />
+          <img
+            src={Image5}
+            className="w-100 shadow-1-strong rounded mb-4"
+            alt="outdoor"
+          />
 
-                <img
-                  src={Image5}
-                  className="w-100 shadow-1-strong rounded mb-4"
-                  alt="outdoor"
-                />
+          <img
+            src={Image8}
+            className="w-100 shadow-1-strong rounded mb-4"
+            alt="indoor"
+          />
+          <img
+            src={Image9}
+            className="w-100 shadow-1-strong rounded mb-4"
+            alt="outdoor"
+          />
+        </Col>
 
-                <img
-                  src={Image8}
-                  className="w-100 shadow-1-strong rounded mb-4"
-                  alt="indoor"
-                />
-                <img
-                  src={Image9}
-                  className="w-100 shadow-1-strong rounded mb-4"
-                  alt="outdoor"
-                />
-              </Col>
+        <Col className="lg-4 mb-4 mb-lg-0">
+          <img
+            src={Image10}
+            className="w-100 shadow-1-strong rounded mb-4"
+            alt="indoor"
+          />
+          <img
+            src={Image11}
+            className="w-100 shadow-1-strong rounded mb-4"
+            alt="outdoor"
+          />
 
-              <Col className="lg-4 mb-4 mb-lg-0">
-                <img
-                  src={Image10}
-                  className="w-100 shadow-1-strong rounded mb-4"
-                  alt="indoor"
-                />
-                <img
-                  src={Image11}
-                  className="w-100 shadow-1-strong rounded mb-4"
-                  alt="outdoor"
-                />
+          <img
+            src={Image12}
+            className="w-100 shadow-1-strong rounded mb-4"
+            alt="indoor"
+          />
 
-                <img
-                  src={Image12}
-                  className="w-100 shadow-1-strong rounded mb-4"
-                  alt="indoor"
-                />
-
-                <img
-                  src={Image15}
-                  className="w-100 shadow-1-strong rounded mb-4"
-                  alt="painting"
-                />
-              </Col>
-            </Row>
-
-            {/* Gallery */}
+          <img
+            src={Image2}
+            className="w-100 shadow-1-strong rounded mb-4"
+            alt="painting"
+          />
+        </Col>
+      </Row>
+      {/* Gallery */}
           </Container>
           <Container>
             <Row className="About-Green-Row">
