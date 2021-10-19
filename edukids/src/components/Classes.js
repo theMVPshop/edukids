@@ -1,5 +1,12 @@
 import React from "react";
 import { Card, Row, Col, Container, Form, Button } from "react-bootstrap";
+import Image1 from "../img/happy-little-girl-in-protective-hat-riding-her-bik-W9757CG.jpg"
+import Image2 from "../img/adorable-kids-playing-with-constructor-on-floor-in-ZP6VC78.jpg"
+import Image3 from "../img/kindergarten-age-girl-learning-about-the-planets-a-EKX3YDA.jpg"
+import Image4 from "../img/mother-or-nursery-teacher-teaches-her-children-to--QK27JT7.jpg"
+import Image5 from "../img/painting-together-P9VHLJH.jpg"
+import Image6 from "../img/sitting-on-a-carpet-P8BAWTX.jpg"
+
 
 function Classes(props) {
   return (
@@ -17,7 +24,7 @@ function Classes(props) {
               <Card.Img
                 className="Classes-Card-Img"
                 variant="top"
-                src="https://images.unsplash.com/photo-1505672678657-cc7037095e60?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8"
+                src={Image1}
               />
               <Card.Body className="Classes-Card-Body">
                 <Card.Title>Physical Class</Card.Title>
@@ -48,7 +55,7 @@ function Classes(props) {
               <Card.Img
                 className="Classes-Card-Img"
                 variant="top"
-                src="https://images.unsplash.com/photo-1505672678657-cc7037095e60?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8"
+                src={Image2}
               />
               <Card.Body className="Classes-Card-Body">
                 <Card.Title>Creative Class</Card.Title>
@@ -79,8 +86,7 @@ function Classes(props) {
               <Card.Img
                 className="Classes-Card-Img"
                 variant="top"
-                src="https://images.unsplash.com/photo-1505672678657-cc7037095e60?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8"
-              />
+                src={Image3}/>
               <Card.Body className="Classes-Card-Body">
                 <Card.Title>Learning Class</Card.Title>
                 <Card.Text>
@@ -112,10 +118,10 @@ function Classes(props) {
               <Card.Img
                 className="Classes-Card-Img"
                 variant="top"
-                src="https://images.unsplash.com/photo-1505672678657-cc7037095e60?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8"
+                src={Image4}
               />
               <Card.Body className="Classes-Card-Body">
-                <Card.Title>Physical Class</Card.Title>
+                <Card.Title>Game Session</Card.Title>
                 <Card.Text>
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
@@ -143,10 +149,9 @@ function Classes(props) {
               <Card.Img
                 className="Classes-Card-Img"
                 variant="top"
-                src="https://images.unsplash.com/photo-1505672678657-cc7037095e60?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8"
-              />
+                src={Image5}/>
               <Card.Body className="Classes-Card-Body">
-                <Card.Title>Creative Class</Card.Title>
+                <Card.Title>Painting</Card.Title>
                 <Card.Text>
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
@@ -174,10 +179,9 @@ function Classes(props) {
               <Card.Img
                 className="Classes-Card-Img"
                 variant="top"
-                src="https://images.unsplash.com/photo-1505672678657-cc7037095e60?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8"
-              />
+                src={Image6}/>
               <Card.Body className="Classes-Card-Body">
-                <Card.Title>Learning Class</Card.Title>
+                <Card.Title>Musical</Card.Title>
                 <Card.Text>
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
