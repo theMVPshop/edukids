@@ -54,50 +54,7 @@ const Events = () => {
           <Col xs lg="4"></Col>
         </Row>
 
-        <Row className="justify-content-md-center">
-          <Col xs lg="2"></Col>
-          <Col md="auto" className="text-center">
-            <p>
-              <Button
-                className="btn btn-link nounderline"
-                data-toggle="collapse"
-                href="#"
-                aria-expanded="false"
-                aria-controls="collapseExample"
-              >
-                All
-              </Button>
-              <Button
-                className="btn btn-link nounderline"
-                data-toggle="collapse"
-                href="#"
-                aria-expanded="false"
-                aria-controls="collapseExample"
-              >
-                Painting
-              </Button>
-              <Button
-                className="btn btn-link nounderline"
-                data-toggle="collapse"
-                href="#"
-                aria-expanded="false"
-                aria-controls="collapseExample"
-              >
-                Indoor
-              </Button>
-              <Button
-                className="btn btn-link nounderline"
-                data-toggle="collapse"
-                href="#"
-                aria-expanded="false"
-                aria-controls="collapseExample"
-              >
-                Outdoor
-              </Button>
-            </p>
-          </Col>
-          <Col xs lg="2"></Col>
-        </Row>
+        
         {/* Gallery */}
         <Row>
           <Col className="lg-4 md-12 mb-4 mb-lg-0">
