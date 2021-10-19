@@ -63,39 +63,8 @@ class About extends Component {
             </Col>
           </Row>
 
-<<<<<<< HEAD
-
-  
-    render() {
-
-      
-        return (
-          
-            
-            <Container>
-                  <Container className="Head-Container">
-      <h1 className="Head-H1">About Us</h1>
-    </Container>
-                <Row className="justify-content-md-center">
-    <Col md="auto"><h1>We Are Kindergarten And Childhood Is Our Passion</h1></Col>
-    
-    <Row style={{justifyContent: "center"}}>
-                <img src={DotsWithLines} style={{width: "300px"}}></img>
-            </Row>
-
-  </Row>
-  <Row className="justify-content-md-center">
-  <Col md="auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-    Tellus rutrum tellus pellentesque eu tincidunt tortor. Cras fermentum odio eu feugiat. Pellentesque massa placerat duis ultricies. 
-    Ipsum dolor sit amet consectetur adipiscing elit. Nulla porttitor massa id neque aliquam. Adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus. </Col>
-      </Row>
-
-      <Row className="About-Row">
-          <Col sm={12} md={6} >
-=======
           <Row className="About-Row">
             <Col sm={12} md={6}>
->>>>>>> c4aa6b99ddbd26cacce3d78d50a06102ecb2d773
               <Card className="About-Card-With-Image">
                 <Card.Img classname="About-Card-Image" src={Image1}></Card.Img>
               </Card>
