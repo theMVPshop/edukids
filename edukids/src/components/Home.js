@@ -137,7 +137,11 @@ class Home extends Component {
                     <Row>
                         <h4 className="Home-Title" style={{marginTop: "100px", marginBottom: "20px"}}>School Facilities We Offer</h4>
                     </Row>
-                    <Row className="About-Head-Row" style={{marginBottom: "20px"}}><Col xs lg="5"></Col><Col><hr /></Col><Col xs lg="1" className="About-Head-Col"><FaCircle /><FaCircle /><FaCircle /></Col><Col ><hr /></Col><Col Col xs lg="5"></Col></Row>
+                    
+                    <Row style={{justifyContent: "center"}}>
+                        <img src={DotsWithLines} style={{width: "300px"}}></img>
+                    </Row>
+
                     <Row>
                         <Col>
                             <Card className="Home-Facilities-Card">
