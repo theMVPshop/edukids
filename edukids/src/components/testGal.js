@@ -1,25 +1,28 @@
-import React, { Component } from 'react'
+/* eslint-disable array-callback-return */
+
 import GalImages from './GalImages'
-import { Col, Container, Row } from 'react-bootstrap';
+import { Col, Row } from 'react-bootstrap';
 
 
+const theGal = () => {
 
-export default class testGal extends Component {
-    render() {
-
-        const images = GalImages.map(image => {
-            return <img key={image} src={require(`${image}`)} className="img-responsive" />
-        });
-
-        return (
+    return (
+        GalImages.map((src, description, id) => {
             <Row>
-                <Container className="lg-4 md-12 mb-4 mb-lg-0">
-                    <Col className="w-100 shadow-1-strong rounded mb-4">
-                       { images }
+                    <Col className="lg-4 mb-4 mb-lg-0">
+                    <img
+                    key={id}
+                    src={src}
+                    className="w-100 shadow-1-strong rounded mb-4"
+                    alt={description}
+                    />
                     </Col>
-                </Container>
                     
             </Row>
-        )
-    }
+        })
+
+    )
+
 }
+
+export default theGal;

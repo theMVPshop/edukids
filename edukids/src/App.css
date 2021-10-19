@@ -516,14 +516,10 @@ body {
   margin-top: -8px;
 }
 .classDetail-Description-image {
-  background-image: url("./img/tutor-and-multicultural-kids-playing-with-construc-M27G27Q.jpg");
-  width: 450px;
-  height: 300px;
-  background-size: cover;
   border-radius: 25px;
 }
 .classDetail-Activities-gallery-photo {
-  height: 110px;
+  height: auto;
   width: auto;
   border-radius: 20px;
   margin-right: 6px;
@@ -1106,6 +1102,21 @@ body {
   box-shadow: 0 0 10px rgb(105, 105, 105);
 }
 
+.Home-Bottom-Container {
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+.Classes-Card{
+  margin-top: 10px;
+}
+.Classes-Card-Img {
+  max-width: 99%;
+  height: 280px;
+  border-radius: 8%;
+  border: 3px solid white;
+}
+
 /* .Classes-List-Group-Item {
   border: none;
 } */
@@ -1161,7 +1172,7 @@ body {
   background-image: url("./img/head-image-with-clouds.png");
   height: 600px;
   background-size: cover;
-  padding: 150px;
+  padding: 5.3rem;
   text-align: center;
   color: white;
 }

@@ -12,6 +12,7 @@ import ClassDetailImage1 from "../img/adorable-kids-playing-with-constructor-on-
 import ClassDetailImage2 from "../img/cute-girl-playing-with-paint-in-art-class-85QTUD9.jpg";
 import ClassDetailImage3 from "../img/sitting-on-a-carpet-P8BAWTX.jpg";
 import ClassDetailImage4 from "../img/painting-together-P9VHLJH.jpg";
+import ClassDetailImage5 from "../img/tutor-and-multicultural-kids-playing-with-construc-M27G27Q.jpg";
 function ClassDetail() {
   return (
     <div>
@@ -20,15 +21,20 @@ function ClassDetail() {
       </div>
       <Container fluid className="ClassDetail-container">
         <Row className="justify-content-md-center">
-          <Col xs={12} md={8} >
+          <Col xs={12} md={7}>
             <h2 className="ClassDetail-h2">Class Description</h2>
             <p className="ClassDetail-p">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Praesentium fugiat cumque nemo eaque deleniti perferendis vel vero
               in ut assumenda!
             </p>
-
-            <Image className="classDetail-Description-image" />
+            <Card>
+              <Image
+                className="classDetail-Description-image"
+                src={ClassDetailImage5}
+                rounded
+              />
+            </Card>
           </Col>
           <Col md="auto">
             {/* ***information card*** */}
@@ -59,7 +65,7 @@ function ClassDetail() {
           </Col>
         </Row>
         <Row className="justify-content-md-center">
-          <Col xs={12} md={8}>
+          <Col xs={12} md={7}>
             <h4 className="ClassDetail-h4">Class Curriculum</h4>
             <p className="ClassDetail-p">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti
@@ -96,36 +102,38 @@ function ClassDetail() {
 
             <h4 className="ClassDetail-h4">Class Activities Gallery:</h4>
             {/* ****gallery goes here**** */}
-            <CardGroup>
-              <Card>
-                <Image
-                  className="classDetail-Activities-gallery-photo"
-                  src={ClassDetailImage1}
-                  rounded
-                />
-              </Card>
-              <Card>
-                <Image
-                  className="classDetail-Activities-gallery-photo"
-                  src={ClassDetailImage2}
-                  rounded
-                />
-              </Card>
-              <Card>
-                <Image
-                  className="classDetail-Activities-gallery-photo"
-                  src={ClassDetailImage3}
-                  rounded
-                />
-              </Card>
-              <Card>
-                <Image
-                  className="classDetail-Activities-gallery-photo"
-                  src={ClassDetailImage4}
-                  rounded
-                />
-              </Card>
-            </CardGroup>
+            <Col xs={8} md={10}>
+              <CardGroup>
+                <Card>
+                  <Image
+                    className="classDetail-Activities-gallery-photo"
+                    src={ClassDetailImage1}
+                    rounded
+                  />
+                </Card>
+                <Card>
+                  <Image
+                    className="classDetail-Activities-gallery-photo"
+                    src={ClassDetailImage2}
+                    rounded
+                  />
+                </Card>
+                <Card>
+                  <Image
+                    className="classDetail-Activities-gallery-photo"
+                    src={ClassDetailImage3}
+                    rounded
+                  />
+                </Card>
+                <Card>
+                  <Image
+                    className="classDetail-Activities-gallery-photo"
+                    src={ClassDetailImage4}
+                    rounded
+                  />
+                </Card>
+              </CardGroup>
+            </Col>
           </Col>
           <Col md="auto">
             {/* ***Teacher card *** */}
