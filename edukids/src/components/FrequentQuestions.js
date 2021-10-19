@@ -20,7 +20,7 @@ function FrequentQuestions() {
       </div>
       <Container>
         <Row style={{ marginBottom: "70px" }}>
-          <Col xs={7}>
+          <Col sm={12} md={7}>
             <Card className="FAQ-card">
               <Card.Body>
                 <Card.Header className="FAQ-card-header">
@@ -171,7 +171,7 @@ function FrequentQuestions() {
               </Card.Body>
             </Card>
           </Col>
-          <Col xs={6}>
+          <Col sm={12} md={6}>
             <Card className="FAQ-card">
               <Card.Body>
                 <Card.Header className="FAQ-card-header">

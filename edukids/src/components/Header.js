@@ -10,8 +10,8 @@ const Header = () => {
             sticky="top" expand="lg">
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-        <Navbar.Brand href="home">
-            <EdukidsLogo href="home" className="svg" />
+        <Navbar.Brand href="/">
+            <EdukidsLogo href="/" className="svg" />
         </Navbar.Brand>
             <Container>
                 <Container variant="myblue">

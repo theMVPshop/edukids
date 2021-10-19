@@ -54,7 +54,7 @@ class Home extends Component {
                     <img src={DotsWithLines} style={{width: "300px"}}></img>
                 </Row>
                 <Row style={{justifyContent: "center", marginBottom: "100px"}}>
-                    
+                    <Col sm={12} md={4}>
                         <Card className="Home-Cards Home-Cards-a">
                             <Card.Body>
                                 <FaLightbulb className="Home-Card-Icon"/>
@@ -64,8 +64,9 @@ class Home extends Component {
                                 </Card.Text>
                             </Card.Body>
                         </Card>
+                    </Col>
                     
-                    
+                    <Col sm={12} md={4}>
                         <Card className="Home-Cards Home-Cards-b">
                             <Card.Body>
                                 <FaRegLightbulb className="Home-Card-Icon"/>
@@ -75,8 +76,9 @@ class Home extends Component {
                                 </Card.Text>
                             </Card.Body>
                         </Card>
+                    </Col>
                     
-                    
+                    <Col sm={12} md={4}>
                         <Card className="Home-Cards Home-Cards-c">
                             <Card.Body>
                                 <BsGear className="Home-Card-Icon"/>
@@ -86,6 +88,7 @@ class Home extends Component {
                                 </Card.Text>
                             </Card.Body>
                         </Card>
+                    </Col>
                     
     
                 </Row>

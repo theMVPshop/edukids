@@ -27,7 +27,7 @@ export default function Facilities() {
       <Container className="Facilities-Container">
         <Row>
           {/* *** list column ***       */}
-          <Col>
+          <Col xs={6} md={4}>
             <Card border="primary" style={{ border: "none" }}>
               <Card.Body>
                 <Row>
@@ -107,7 +107,7 @@ export default function Facilities() {
 
           {/* Second column */}
 
-          <Col>
+          <Col xs={6} md={4}>
             <Card border="primary" style={{ border: "none" }}>
               <Card.Body>
                 <Row>
@@ -188,7 +188,7 @@ export default function Facilities() {
           </Col>
 
           {/* *** card column *** */}
-          <Col md="auto" className="justify-content-md-center">
+          <Col xs={6} md={4} className="justify-content-md-center">
             <Card
               className="Facilities-form text-center"
               style={{
