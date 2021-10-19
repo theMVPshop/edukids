@@ -195,7 +195,7 @@ export default function Facilities() {
                 width: "18rem",
                 color: "white",
                 backgroundColor: "#ff5d37",
-                borderRadius: "8%",
+                borderRadius: "20px",
                 padding: "30px 8px",
               }}
             >

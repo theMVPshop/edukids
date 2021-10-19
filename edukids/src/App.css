@@ -506,14 +506,10 @@ body {
   margin-top: -8px;
 }
 .classDetail-Description-image {
-  background-image: url("./img/tutor-and-multicultural-kids-playing-with-construc-M27G27Q.jpg");
-  width: 450px;
-  height: 300px;
-  background-size: cover;
   border-radius: 25px;
 }
 .classDetail-Activities-gallery-photo {
-  height: 110px;
+  height: auto;
   width: auto;
   border-radius: 20px;
   margin-right: 6px;
@@ -1126,7 +1122,7 @@ body {
   background-image: url("./img/head-image-with-clouds.png");
   height: 500px;
   background-size: cover;
-  padding: 150px;
+  padding: 5.3rem;
   text-align: center;
   color: white;
 }
