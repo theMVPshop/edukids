@@ -50,7 +50,7 @@ function Classes(props) {
                     </Col>
                     <Col>
                       <Card.Title>Email Address</Card.Title>
-                      <Card.Text>yourcompany@domain.com</Card.Text>
+                      <Card.Text style={{wordBreak: "break-word"}}>yourcompany@domain.com</Card.Text>
                     </Col>
                   </Row>
                 </Card.Body>
