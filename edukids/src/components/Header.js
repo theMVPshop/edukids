@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Nav, Navbar, NavDropdown, Form, FormControl, Button, InputGroup } from 'react-bootstrap';
+import { Container, Nav, Navbar, NavDropdown,  Button} from 'react-bootstrap';
 import { BsSearch } from 'react-icons/bs'
 import {ReactComponent as EdukidsLogo} from '../img/edukids_logo.svg';
 

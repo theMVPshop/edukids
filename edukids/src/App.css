@@ -897,7 +897,7 @@ body {
   color: white;
   width: 40px;
   border-color: var(--green);
-  border-radius: 30px;
+  border-radius: 60px;
 }
 
 .Header-searchBar {
@@ -908,7 +908,12 @@ body {
   background-color: rgb(250, 100, 46) !important;
   font-weight: bold;
   white-space: nowrap;
+  border-color: rgb(191, 77, 36);
+  border-bottom: 2px solid rgb(191, 77, 36);
+  margin-right:10px;
 }
+
+
 
 /* HOME CSS */
 
