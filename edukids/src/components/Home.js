@@ -25,9 +25,9 @@ import {
 } from "react-icons/fa";
 import { BsGear } from "react-icons/bs";
 import GalImages from "./GalImages";
-import Image1 from "../img/painting-together-P9VHLJH.jpg";
-import Image2 from "../img/emotion-emoticons-used-by-a-psychologist-during-a--D2BFM6T.jpg";
-import Image3 from "../img/funny-kids.png";
+import Image1 from "../img/happy-little-girl-in-protective-hat-riding-her-bik-W9757CG.jpg"
+import Image2 from "../img/adorable-kids-playing-with-constructor-on-floor-in-ZP6VC78.jpg"
+import Image3 from "../img/kindergarten-age-girl-learning-about-the-planets-a-EKX3YDA.jpg"
 
 import Image13 from "../img/adorable-kids-playing-with-constructor-on-floor-in-ZP6VC78.jpg";
 import Image14 from "../img/boys-and-girls-dancing-PZNK4D9.jpg";
