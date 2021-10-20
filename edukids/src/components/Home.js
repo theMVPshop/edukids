@@ -20,6 +20,7 @@ import Image10 from '../img/mother-or-nursery-teacher-teaches-her-children-to--Q
 import Image11 from '../img/painting-together-P9VHLJH.jpg';
 import Image12 from '../img/sitting-on-a-carpet-P8BAWTX.jpg';
 import DotsWithLines from '../img/dots-with-lines.jpg'
+import Image16 from "../img/funny-kids.png"
 
 class Home extends Component {
 
@@ -185,7 +186,7 @@ class Home extends Component {
                             </Card>
                         </Col>
                         <Col style={{display: "flex", justifyContent: "center"}}>
-                            <img src={Image3} style={{height: "400px", margin: "auto", borderRadius: "15%"}}></img>
+                            <img src={Image16} style={{height: "400px", margin: "auto", borderRadius: "15%"}}></img>
                         </Col>
                         <Col>
                             <Card className="Home-Facilities-Card">
