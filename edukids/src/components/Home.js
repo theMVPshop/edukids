@@ -290,6 +290,7 @@ class Home extends Component {
                         </Card.Text>
                       </Col>
                     </Row>
+<<<<<<< HEAD
                   </Card.Body>
                 </Card>
               </Col>
@@ -306,6 +307,13 @@ class Home extends Component {
               <Col>
                 <Card className="Home-Facilities-Card">
                   <Card.Body>
+=======
+                    
+                    <Row style={{justifyContent: "center"}}>
+                        <img src={DotsWithLines} style={{width: "300px"}}></img>
+                    </Row>
+
+>>>>>>> 26b3b6d35d637b205511ba4b18ef2d7ac28c2561
                     <Row>
                       <Col style={{ textAlign: "right" }}>
                         <Card.Title
@@ -626,6 +634,7 @@ class Home extends Component {
                   </Button>
                 </Form>
               </Col>
+<<<<<<< HEAD
             </Row>
           </Container>
 
@@ -816,6 +825,167 @@ class Home extends Component {
                       contro4lId="exampleForm.ControlTextarea1"
                     >
                       <Row>
+=======
+                    </Row>
+                </Container>
+    
+    
+                <Container>
+                    <Col className="Home-Title">
+                    Event Gallery
+                    </Col>
+                {/* Gallery */}
+                
+                <Row>
+                        <Col className="lg-4 md-12 mb-4 mb-lg-0">
+                            <img
+                            src={Image13}
+                            className="w-100 shadow-1-strong rounded mb-4"
+                            alt="indoor"
+                            />
+        
+                            <img
+                            src={Image14}
+                            className="w-100 shadow-1-strong rounded mb-4"
+                            alt="outdoor"
+                            />
+        
+                            <img
+                            src={Image9}
+                            className="w-100 shadow-1-strong rounded mb-4"
+                            alt="outdoor"
+                            />
+        
+                            <img
+                            src={Image15}
+                            className="w-100 shadow-1-strong rounded mb-4"
+                            alt="painting"
+                            />
+                        </Col>
+        
+                        <Col className="lg-4 mb-4 mb-lg-0">
+                            
+        
+                            <img
+                            src={Image4}
+                            className="w-100 shadow-1-strong rounded mb-4"
+                            alt="painting"
+                            />
+        
+                            <img
+                            src={Image6}
+                            className="w-100 shadow-1-strong rounded mb-4"
+                            alt="outdoor"
+                            />
+        
+                            <img
+                            src={Image10}
+                            className="w-100 shadow-1-strong rounded mb-4"
+                            alt="indoor"
+                            />
+        
+                            <img
+                            src={Image5}
+                            className="w-100 shadow-1-strong rounded mb-4"
+                            alt="indoor"
+                            />
+                        </Col>
+        
+                        <Col className="lg-4 mb-4 mb-lg-0">
+                            <img
+                            src={Image7}
+                            className="w-100 shadow-1-strong rounded mb-4"
+                            alt="outdoor"
+                            />
+        
+                            <img
+                            src={Image5}
+                            className="w-100 shadow-1-strong rounded mb-4"
+                            alt="outdoor"
+                            />
+        
+                            <img
+                            src={Image8}
+                            className="w-100 shadow-1-strong rounded mb-4"
+                            alt="indoor"
+                            />
+                            <img
+                            src={Image9}
+                            className="w-100 shadow-1-strong rounded mb-4"
+                            alt="outdoor"
+                            />
+                        </Col>
+        
+                        <Col className="lg-4 mb-4 mb-lg-0">
+                            <img
+                            src={Image10}
+                            className="w-100 shadow-1-strong rounded mb-4"
+                            alt="indoor"
+                            />
+                            <img
+                            src={Image11}
+                            className="w-100 shadow-1-strong rounded mb-4"
+                            alt="outdoor"
+                            />
+        
+                            <img
+                            src={Image12}
+                            className="w-100 shadow-1-strong rounded mb-4"
+                            alt="indoor"
+                            />
+        
+                            <img
+                            src={Image15}
+                            className="w-100 shadow-1-strong rounded mb-4"
+                            alt="painting"
+                            />
+                        </Col>
+        
+            
+                    </Row>
+    
+                {/* Gallery */}
+                   
+                </Container>
+                <Container>
+                    <Row className="About-Green-Row">
+                        <Col>
+                            <FaBook className="About-icons"/>
+                            <Row className="About-Green-Icon-Row">         
+                            <Row className="justify-content-md-center">Class Sessions</Row>
+                            <Row className="justify-content-md-center">Sunday - Monday</Row>
+                            <Row className="justify-content-md-center">8:00 am - 12:30 pm</Row>
+                            </Row>
+                        </Col>
+                        <Col>
+                        
+                            <FaBuilding className="About-icons"/>
+                            <Row className="About-Green-Icon-Row">    
+                            <Row className="justify-content-md-center">Location Address</Row>
+                            <Row className="justify-content-md-center">145 While Kateway</Row>
+                            <Row className="justify-content-md-center">CA 25615, San Francisco</Row>
+                            </Row>
+                        </Col>
+                        <Col>
+                            <FaRegClock className="About-icons"/>
+                            <Row className="About-Green-Icon-Row"> 
+                            <Row className="justify-content-md-center">Our Office Hour</Row>
+                            <Row className="justify-content-md-center">Sunady - Monday</Row>
+                            <Row className="justify-content-md-center">7:00 am - 5:30pm</Row>
+                            </Row>
+                        </Col>
+                        <Col>
+                            <FaPhone className="About-icons"/>
+                            <Row className="About-Green-Icon-Row"> 
+                            <Row className="justify-content-md-center">Phone & Email</Row>
+                            <Row className="justify-content-md-center">(+22)-658-258 / +259-55-9825</Row> 
+                            </Row>
+                        </Col>
+                    </Row>
+                </Container>
+                <Container>
+                    <Row>
+>>>>>>> 26b3b6d35d637b205511ba4b18ef2d7ac28c2561
                         <Col>
                           <Form.Control type="text" placeholder="Name" />
                         </Col>
