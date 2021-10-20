@@ -3,9 +3,9 @@ import { Button, Card, Container, Col, ListGroup, Row, Form } from 'react-bootst
 import { FaBook, FaBuilding, FaRegClock, FaPhone, FaCheckCircle, FaLightbulb, FaRegLightbulb, FaHamburger, FaSchool, FaBus, FaRegSun, FaTrophy, FaCircle } from 'react-icons/fa'
 import { BsGear } from 'react-icons/bs'
 import GalImages from './GalImages'
-import Image1 from "../img/painting-together-P9VHLJH.jpg"
-import Image2 from '../img/emotion-emoticons-used-by-a-psychologist-during-a--D2BFM6T.jpg'
-import Image3 from '../img/funny-kids.png'
+import Image1 from "../img/happy-little-girl-in-protective-hat-riding-her-bik-W9757CG.jpg"
+import Image2 from "../img/adorable-kids-playing-with-constructor-on-floor-in-ZP6VC78.jpg"
+import Image3 from "../img/kindergarten-age-girl-learning-about-the-planets-a-EKX3YDA.jpg"
 
 import Image13 from '../img/adorable-kids-playing-with-constructor-on-floor-in-ZP6VC78.jpg';
 import Image14 from '../img/boys-and-girls-dancing-PZNK4D9.jpg';
@@ -257,7 +257,7 @@ class Home extends Component {
                         <Col className="Classes-Col">
                             <Card className="Classes-Card" style={{ backgroundColor: "rgb(254,93,55)" }} >
                             <Card.Img className="Classes-Card-Img"
-                                variant="top" src="https://images.unsplash.com/photo-1505672678657-cc7037095e60?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8" />
+                                variant="top" src={Image1} />
                             <Card.Body className="Classes-Card-Body">
                                 <Card.Title>Physical Class</Card.Title>
                                 <Card.Text>
@@ -286,7 +286,7 @@ class Home extends Component {
     
                         <Col className="Classes-Col">
                             <Card className="Classes-Card" style={{ backgroundColor: "rgb(234,170,20)" }}>
-                            <Card.Img className="Classes-Card-Img" variant="top" src="https://images.unsplash.com/photo-1505672678657-cc7037095e60?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8" />
+                            <Card.Img className="Classes-Card-Img" variant="top" src={Image2}/>
                             <Card.Body className="Classes-Card-Body">
                                 <Card.Title>Creative Class</Card.Title>
                                 <Card.Text>
@@ -318,7 +318,7 @@ class Home extends Component {
     
                         <Col className="Classes-Col">
                             <Card className="Classes-Card" style={{ backgroundColor: "rgb(4,185,146)" }}>
-                            <Card.Img className="Classes-Card-Img" variant="top" src="https://images.unsplash.com/photo-1505672678657-cc7037095e60?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8" />
+                            <Card.Img className="Classes-Card-Img" variant="top" src={Image3} />
                             <Card.Body className="Classes-Card-Body">
                                 <Card.Title>Learning Class</Card.Title>
                                 <Card.Text>
