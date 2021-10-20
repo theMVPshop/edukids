@@ -5,7 +5,7 @@ import { BsGear } from 'react-icons/bs'
 import GalImages from './GalImages'
 import Image1 from "../img/happy-little-girl-in-protective-hat-riding-her-bik-W9757CG.jpg"
 import Image2 from "../img/adorable-kids-playing-with-constructor-on-floor-in-ZP6VC78.jpg"
-import Image3 from "../img/kindergarten-age-girl-learning-about-the-planets-a-EKX3YDA.jpg"
+import Image3 from "../img/funny-kids.png"
 
 import Image13 from '../img/adorable-kids-playing-with-constructor-on-floor-in-ZP6VC78.jpg';
 import Image14 from '../img/boys-and-girls-dancing-PZNK4D9.jpg';
@@ -417,7 +417,7 @@ class Home extends Component {
         <Row>
           <Col className="lg-4 md-12 mb-4 mb-lg-0">
             <img
-              src={Image1}
+              src={Image9}
               className="w-100 shadow-1-strong rounded mb-4"
               alt="indoor"
             />
@@ -429,7 +429,7 @@ class Home extends Component {
             />
 
             <img
-              src={Image9}
+              src={Image1}
               className="w-100 shadow-1-strong rounded mb-4"
               alt="outdoor"
             />
@@ -461,7 +461,7 @@ class Home extends Component {
             />
 
             <img
-              src={Image3}
+              src={Image13}
               className="w-100 shadow-1-strong rounded mb-4"
               alt="indoor"
             />
@@ -494,12 +494,12 @@ class Home extends Component {
 
           <Col className="lg-4 mb-4 mb-lg-0">
             <img
-              src={Image10}
+              src={Image14}
               className="w-100 shadow-1-strong rounded mb-4"
               alt="indoor"
             />
             <img
-              src={Image11}
+              src={Image15}
               className="w-100 shadow-1-strong rounded mb-4"
               alt="outdoor"
             />
